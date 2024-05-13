@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ogedaypro | Güvenilir Siteler</title>
+    <title>Ogedaypro | Oynadığım Güvenilir Siteler</title>
     <link rel="stylesheet" href="https://ogedaypro.github.io/web/css/new.css?v5.46">
     <link rel="shortcut icon" href="https://ogedaypro.github.io/web/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
@@ -91,6 +91,9 @@
         padding:0 20px !important;
     }
 
+    div.container {
+        padding-top: 2px !important;
+    }
 </style>
 <body>
 <div id="preloader">
@@ -224,6 +227,17 @@
             </div>
         </a>
         -->
+        <h3 style="
+            margin: 0;
+            text-align: center;
+        ">OYNADIĞIM GÜVENLİ SİTELER</h3>
+        <h6 style="
+            margin: 0;
+            font-size: 7.5px;
+            font-family: &quot;Montserrat&quot;;
+            text-align: center;
+            margin-bottom: 3px;
+        ">Kendi oynadığım ve herhangi bir probleminizde yardımcı olabileceğim siteler</h6>
 
         <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(king.sites, [item => parseInt(item.sort)], ['asc'])">
