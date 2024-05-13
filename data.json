@@ -1,7 +1,7 @@
 {
   "status": true,
   "html": {
-    "logo": "/logo.png",
+    "logo": "https://ogedaypro.github.io/web/logo.png",
     "sites": [
       {
         "url": "https://bit.ly/ogexmariobet",
@@ -131,7 +131,7 @@
       "telegram": "https://t.me/ogedayprochat",
       "instagram": "https://www.instagram.com/herguntakipcimkadarbahis"
     },
-    "cdn_url": "/",
+    "cdn_url": "https://ogedaypro.github.io/web/",
     "is_slider": true,
     "background": null,
     "categories": [
