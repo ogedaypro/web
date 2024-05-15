@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ogedaypro | Oynadığım Güvenilir Siteler</title>
-    <link rel="stylesheet" href="https://ogedaypro.github.io/web/css/new.css?v5.46">
-    <link rel="shortcut icon" href="https://ogedaypro.github.io/web/favicon.png">
+    <link rel="stylesheet" href="https://ogedaypro.com/web/css/new.css?v5.46">
+    <link rel="shortcut icon" href="https://ogedaypro.com/web/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -458,7 +458,7 @@
         },
         created(){
             this.loading = true;
-            axios.get('https://ogedaypro.github.io/web/data.json')
+            axios.get('https://ogedaypro.com/web/data.json')
                 .then((response) => {
                     this.client = response.data.html
                     this.king = _.find(this.client.categories, ['id', 1710467155101]);
