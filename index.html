@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ogedaypro | Oynadığım Güvenilir Siteler</title>
-    <link rel="stylesheet" href="https://ogedaypro.com/css/new.css?v5.46">
+    <link rel="stylesheet" href="https://ogedaypro.com/css/new.css?v5.47">
     <link rel="shortcut icon" href="https://ogedaypro.com/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -106,6 +106,7 @@
     }
 </style>
 <style>
+    /*
     @media (min-width: 375px) {
         .alt-baslik {
             font-size: 8.2px !important;
@@ -136,6 +137,7 @@
             font-size: 13.5px !important;
         }
     }
+    */
 </style>
 <body>
 <div id="preloader">
@@ -276,11 +278,12 @@
         " class="baslik">OYNADIĞIM GÜVENLİ SİTELER</h3>
         <h6 style="
             margin: 0;
-            font-size: 7.5px;
+            font-size: 13px;
+            font-weight: 300;
             font-family: 'Montserrat';
             text-align: center;
             margin-bottom: 3px;
-        " class="alt-baslik">Kendi oynadığım ve herhangi bir probleminizde yardımcı olabileceğim siteler</h6>
+        " class="alt-baslik">Kendi oynadığım ve herhangi bir probleminizde yardımcı olabileceğim güvenli siteler</h6>
 
         <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(king.sites, [item => parseInt(item.sort)], ['asc'])">
@@ -355,7 +358,14 @@
                             <div class="text" style="font-family: 'Bebas Neue'; letter-spacing: 1.5px; ">
                                 <span class="font-size-x-small" v-if="_.find(client.sites, ['site', site.site]).promo_code">Promo Code:</span>
                                 <span>{{_.find(client.sites, ['site', site.site]).promo_code}}</span>
-                                <div> <small>{{ _.find(client.sites, ['site', site.site]).desc[0] }}</small></div>
+                                <div>
+                                    <small v-if="_.find(client.sites, ['site', site.site]).promo_code && _.find(client.sites, ['site', site.site]).desc[0].includes('CANLI')" class="text-shadow">
+                                        {{ _.find(client.sites, ['site', site.site]).desc[0] }}
+                                    </small>
+                                    <small v-if="!_.find(client.sites, ['site', site.site]).promo_code || !_.find(client.sites, ['site', site.site]).desc[0].includes('CANLI')">
+                                        {{ _.find(client.sites, ['site', site.site]).desc[0] }}
+                                    </small>
+                                </div>
                                 <!-- PROMO KODU YOKSA -->
                                 <div v-if="!_.find(client.sites, ['site', site.site]).promo_code">
                                     <small>
