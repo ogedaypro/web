@@ -341,9 +341,18 @@
                 </a>
             </div>
         </div>
+        <script>
+            function click_say(e) {
+                console.log(e.getAttribute('site'));
+                gtag('event', 'click', {
+                    'event_category': 'button',
+                    'event_label': e.getAttribute('site')
+                });
+            }
+        </script>
         <div class="row diamond"  :class="['cat' + vip.id, 'banner' + diamond.grid]">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(diamond.sites, [item => parseInt(item.sort)], ['asc'])" >
-                <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" v-bind:style="{
+                <a target="_blank" onclick="click_say(this)" :site="_.find(client.sites, ['site', site.site]).site"  :href="_.find(client.sites, ['site', site.site]).url" class="item" v-bind:style="{
     '--site-color': _.find(client.sites, ['site', site.site]).color,
     alignItems: (_.find(client.sites, ['site', site.site]).button_yukari ? 'normal' : 'center')
   }">
