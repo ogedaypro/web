@@ -1,7 +1,7 @@
 {
   "status": true,
   "html": {
-    "logo": "https://ogedaypro.github.io/web/logo.png",
+    "logo": "https://ogedaypro.com/logo.png",
     "sites": [
       {
         "url": "https://bit.ly/ogexmariobet",
@@ -56,6 +56,43 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexbetturkey",
+        "desc": [
+          "CANLI DESTEĞE BAĞLAN, BONUSUNU AL!"
+        ],
+        "site": "betturkey",
+        "sort": null,
+        "color": "#ffdd3a",
+        "miktar": "₺500",
+        "promo_code": "OGEDAY500",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbetkanyon",
+        "desc": [
+          "İLK YATIRIMINA EK 2.500 TL"
+        ],
+        "site": "betkanyon",
+        "sort": null,
+        "color": "#ff4221",
+        "miktar": "₺150",
+        "promo_code": null,
+        "promo_code_yok": "YENİ ÜYELİKTE 150 TL DENEME BONUSU",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogedayxmatador",
+        "desc": [
+          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
+        ],
+        "site": "matadorbet",
+        "sort": null,
+        "color": "#fb0009",
+        "miktar": "₺250",
+        "promo_code2": "%200 HOŞ GELDİN BONUSU",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexsekabet",
         "desc": [
           "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
@@ -66,6 +103,19 @@
         "miktar": "₺500",
         "promo_code": "OGEDAY500",
         "elmas": "favori-site.webp",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbetrupi",
+        "desc": [
+          "Deneme Bonusu ile Minimum 750 TL"
+        ],
+        "site": "betrupi",
+        "sort": null,
+        "color": "#ffb500",
+        "miktar": "₺125",
+        "promo_code": null,
+        "promo_code_yok": "Maksimum 1500 TL Çekim Yapabilirsiniz.",
         "slider_img": ""
       },
       {
@@ -131,7 +181,7 @@
       "telegram": "https://t.me/ogedayprochat",
       "instagram": "instagram://user?username=herguntakipcimkadarbahis"
     },
-    "cdn_url": "https://ogedaypro.github.io/web/",
+    "cdn_url": "https://ogedaypro.com/",
     "is_slider": true,
     "background": null,
     "categories": [
@@ -224,24 +274,40 @@
             "sort": "4"
           },
           {
-            "site": "sekabet",
+            "site": "betturkey",
             "sort": "5"
           },
           {
-            "site": "perabet",
+            "site": "betkanyon",
             "sort": "6"
           },
           {
-            "site": "makrobet",
+            "site": "matadorbet",
             "sort": "7"
           },
           {
-            "site": "betvino",
+            "site": "sekabet",
             "sort": "8"
           },
           {
-            "site": "artemis",
+            "site": "betrupi",
             "sort": "9"
+          },
+          {
+            "site": "perabet",
+            "sort": "10"
+          },
+          {
+            "site": "makrobet",
+            "sort": "11"
+          },
+          {
+            "site": "betvino",
+            "sort": "12"
+          },
+          {
+            "site": "artemis",
+            "sort": "13"
           }
         ]
       },

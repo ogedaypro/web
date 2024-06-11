@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNY8GVCJJS"></script>
     <script>
@@ -103,6 +104,22 @@
 
     div.container {
         padding-top: 2px !important;
+    }
+
+    .notyf__ripple {
+        background: linear-gradient(45deg, rgb(239, 253, 33), rgb(255, 0, 0)) !important;
+    }
+    .notyf__message {
+        margin: auto;
+        text-align: center;
+        color: black;
+    }
+    .notyf__toast {
+        opacity: 0.8 !important;
+    }
+    .notyf__wrapper {
+        padding-top: 4px;
+        padding-bottom: 8px;
     }
 </style>
 <style>
@@ -306,7 +323,7 @@
                 </a>
             </div>
         </div>
-        <div class="row diamond clover"  :class="['cat' + vip.id, 'banner' + clover.grid]">
+        <div class="row diamond clover"  :class="['cat' + vip.id, 'banner' + clover.grid]" style="display: none;">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(clover.sites, [item => parseInt(item.sort)], ['asc'])">
                 <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
                     <svg class="icon" viewBox="0 0 32 32" version="1.1"> <path d="M27.673 22.512c-1.335-4.472-7.5-6.972-13.185-8.018 1.102 4.904-0.19 8.2 1.062 12.404 1.335 4.482 6.432 4.718 7.396 0.396 3.484 3.202 5.979-0.587 4.727-4.782v0zM3.211 18.719c2.608-3.377 7.070-5.365 12.123-3.545-2.401 5.629-0.687 9.648-3.117 12.749-2.591 3.305-7.047 1.245-6.484-2.943-4.026 1.236-4.924-3.149-2.522-6.261zM10.149 2.692c4.181 2.417 5.388 7.335 5.1 13.008-5.661-3.251-7.287-0.387-11.363-2.073-4.471-1.849-3.5-7.525 0.719-7.423-2.792-4.235 1.621-5.779 5.543-3.512zM21.565 3.127c-4.429 1.107-6.606 6.399-6.615 12.311 6.15-1.522 8.49 2.582 12.73 1.544 4.52-1.107 4.016-6.766-0.675-8.044 2.856-3.427-1.213-6.867-5.44-5.81v0z"/> </svg>
@@ -366,6 +383,9 @@
                             <div class="text" style="font-family: 'Bebas Neue'; letter-spacing: 1.5px; ">
                                 <span class="font-size-x-small" v-if="_.find(client.sites, ['site', site.site]).promo_code">Promo Code:</span>
                                 <span>{{_.find(client.sites, ['site', site.site]).promo_code}}</span>
+                                <span style="font-size:small" v-if="_.find(client.sites, ['site', site.site]).promo_code2">
+                                    {{_.find(client.sites, ['site', site.site]).promo_code2}}
+                                </span>
                                 <div>
                                     <small v-if="_.find(client.sites, ['site', site.site]).promo_code && _.find(client.sites, ['site', site.site]).desc[0].includes('CANLI')" class="text-shadow">
                                         {{ _.find(client.sites, ['site', site.site]).desc[0] }}
@@ -376,7 +396,7 @@
                                 </div>
                                 <!-- PROMO KODU YOKSA -->
                                 <div v-if="!_.find(client.sites, ['site', site.site]).promo_code">
-                                    <small>
+                                    <small >
                                         {{_.find(client.sites, ['site', site.site]).promo_code_yok}}
                                     </small>
                                 </div>
@@ -389,7 +409,7 @@
                 </a>
             </div>
         </div>
-        <div class="row normal"  :class="['cat' + list.id, 'banner' + list.grid]">
+        <div class="row normal"  :class="['cat' + list.id, 'banner' + list.grid]" style="display: none;">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(list.sites, [item => parseInt(item.sort)], ['asc'])">
                 <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
                     <div class="top">
@@ -573,5 +593,41 @@
         },
     })
 </script>
+<script>
+    // yarım saniye sonra header gizle
+    setTimeout(function () {
+        yukseklik = document.querySelector('header').getBoundingClientRect().height;
+        if (yukseklik >= window.scrollY) {
+            window.scrollTo({
+                top: yukseklik,
+                behavior: 'smooth' // Animasyonlu kaydırma
+            });
+        }
+    },500);
+
+    // matadorbet notify
+    document.addEventListener('DOMContentLoaded', function () {
+        const notyf = new Notyf({
+            duration: 9999999999999,
+            position: {
+                x: 'center',
+                y: 'bottom',
+            },
+            types: [{
+                type: 'error',
+                dismissible: true,
+                icon: false,
+            }]
+        });
+        notyf.open({
+            type: 'error',
+            message: '<img src="matadorbet.png" style="width:155px"> <div style="margin-top: -4px;"><span style="font-weight: bold">OGEDAYPROMATADORDA</span> KODU İLE<br>250 TL BONUSA <span style="font-weight: bold">EK 75 TL BONUS AL</span></div>',
+        }).on('click', ({target, event}) => {
+            window.open(document.querySelector('[site="matadorbet"]').getAttribute('href'),'_blank');
+        });
+    });
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
 </body>
 </html>
