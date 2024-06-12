@@ -594,19 +594,19 @@
     })
 </script>
 <script>
-    // yarım saniye sonra header gizle
-    setTimeout(function () {
-        yukseklik = document.querySelector('header').getBoundingClientRect().height;
-        if (yukseklik >= window.scrollY) {
-            window.scrollTo({
-                top: yukseklik,
-                behavior: 'smooth' // Animasyonlu kaydırma
-            });
-        }
-    },500);
-
-    // matadorbet notify
     document.addEventListener('DOMContentLoaded', function () {
+        // yarım saniye sonra header gizle
+        setTimeout(function () {
+            yukseklik = document.querySelector('header').getBoundingClientRect().height;
+            if (yukseklik >= window.scrollY) {
+                window.scrollTo({
+                    top: yukseklik,
+                    behavior: 'smooth' // Animasyonlu kaydırma
+                });
+            }
+        },500);
+
+        // matadorbet notify
         const notyf = new Notyf({
             duration: 9999999999999,
             position: {

@@ -120,6 +120,19 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexbetplay",
+        "desc": [
+          "1000 FREE SPIN"
+        ],
+        "site": "betplay",
+        "sort": null,
+        "color": "#fdbd00",
+        "miktar": "GİRİŞ YAP",
+        "promo_code": null,
+        "promo_code_yok": "VEYA 100 FREE BET",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexmakrobet",
         "desc": [
           "Casıno yatırımlarına"
@@ -265,24 +278,25 @@
             "site": "betturkey",
             "sort": "5"
           },
+
           {
-            "site": "betkanyon",
+            "site": "matadorbet",
             "sort": "6"
           },
           {
-            "site": "matadorbet",
+            "site": "sekabet",
             "sort": "7"
           },
           {
-            "site": "sekabet",
+            "site": "betrupi",
             "sort": "8"
           },
           {
-            "site": "betrupi",
+            "site": "perabet",
             "sort": "9"
           },
           {
-            "site": "perabet",
+            "site": "betplay",
             "sort": "10"
           },
           {
