@@ -596,7 +596,7 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         // yarım saniye sonra header gizle
-        setTimeout(function () {
+        function sayfayi_asagiya_kaydir() {
             yukseklik = document.querySelector('header').getBoundingClientRect().height;
             if (yukseklik >= window.scrollY) {
                 window.scrollTo({
@@ -604,7 +604,18 @@
                     behavior: 'smooth' // Animasyonlu kaydırma
                 });
             }
-        },500);
+        }
+        setTimeout(sayfayi_asagiya_kaydir,500);
+        setTimeout(function() {
+            if (0 == window.scrollY) {
+                sayfayi_asagiya_kaydir();
+            }
+        },750);
+        setTimeout(function() {
+            if (0 == window.scrollY) {
+                sayfayi_asagiya_kaydir();
+            }
+        },1000);
 
         // matadorbet notify
         const notyf = new Notyf({
@@ -621,7 +632,7 @@
         });
         notyf.open({
             type: 'error',
-            message: '<img src="matadorbet.png" style="width:155px"> <div style="margin-top: -4px;"><span style="font-weight: bold">OGEDAYPROMATADORDA</span> KODU İLE<br>250 TL BONUSA <span style="font-weight: bold">EK 75 TL BONUS AL</span></div>',
+            message: '<img src="matadorbet.png" style="width:155px"> <img src="click.webp" style="width:35px;"> <div style="margin-top: -4px;"><span style="font-weight: bold">OGEDAYPROMATADORDA</span> KODU İLE<br>250 TL BONUSA <span style="font-weight: bold">EK 75 TL BONUS AL</span></div>',
         }).on('click', ({target, event}) => {
             window.open(document.querySelector('[site="matadorbet"]').getAttribute('href'),'_blank');
         });
