@@ -300,6 +300,7 @@
             font-family: 'Montserrat';
             text-align: center;
             margin-bottom: 3px;
+            display: none;
         " class="alt-baslik">Kendi oynadığım ve herhangi bir probleminizde yardımcı olabileceğim güvenli siteler</h6>
 
         <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]">
@@ -605,17 +606,14 @@
                 });
             }
         }
-        setTimeout(sayfayi_asagiya_kaydir,500);
-        setTimeout(function() {
+        //setTimeout(sayfayi_asagiya_kaydir,500);
+        loading_interval = setInterval(function () {
             if (0 == window.scrollY) {
                 sayfayi_asagiya_kaydir();
+            } else {
+                clearInterval(loading_interval);
             }
-        },750);
-        setTimeout(function() {
-            if (0 == window.scrollY) {
-                sayfayi_asagiya_kaydir();
-            }
-        },1000);
+        },250);
 
         // matadorbet notify
         const notyf = new Notyf({
