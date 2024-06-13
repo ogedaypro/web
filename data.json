@@ -88,7 +88,7 @@
         "site": "matadorbet",
         "sort": null,
         "color": "#fb0009",
-        "miktar": "₺250",
+        "miktar": "₺500",
         "promo_code2": "%200 HOŞ GELDİN BONUSU",
         "slider_img": ""
       },
@@ -155,6 +155,19 @@
         "miktar": "GİRİŞ YAP",
         "promo_code": null,
         "promo_code_yok": "Freespın+Dıscount",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogedayxbetofbet",
+        "desc": [
+          "Kayıt ol deneme bonusunu al"
+        ],
+        "site": "betofbet",
+        "sort": null,
+        "color": "#e2bd3f",
+        "miktar": "GİRİŞ YAP",
+        "promo_code": null,
+        "promo_code_yok": "",
         "slider_img": ""
       },
       {
@@ -319,12 +332,16 @@
             "sort": "12"
           },
           {
-            "site": "betvino",
+            "site": "betofbet",
             "sort": "13"
           },
           {
-            "site": "artemis",
+            "site": "betvino",
             "sort": "14"
+          },
+          {
+            "site": "artemis",
+            "sort": "15"
           }
         ]
       },
