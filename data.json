@@ -67,7 +67,19 @@
         "promo_code": "OGEDAY500",
         "slider_img": ""
       },
-      
+      {
+        "url": "https://bit.ly/ogexbetkanyon",
+        "desc": [
+          "İLK YATIRIMINA EK 2.500 TL"
+        ],
+        "site": "betkanyon",
+        "sort": null,
+        "color": "#ff4221",
+        "miktar": "₺150",
+        "promo_code": null,
+        "promo_code_yok": "YENİ ÜYELİKTE 150 TL DENEME BONUSU",
+        "slider_img": ""
+      },
       {
         "url": "https://bit.ly/ogedayxmatador",
         "desc": [
@@ -278,38 +290,41 @@
             "site": "betturkey",
             "sort": "5"
           },
-
           {
-            "site": "matadorbet",
+            "site": "betkanyon",
             "sort": "6"
           },
           {
-            "site": "sekabet",
+            "site": "matadorbet",
             "sort": "7"
           },
           {
-            "site": "betrupi",
+            "site": "sekabet",
             "sort": "8"
           },
           {
-            "site": "perabet",
+            "site": "betrupi",
             "sort": "9"
           },
           {
-            "site": "betplay",
+            "site": "perabet",
             "sort": "10"
           },
           {
-            "site": "makrobet",
+            "site": "betplay",
             "sort": "11"
           },
           {
-            "site": "betvino",
+            "site": "makrobet",
             "sort": "12"
           },
           {
-            "site": "artemis",
+            "site": "betvino",
             "sort": "13"
+          },
+          {
+            "site": "artemis",
+            "sort": "14"
           }
         ]
       },
