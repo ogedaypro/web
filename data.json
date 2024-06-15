@@ -171,6 +171,19 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogedayxbetvar",
+        "desc": [
+          "777 Deneme Freespin"
+        ],
+        "site": "betvar",
+        "sort": null,
+        "color": "#0ff",
+        "miktar": "GİRİŞ YAP",
+        "promo_code": null,
+        "promo_code_yok": "veya 100TL Freebet",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexbetvino",
         "desc": [
           "%50 Nakit İade"
@@ -336,12 +349,16 @@
             "sort": "13"
           },
           {
-            "site": "betvino",
+            "site": "betvar",
             "sort": "14"
           },
           {
-            "site": "artemis",
+            "site": "betvino",
             "sort": "15"
+          },
+          {
+            "site": "artemis",
+            "sort": "16"
           }
         ]
       },
