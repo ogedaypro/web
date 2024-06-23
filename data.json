@@ -119,6 +119,19 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogedayxgala",
+        "desc": [
+          "Deneme Bonusu ile Minimum 750 TL"
+        ],
+        "site": "100 FREE SPIN",
+        "sort": null,
+        "color": "#58a400",
+        "miktar": "₺100",
+        "promo_code": null,
+        "promo_code_yok": "VEYA 100 FREE BET",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexperabet",
         "desc": [
           "%100 Slot Yatırım Bonusu"
@@ -333,32 +346,36 @@
             "sort": "9"
           },
           {
-            "site": "perabet",
+            "site": "galabet",
             "sort": "10"
           },
           {
-            "site": "betplay",
+            "site": "perabet",
             "sort": "11"
           },
           {
-            "site": "makrobet",
+            "site": "betplay",
             "sort": "12"
           },
           {
-            "site": "betofbet",
+            "site": "makrobet",
             "sort": "13"
           },
           {
-            "site": "betvar",
+            "site": "betofbet",
             "sort": "14"
           },
           {
-            "site": "betvino",
+            "site": "betvar",
             "sort": "15"
           },
           {
-            "site": "artemis",
+            "site": "betvino",
             "sort": "16"
+          },
+          {
+            "site": "artemis",
+            "sort": "17"
           }
         ]
       },
