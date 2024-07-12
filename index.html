@@ -23,9 +23,6 @@
         .notyf__toast {
             max-width: 360px !important;
         }
-        .notyf__ripple {
-            background: linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0)) !important;
-        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNY8GVCJJS"></script>
@@ -115,7 +112,10 @@
     }
 
     .notyf__ripple {
+        /*
         background: linear-gradient(45deg, rgb(239, 253, 33), rgb(255, 0, 0)) !important;
+        */
+        background: linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0)) !important;
     }
     .notyf__message {
         margin: auto;
@@ -311,7 +311,7 @@
             display: none;
         " class="alt-baslik">Kendi oynadığım ve herhangi bir probleminizde yardımcı olabileceğim güvenli siteler</h6>
 
-        <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]" style="display: none">
+        <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(king.sites, [item => parseInt(item.sort)], ['asc'])">
                 <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
                     <div class="vip l">
@@ -349,7 +349,7 @@
                 </a>
             </div>
         </div>
-        <div class="row vip"  :class="['cat' + vip.id, 'banner' + vip.grid]">
+        <div class="row vip"  :class="['cat' + vip.id, 'banner' + vip.grid]"  style="display: none">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(vip.sites, [item => parseInt(item.sort)], ['asc'])">
                 <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
                     <div class="left">
@@ -642,6 +642,21 @@
         }).on('click', ({target, event}) => {
             window.open(document.querySelector('[site="matadorbet"]').getAttribute('href'),'_blank');
         });
+
+        // instagram linki mobilde app açar yada webte direk gider şeklinde duruma göre ayarla
+        function isMobile() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(userAgent)) {
+                return true;
+            }
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return true;
+            }
+            return false;
+        }
+        if (!isMobile()) {
+            document.querySelector('.social-button.instagram').setAttribute('href','https://www.instagram.com/herguntakipcimkadarbahis');
+        }
     });
 
 </script>
