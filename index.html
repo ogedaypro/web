@@ -23,6 +23,9 @@
         .notyf__toast {
             max-width: 360px !important;
         }
+        .notyf__ripple {
+            background: linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0)) !important;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNY8GVCJJS"></script>
@@ -308,7 +311,7 @@
             display: none;
         " class="alt-baslik">Kendi oynadığım ve herhangi bir probleminizde yardımcı olabileceğim güvenli siteler</h6>
 
-        <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]">
+        <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]" style="display: none">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(king.sites, [item => parseInt(item.sort)], ['asc'])">
                 <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
                     <div class="vip l">
@@ -635,7 +638,7 @@
         });
         notyf.open({
             type: 'error',
-            message: '<img src="matadorbet.png" style="width:155px"> <img src="click.webp" style="width:35px;"> <div style="margin-top: -4px;font-size:14px">500 TL ÇEVRİMSİZ DENEME BONUSU %200<br>6000 TL HOŞGELDİN BONUSU SINIRSIZ ÇEKİM İMKANI</div>',
+            message: '<img src="matadorbet.png" style="width:155px"> <img src="click.webp" style="width:35px;"> <div style="margin-top:-4px; font-size:14px; color:white">500 TL ÇEVRİMSİZ DENEME BONUSU %200<br>6000 TL HOŞGELDİN BONUSU SINIRSIZ ÇEKİM İMKANI</div>',
         }).on('click', ({target, event}) => {
             window.open(document.querySelector('[site="matadorbet"]').getAttribute('href'),'_blank');
         });
