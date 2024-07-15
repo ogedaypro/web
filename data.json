@@ -132,6 +132,76 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogextipo",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "tipobet",
+        "sort": null,
+        "color": "#0f853d",
+        "miktar": "₺250",
+        "promo_code": null,
+        "promo_code_yok": "%20 Kayıp Bonusu",
+        "elmas": "favori-site.webp",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexonwin",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "onwin",
+        "sort": null,
+        "color": "#c612ab",
+        "miktar": "₺250",
+        "promo_code": null,
+        "promo_code_yok": "HER GÜN 900 FREESPIN",
+        "elmas": "favori-site.webp",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexstarz",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "starzbet",
+        "sort": null,
+        "color": "#5085ff",
+        "miktar": "₺300",
+        "promo_code": null,
+        "promo_code_yok": "%100 HOŞ GELDİN BONUSU",
+        "elmas": "favori-site.webp",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexsahabet",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "sahabet",
+        "sort": null,
+        "color": "#008000",
+        "miktar": "₺250",
+        "promo_code": null,
+        "promo_code_yok": "GÜNLÜK 10M ÇEKİM İMKANI",
+        "elmas": "favori-site.webp",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbycasino",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "bycasino",
+        "sort": null,
+        "color": "#f60",
+        "miktar": "₺300",
+        "promo_code": null,
+        "promo_code_yok": "%100 - 5.000 TL HOŞ GELDİN BONUSU",
+        "elmas": "favori-site.webp",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexbetrupi",
         "desc": [
           "Deneme Bonusu ile Minimum 750 TL"
@@ -144,7 +214,6 @@
         "promo_code_yok": "Maksimum 1500 TL Çekim Yapabilirsiniz.",
         "slider_img": ""
       },
-
       {
         "url": "https://bit.ly/ogexmrbahis",
         "desc": [
@@ -156,6 +225,19 @@
         "miktar": "GİRİŞ YAP",
         "promo_code": null,
         "promo_code_yok": "7/24 ANINDA ÇEKİM",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexpipo",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "betpipo",
+        "sort": null,
+        "color": "#47d878",
+        "miktar": "₺100",
+        "promo_code": null,
+        "promo_code_yok": "100 FREE SPIN 100 FREE BET",
         "slider_img": ""
       },
       {
@@ -299,16 +381,40 @@
             "sort": "10"
           },
           {
-            "site": "betrupi",
+            "site": "tipobet",
             "sort": "11"
           },
           {
-            "site": "mrbahis",
+            "site": "onwin",
             "sort": "12"
           },
           {
-            "site": "artemis",
+            "site": "starzbet",
             "sort": "13"
+          },
+          {
+            "site": "sahabet",
+            "sort": "14"
+          },
+          {
+            "site": "bycasino",
+            "sort": "15"
+          },
+          {
+            "site": "betrupi",
+            "sort": "16"
+          },
+          {
+            "site": "mrbahis",
+            "sort": "17"
+          },
+          {
+            "site": "betpipo",
+            "sort": "18"
+          },
+          {
+            "site": "artemis",
+            "sort": "19"
           }
         ]
       },
