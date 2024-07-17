@@ -208,10 +208,10 @@
         ],
         "site": "enbet",
         "sort": null,
-        "color": "#ffa620",
+        "color": "#ffb500",
         "miktar": "₺250",
         "promo_code": null,
-        "promo_code_yok": "VEYA 250 FREE BET",
+        "promo_code_yok": "250₺ DEĞERİNDE FREE SPIN",
         "slider_img": ""
       },
       {
@@ -221,7 +221,7 @@
         ],
         "site": "betrupi",
         "sort": null,
-        "color": "#ffb500",
+        "color": "#c36111",
         "miktar": "₺125",
         "promo_code": null,
         "promo_code_yok": "Maksimum 1500 TL Çekim Yapabilirsiniz.",
