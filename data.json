@@ -202,6 +202,19 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexenbet",
+        "desc": [
+          "250 FREE SPIN"
+        ],
+        "site": "enbet",
+        "sort": null,
+        "color": "#ffa620",
+        "miktar": "₺250",
+        "promo_code": null,
+        "promo_code_yok": "VEYA 250 FREE BET",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexbetrupi",
         "desc": [
           "Deneme Bonusu ile Minimum 750 TL"
@@ -212,6 +225,19 @@
         "miktar": "₺125",
         "promo_code": null,
         "promo_code_yok": "Maksimum 1500 TL Çekim Yapabilirsiniz.",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbetplay",
+        "desc": [
+          "1000 FREE SPIN"
+        ],
+        "site": "betplay",
+        "sort": null,
+        "color": "#fdbd00",
+        "miktar": "GİRİŞ YAP",
+        "promo_code": null,
+        "promo_code_yok": "VEYA 100 FREE BET",
         "slider_img": ""
       },
       {
@@ -401,20 +427,28 @@
             "sort": "15"
           },
           {
-            "site": "betrupi",
+            "site": "enbet",
             "sort": "16"
           },
           {
-            "site": "mrbahis",
+            "site": "betrupi",
             "sort": "17"
           },
           {
-            "site": "betpipo",
+            "site": "betplay",
             "sort": "18"
           },
           {
-            "site": "artemis",
+            "site": "mrbahis",
             "sort": "19"
+          },
+          {
+            "site": "betpipo",
+            "sort": "20"
+          },
+          {
+            "site": "artemis",
+            "sort": "21"
           }
         ]
       },
