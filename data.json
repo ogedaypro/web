@@ -119,16 +119,15 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogexsekabet",
+        "url": "https://bit.ly/ogexartemis",
         "desc": [
-          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
+          "%15 Dıscount"
         ],
-        "site": "sekabet",
+        "site": "artemis",
         "sort": null,
-        "color": "#ecb50d",
-        "miktar": "₺500",
-        "promo_code": "OGEDAY500",
-        "elmas": "favori-site.webp",
+        "color": "#0e9cfe",
+        "miktar": "GİRİŞ YAP",
+        "promo_code": null,
         "slider_img": ""
       },
       {
@@ -202,6 +201,19 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexsekabet",
+        "desc": [
+          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
+        ],
+        "site": "sekabet",
+        "sort": null,
+        "color": "#ecb50d",
+        "miktar": "₺500",
+        "promo_code": "OGEDAY500",
+        "elmas": "favori-site.webp",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexenbet",
         "desc": [
           "250 FREE SPIN"
@@ -264,18 +276,6 @@
         "miktar": "₺100",
         "promo_code": null,
         "promo_code_yok": "100 FREE SPIN 100 FREE BET",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexartemis",
-        "desc": [
-          "%15 Dıscount"
-        ],
-        "site": "artemis",
-        "sort": null,
-        "color": "#0e9cfe",
-        "miktar": "GİRİŞ YAP",
-        "promo_code": null,
         "slider_img": ""
       }
     ],
@@ -403,7 +403,7 @@
             "sort": "9"
           },
           {
-            "site": "sekabet",
+            "site": "artemis",
             "sort": "10"
           },
           {
@@ -427,27 +427,27 @@
             "sort": "15"
           },
           {
-            "site": "enbet",
+            "site": "sekabet",
             "sort": "16"
           },
           {
-            "site": "betrupi",
+            "site": "enbet",
             "sort": "17"
           },
           {
-            "site": "betplay",
+            "site": "betrupi",
             "sort": "18"
           },
           {
-            "site": "mrbahis",
+            "site": "betplay",
             "sort": "19"
           },
           {
-            "site": "betpipo",
+            "site": "mrbahis",
             "sort": "20"
           },
           {
-            "site": "artemis",
+            "site": "betpipo",
             "sort": "21"
           }
         ]
