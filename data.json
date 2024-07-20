@@ -200,20 +200,7 @@
         "elmas": "favori-site.webp",
         "slider_img": ""
       },
-      {
-        "url": "http://bit.ly/ogexslot",
-        "desc": [
-          "500₺ VEYA 500 FREESPIN"
-        ],
-        "site": "xslot",
-        "sort": null,
-        "color": "#2dbcb4",
-        "miktar": "₺500",
-        "promo_code": null,
-        "promo_code_yok": "ÜYE OL ÇEVRİMSİZ DENEME BONUSUNU AL",
-        "elmas": "favori-site.webp",
-        "slider_img": ""
-      },
+
       {
         "url": "https://bit.ly/ogexsekabet",
         "desc": [
@@ -440,33 +427,30 @@
             "site": "bycasino",
             "sort": "15"
           },
+
           {
-            "site": "xslot",
+            "site": "sekabet",
             "sort": "16"
           },
           {
-            "site": "sekabet",
+            "site": "enbet",
             "sort": "17"
           },
           {
-            "site": "enbet",
+            "site": "betrupi",
             "sort": "18"
           },
           {
-            "site": "betrupi",
+            "site": "betplay",
             "sort": "19"
           },
           {
-            "site": "betplay",
+            "site": "mrbahis",
             "sort": "20"
           },
           {
-            "site": "mrbahis",
-            "sort": "21"
-          },
-          {
             "site": "betpipo",
-            "sort": "22"
+            "sort": "21"
           }
         ]
       },
