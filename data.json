@@ -4,6 +4,18 @@
     "logo": "https://ogedaypro.net/logo.png",
     "sites": [
       {
+        "url": "https://bit.ly/ogexbankobet",
+        "desc": [
+          "777TL Nakit"
+        ],
+        "site": "bankobet",
+        "sort": null,
+        "color": "#ff1376",
+        "miktar": "₺777",
+        "promo_code_yok": "500TL Freespin",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogextarafbet",
         "desc": [
           "KAYIT OL DENEME BONUSUNU AL!"
@@ -27,19 +39,6 @@
         "miktar": "₺444",
         "promo_code": "OGEDAY444",
         "elmas": "ayin-sitesi.webp",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexmariobet",
-        "desc": [
-          "KAYIT OL DENEME BONUSUNU AL!"
-        ],
-        "site": "mariobet",
-        "sort": null,
-        "color": "#f16227",
-        "miktar": "₺500",
-        "promo_code": "OGEDAY500",
-        "elmas": "en-yuksek.webp",
         "slider_img": ""
       },
       {
@@ -278,6 +277,18 @@
         "promo_code": null,
         "promo_code_yok": "500 FREE SPIN 500 FREE BET",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexmariobet",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "mariobet",
+        "sort": null,
+        "color": "#f16227",
+        "miktar": "₺500",
+        "promo_code_yok": "500 FREE SPIN 500 FREE BET",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -368,15 +379,15 @@
         "sort": "3",
         "sites": [
           {
-            "site": "tarafbet",
+            "site": "bankobet",
             "sort": "1"
           },
           {
-            "site": "betkom",
+            "site": "tarafbet",
             "sort": "2"
           },
           {
-            "site": "mariobet",
+            "site": "betkom",
             "sort": "3"
           },
           {
@@ -451,6 +462,10 @@
           {
             "site": "betpipo",
             "sort": "21"
+          },
+          {
+            "site": "mariobet",
+            "sort": "22"
           }
         ]
       },
