@@ -199,7 +199,20 @@
         "elmas": "favori-site.webp",
         "slider_img": ""
       },
-
+      {
+        "url": "https://bit.ly/ogexgora",
+        "desc": [
+          "DENEME CASINO BONUSUNU AL"
+        ],
+        "site": "gorabet",
+        "sort": null,
+        "color": "#00cc71",
+        "miktar": "₺200",
+        "promo_code": null,
+        "promo_code_yok": "2.500₺'YE KADAR KATLADIĞINI ÇEK",
+        "elmas": "favori-site.webp",
+        "slider_img": ""
+      },
       {
         "url": "https://bit.ly/ogexsekabet",
         "desc": [
@@ -438,34 +451,37 @@
             "site": "bycasino",
             "sort": "15"
           },
-
           {
-            "site": "sekabet",
+            "site": "gorabet",
             "sort": "16"
           },
           {
-            "site": "enbet",
+            "site": "sekabet",
             "sort": "17"
           },
           {
-            "site": "betrupi",
+            "site": "enbet",
             "sort": "18"
           },
           {
-            "site": "betplay",
+            "site": "betrupi",
             "sort": "19"
           },
           {
-            "site": "mrbahis",
+            "site": "betplay",
             "sort": "20"
           },
           {
-            "site": "betpipo",
+            "site": "mrbahis",
             "sort": "21"
           },
           {
-            "site": "mariobet",
+            "site": "betpipo",
             "sort": "22"
+          },
+          {
+            "site": "mariobet",
+            "sort": "23"
           }
         ]
       },
