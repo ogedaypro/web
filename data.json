@@ -208,6 +208,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexpadisah",
+        "desc": [
+          "KATLA ÇEK - SINIRSIZ ÇEKİM"
+        ],
+        "site": "padisahbet",
+        "sort": null,
+        "color": "#24a8e6",
+        "miktar": "₺100",
+        "promo_code_yok": "YATIRIM ŞARTI YOKTUR",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexsekabet",
         "desc": [
           "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
@@ -449,32 +461,36 @@
             "sort": "16"
           },
           {
-            "site": "sekabet",
+            "site": "padisahbet",
             "sort": "17"
           },
           {
-            "site": "enbet",
+            "site": "sekabet",
             "sort": "18"
           },
           {
-            "site": "betrupi",
+            "site": "enbet",
             "sort": "19"
           },
           {
-            "site": "betplay",
+            "site": "betrupi",
             "sort": "20"
           },
           {
-            "site": "mrbahis",
+            "site": "betplay",
             "sort": "21"
           },
           {
-            "site": "betpipo",
+            "site": "mrbahis",
             "sort": "22"
           },
           {
-            "site": "mariobet",
+            "site": "betpipo",
             "sort": "23"
+          },
+          {
+            "site": "mariobet",
+            "sort": "24"
           }
         ]
       },
