@@ -23,8 +23,8 @@
         "site": "tarafbet",
         "sort": null,
         "color": "#178b42",
-        "miktar": "₺500",
-        "promo_code": "OGEDAY500",
+        "miktar": "₺750",
+        "promo_code": "OGEDAY750",
         "elmas": "editorun-secimi.webp",
         "slider_img": ""
       },
@@ -36,8 +36,8 @@
         "site": "betkom",
         "sort": null,
         "color": "#1fe0ff",
-        "miktar": "₺444",
-        "promo_code": "OGEDAY444",
+        "miktar": "₺750",
+        "promo_code": "OGEDAY750",
         "elmas": "ayin-sitesi.webp",
         "slider_img": ""
       },
@@ -49,8 +49,8 @@
         "site": "bahiscom",
         "sort": null,
         "color": "#00c683",
-        "miktar": "₺500",
-        "promo_code": "OGEDAY500",
+        "miktar": "₺750",
+        "promo_code": "OGEDAY750",
         "elmas": "sinirsiz-cekim.webp",
         "slider_img": ""
       },
@@ -304,8 +304,8 @@
         "site": "mariobet",
         "sort": null,
         "color": "#f16227",
-        "miktar": "₺500",
-        "promo_code_yok": "500 FREE SPIN 500 FREE BET",
+        "miktar": "₺750",
+        "promo_code": "OGEDAY750",
         "slider_img": ""
       }
     ],
