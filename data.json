@@ -244,19 +244,7 @@
         "promo_code_yok": "250 TL DEĞERİNDE FREE SPIN",
         "slider_img": ""
       },
-      {
-        "url": "https://bit.ly/ogexbetrupi",
-        "desc": [
-          "Deneme Bonusu ile Minimum 750 TL"
-        ],
-        "site": "betrupi",
-        "sort": null,
-        "color": "#c36111",
-        "miktar": "₺125",
-        "promo_code": null,
-        "promo_code_yok": "Maksimum 1500 TL Çekim Yapabilirsiniz.",
-        "slider_img": ""
-      },
+
       {
         "url": "https://bit.ly/ogexbetplay",
         "desc": [
@@ -472,25 +460,22 @@
             "site": "enbet",
             "sort": "19"
           },
+
           {
-            "site": "betrupi",
+            "site": "betplay",
             "sort": "20"
           },
           {
-            "site": "betplay",
+            "site": "mrbahis",
             "sort": "21"
           },
           {
-            "site": "mrbahis",
+            "site": "betpipo",
             "sort": "22"
           },
           {
-            "site": "betpipo",
-            "sort": "23"
-          },
-          {
             "site": "mariobet",
-            "sort": "24"
+            "sort": "23"
           }
         ]
       },
