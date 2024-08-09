@@ -194,19 +194,7 @@
         "promo_code_yok": "%100 - 5.000 TL HOŞ GELDİN BONUSU",
         "slider_img": ""
       },
-      {
-        "url": "https://bit.ly/ogexgora",
-        "desc": [
-          "DENEME CASINO BONUSUNU AL"
-        ],
-        "site": "gorabet",
-        "sort": null,
-        "color": "#00cc71",
-        "miktar": "₺200",
-        "promo_code": null,
-        "promo_code_yok": "2.500₺'YE KADAR KATLADIĞINI ÇEK",
-        "slider_img": ""
-      },
+
       {
         "url": "https://bit.ly/ogexpadisah",
         "desc": [
@@ -444,38 +432,35 @@
             "site": "bycasino",
             "sort": "15"
           },
+
           {
-            "site": "gorabet",
+            "site": "padisahbet",
             "sort": "16"
           },
           {
-            "site": "padisahbet",
+            "site": "sekabet",
             "sort": "17"
           },
           {
-            "site": "sekabet",
-            "sort": "18"
-          },
-          {
             "site": "enbet",
-            "sort": "19"
+            "sort": "18"
           },
 
           {
             "site": "betplay",
-            "sort": "20"
+            "sort": "19"
           },
           {
             "site": "mrbahis",
-            "sort": "21"
+            "sort": "20"
           },
           {
             "site": "betpipo",
-            "sort": "22"
+            "sort": "21"
           },
           {
             "site": "mariobet",
-            "sort": "23"
+            "sort": "22"
           }
         ]
       },
