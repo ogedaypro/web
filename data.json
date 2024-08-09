@@ -283,6 +283,18 @@
         "miktar": "₺750",
         "promo_code": "OGEDAY750",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbetoffice",
+        "desc": [
+          "KATLA ÇEK- SINIRSIZ ÇEKİM"
+        ],
+        "site": "betoffice",
+        "sort": null,
+        "color": "#00387c",
+        "miktar": "₺200",
+        "promo_code_yok": "YATIRIM ŞARTI YOKTUR",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -461,6 +473,10 @@
           {
             "site": "mariobet",
             "sort": "22"
+          },
+          {
+            "site": "betoffice",
+            "sort": "23"
           }
         ]
       },
