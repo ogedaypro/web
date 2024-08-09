@@ -295,6 +295,18 @@
         "miktar": "₺200",
         "promo_code_yok": "YATIRIM ŞARTI YOKTUR",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexmasterbetting",
+        "desc": [
+          "100 FREE SPIN veya 100₺ FREE BET"
+        ],
+        "site": "masterbetting",
+        "sort": null,
+        "color": "#20df7b",
+        "miktar": "₺100",
+        "promo_code_yok": "1.000₺ YAP 50₺ YATIR 500₺ ÇEK",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -477,6 +489,10 @@
           {
             "site": "betoffice",
             "sort": "23"
+          },
+          {
+            "site": "masterbetting",
+            "sort": "24"
           }
         ]
       },
