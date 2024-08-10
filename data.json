@@ -307,6 +307,30 @@
         "miktar": "₺100",
         "promo_code_yok": "1.000₺ YAP 50₺ YATIR 500₺ ÇEK",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexpia",
+        "desc": [
+          "100TL FREEBET VEYA 100 FREESPIN"
+        ],
+        "site": "piabet",
+        "sort": null,
+        "color": "#00e9ff",
+        "miktar": "₺100",
+        "promo_code_yok": "Çekim Şartı Yoktur - MAX Çekim 2.000₺",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexpusula",
+        "desc": [
+          "Sweet Bonanza'da Geçerli"
+        ],
+        "site": "pusulabet",
+        "sort": null,
+        "color": "#ffac2c",
+        "miktar": "₺100",
+        "promo_code_yok": "",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -493,6 +517,14 @@
           {
             "site": "masterbetting",
             "sort": "24"
+          },
+          {
+            "site": "piabet",
+            "sort": "25"
+          },
+          {
+            "site": "pusulabet",
+            "sort": "26"
           }
         ]
       },
