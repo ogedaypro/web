@@ -221,19 +221,7 @@
       },
 
 
-      {
-        "url": "https://bit.ly/ogexbetplay",
-        "desc": [
-          "1000 FREE SPIN"
-        ],
-        "site": "betplay",
-        "sort": null,
-        "color": "#fdbd00",
-        "miktar": "GİRİŞ YAP",
-        "promo_code": null,
-        "promo_code_yok": "VEYA 100 FREE BET",
-        "slider_img": ""
-      },
+
       {
         "url": "https://bit.ly/ogexmrbahis",
         "desc": [
@@ -479,37 +467,34 @@
           },
 
 
+
           {
-            "site": "betplay",
+            "site": "mrbahis",
             "sort": "18"
           },
           {
-            "site": "mrbahis",
+            "site": "betpipo",
             "sort": "19"
           },
           {
-            "site": "betpipo",
+            "site": "mariobet",
             "sort": "20"
           },
           {
-            "site": "mariobet",
+            "site": "betoffice",
             "sort": "21"
           },
           {
-            "site": "betoffice",
+            "site": "masterbetting",
             "sort": "22"
           },
           {
-            "site": "masterbetting",
+            "site": "piabet",
             "sort": "23"
           },
           {
-            "site": "piabet",
-            "sort": "24"
-          },
-          {
             "site": "pusulabet",
-            "sort": "25"
+            "sort": "24"
           }
         ]
       },
