@@ -129,6 +129,54 @@
         "promo_code_yok": "5 dakikada sınırsız çekim",
         "slider_img": ""
       },
+      {
+        "url": "https://bit.ly/ogexdior",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "casinodior",
+        "sort": null,
+        "color": "#ffe600",
+        "miktar": "GİRİŞ YAP",
+        "promo_code_yok": "299 FREESPIN",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexfestwin",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "festwin",
+        "sort": null,
+        "color": "#d4ba01",
+        "miktar": "GİRİŞ YAP",
+        "promo_code_yok": "333 FREESPIN",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexpradabet",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "pradabet",
+        "sort": null,
+        "color": "#f31352",
+        "miktar": "GİRİŞ YAP",
+        "promo_code_yok": "777 FREESPIN",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexgone",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "gonebet",
+        "sort": null,
+        "color": "#1ac292",
+        "miktar": "GİRİŞ YAP",
+        "promo_code_yok": "333 FREESPIN",
+        "slider_img": ""
+      },
 
       {
         "url": "https://bit.ly/ogexpadisah",
@@ -371,46 +419,57 @@
             "site": "artemis",
             "sort": "10"
           },
-
-
           {
-            "site": "padisahbet",
+            "site": "casinodior",
             "sort": "11"
           },
           {
-            "site": "sekabet",
+            "site": "festwin",
             "sort": "12"
           },
-
-
-
           {
-            "site": "mrbahis",
+            "site": "pradabet",
             "sort": "13"
           },
           {
-            "site": "betpipo",
+            "site": "gonebet",
             "sort": "14"
           },
           {
-            "site": "mariobet",
+            "site": "padisahbet",
             "sort": "15"
           },
           {
-            "site": "betoffice",
+            "site": "sekabet",
             "sort": "16"
           },
           {
-            "site": "masterbetting",
+            "site": "mrbahis",
             "sort": "17"
           },
           {
-            "site": "piabet",
+            "site": "betpipo",
             "sort": "18"
           },
           {
-            "site": "pusulabet",
+            "site": "mariobet",
             "sort": "19"
+          },
+          {
+            "site": "betoffice",
+            "sort": "20"
+          },
+          {
+            "site": "masterbetting",
+            "sort": "21"
+          },
+          {
+            "site": "piabet",
+            "sort": "22"
+          },
+          {
+            "site": "pusulabet",
+            "sort": "23"
           }
         ]
       },
