@@ -289,6 +289,18 @@
         "miktar": "₺100",
         "promo_code_yok": "",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexrest",
+        "desc": [
+          "İLK YATIRIMA ÖZEL %200 BONUS"
+        ],
+        "site": "restbet",
+        "sort": null,
+        "color": "#b62525",
+        "miktar": "GİRİŞ YAP",
+        "promo_code_yok": "10.000 TL'YE KADAR",
+        "slider_img": ""
       }
     ],
     "social": {
