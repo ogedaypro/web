@@ -660,9 +660,10 @@
             `,
         }).on('click', ({target, event}) => {
             hedef = event.target.getAttribute('class');
-            if (hedef.classList.has('left') || hedef.closest('div').classList.has('left')) {
+            hedef2 = event.target.closest('div').getAttribute('class');
+            if (hedef.includes('left') || hedef2.includes('left')) {
                 click_site = 'matadorbet';
-            } else if (hedef.classList.has('right') || hedef.closest('div').classList.has('right')) {
+            } else if (hedef.includes('right') || hedef2.includes('right')) {
                 click_site = 'festwin';
             }
             window.open(document.querySelector('[site="'+click_site+'"]').getAttribute('href'),'_blank');
