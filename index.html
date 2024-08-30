@@ -659,8 +659,7 @@
                 </div>
             `,
         }).on('click', ({target, event}) => {
-            console.log(event.target);
-            hedef = event.target;
+            hedef = event.target.getAttribute('class');
             if (hedef.classList.has('left') || hedef.closest('div').classList.has('left')) {
                 click_site = 'matadorbet';
             } else if (hedef.classList.has('right') || hedef.closest('div').classList.has('right')) {
