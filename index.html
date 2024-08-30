@@ -659,10 +659,12 @@
                 </div>
             `,
         }).on('click', ({target, event}) => {
-            console.log(target);
-            console.log(event);
-
-            window.open(document.querySelector('[site="matadorbet"]').getAttribute('href'),'_blank');
+            if (target.classList.has('left') || target.closest('div').classList.has('left')) {
+                click_site = 'matadorbet';
+            } else if (target.classList.has('left') || target.closest('div').classList.has('left')) {
+                click_site = 'festwin';
+            }
+            window.open(document.querySelector('[site="'+click_site+'"]').getAttribute('href'),'_blank');
         });
 
         // instagram linki mobilde app açar yada webte direk gider şeklinde duruma göre ayarla
