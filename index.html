@@ -659,7 +659,8 @@
                 </div>
             `,
         }).on('click', ({target, event}) => {
-            if (target.classList.contains('left') || target.closest('div').classList.contains('left')) {
+            console.log(target.classList);
+            if (target.classList.toString().includes('left') || target.closest('div').classList.toString().includes('left')) {
                 click_site = 'matadorbet';
             } else if (target.classList.contains('right') || target.closest('div').classList.contains('right')) {
                 click_site = 'festwin';
