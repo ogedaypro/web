@@ -659,9 +659,9 @@
                 </div>
             `,
         }).on('click', ({target, event}) => {
-            if (target.classList.has('left') || target.closest('div').classList.has('left')) {
+            if (target.classList.contains('left') || target.closest('div').classList.contains('left')) {
                 click_site = 'matadorbet';
-            } else if (target.classList.has('left') || target.closest('div').classList.has('left')) {
+            } else if (target.classList.contains('right') || target.closest('div').classList.contains('right')) {
                 click_site = 'festwin';
             }
             window.open(document.querySelector('[site="'+click_site+'"]').getAttribute('href'),'_blank');
