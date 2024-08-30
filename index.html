@@ -121,6 +121,7 @@
         margin: auto;
         text-align: center;
         color: black;
+        display: flex;
     }
     .notyf__toast {
         opacity: 0.8 !important;
@@ -638,8 +639,28 @@
         });
         notyf.open({
             type: 'error',
-            message: '<img src="matadorbet.png" style="width:155px"> <img src="click.webp" style="width:35px;"> <div style="margin-top:-4px; font-size:14px; color:white">500 TL ÇEVRİMSİZ DENEME BONUSU %200<br>6000 TL HOŞGELDİN BONUSU SINIRSIZ ÇEKİM İMKANI</div>',
+            message: `
+                <div class="left">
+                    <img src="matadorbet.png" style="width:125px;">
+                    <div style="font-size:14px; color:white;">
+                        <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
+                        500₺ ÇEVRİMSİZ BONUS
+                    </div>
+                </div>
+                <div class="middle" style="margin-left:8px; margin-right:6px; border: 1px dashed white;">
+
+                </div>
+                <div class="right">
+                    <img src="festwin.png" style="width:115px; margin-top:3px;">
+                    <div style="font-size:14px; color:white;">
+                        <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
+                        333 FREE SPIN
+                    </div>
+                </div>
+            `,
         }).on('click', ({target, event}) => {
+            console.log(target);
+            
             window.open(document.querySelector('[site="matadorbet"]').getAttribute('href'),'_blank');
         });
 
