@@ -116,18 +116,7 @@
         "promo_code_yok": "VEYA 100 FREE BET",
         "slider_img": ""
       },
-      {
-        "url": "https://bit.ly/ogexartemis",
-        "desc": [
-          "%15 Dıscount - Her gün 100 free spin"
-        ],
-        "site": "artemis",
-        "sort": null,
-        "color": "#0e9cfe",
-        "miktar": "GİRİŞ YAP",
-        "promo_code_yok": "5 dakikada sınırsız çekim",
-        "slider_img": ""
-      },
+
       {
         "url": "https://bit.ly/ogexdior",
         "desc": [
@@ -426,65 +415,62 @@
             "site": "galabet",
             "sort": "9"
           },
+
           {
-            "site": "artemis",
+            "site": "casinodior",
             "sort": "10"
           },
           {
-            "site": "casinodior",
+            "site": "festwin",
             "sort": "11"
           },
           {
-            "site": "festwin",
+            "site": "pradabet",
             "sort": "12"
           },
           {
-            "site": "pradabet",
+            "site": "gonebet",
             "sort": "13"
           },
           {
-            "site": "gonebet",
+            "site": "padisahbet",
             "sort": "14"
           },
           {
-            "site": "padisahbet",
+            "site": "sekabet",
             "sort": "15"
           },
           {
-            "site": "sekabet",
+            "site": "mrbahis",
             "sort": "16"
           },
           {
-            "site": "mrbahis",
+            "site": "betpipo",
             "sort": "17"
           },
           {
-            "site": "betpipo",
+            "site": "mariobet",
             "sort": "18"
           },
           {
-            "site": "mariobet",
+            "site": "betoffice",
             "sort": "19"
           },
           {
-            "site": "betoffice",
+            "site": "masterbetting",
             "sort": "20"
           },
           {
-            "site": "masterbetting",
+            "site": "piabet",
             "sort": "21"
           },
           {
-            "site": "piabet",
+            "site": "pusulabet",
             "sort": "22"
           },
           {
-            "site": "pusulabet",
-            "sort": "23"
-          },
-          {
             "site": "restbet",
-            "sort": "24"
+            "sort": "23"
           }
         ]
       },
