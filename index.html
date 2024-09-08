@@ -744,6 +744,16 @@
             }
         },50);
 
+        // sadece mobilde gizle
+        if (isMobile()) {
+            is_element_load2 = setInterval(function(){
+                let e = document.querySelector('.diamond.row a[site="zbahis"]');
+                if (e) {
+                    e.closest('.col').setAttribute('style','display:none !important');
+                    clearInterval(is_element_load2);
+                }
+            },50);
+        }
     });
 
 </script>
