@@ -844,13 +844,17 @@
         }
 
         // width ayarla CSS ile ayarlayamadım
-        setTimeout(function(){
+        is_element_load3 = setInterval(function(){
             let e = document.querySelector('.ana-sponsor .social');
             let e2= document.querySelector('.ana-sponsor #ana-sponsor-text');
             if (e && e2) {
-                e2.style.width = e.getBoundingClientRect().width+'px';
+                olcu = e.getBoundingClientRect().width;
+                if (!olcu) {
+                    e2.style.width = +'px';
+                    clearInterval(is_element_load3);
+                }
             }
-        },250);
+        },50);
 
     });
 
