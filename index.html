@@ -727,7 +727,7 @@
     document.addEventListener('DOMContentLoaded', function () {
         // yarım saniye sonra header gizle
         function sayfayi_asagiya_kaydir() {
-            yukseklik = document.querySelector(isMobile() ? '.ana-sponsor div' : 'header').getBoundingClientRect().height;
+            yukseklik = document.querySelector(isMobile() ? '.logo' : 'header').getBoundingClientRect().height - (isMobile()?14:0); // margin değerini çıkarıyoruz
             yukseklik+= isMobile() ? 5 : 0;
             if (yukseklik >= window.scrollY) {
                 window.scrollTo({
@@ -849,7 +849,7 @@
             let e2= document.querySelector('.ana-sponsor #ana-sponsor-text');
             if (e && e2) {
                 olcu = e.getBoundingClientRect().width;
-                if (!olcu) {
+                if (olcu) {
                     e2.style.width = olcu+'px';
                     clearInterval(is_element_load3);
                 }
