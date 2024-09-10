@@ -850,7 +850,7 @@
             if (e && e2) {
                 olcu = e.getBoundingClientRect().width;
                 if (!olcu) {
-                    e2.style.width = +'px';
+                    e2.style.width = olcu+'px';
                     clearInterval(is_element_load3);
                 }
             }
