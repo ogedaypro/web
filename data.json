@@ -116,7 +116,18 @@
         "promo_code_yok": "VEYA 100 FREE BET",
         "slider_img": ""
       },
-
+      {
+        "url": "https://bit.ly/ogexsekabet",
+        "desc": [
+          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
+        ],
+        "site": "sekabet",
+        "sort": null,
+        "color": "#ecb50d",
+        "miktar": "₺500",
+        "promo_code": "OGEDAY500",
+        "slider_img": ""
+      },
       {
         "url": "https://bit.ly/ogexdior",
         "desc": [
@@ -178,18 +189,7 @@
         "promo_code_yok": "YATIRIM ŞARTI YOK - KATLA %10 ÇEK",
         "slider_img": ""
       },
-      {
-        "url": "https://bit.ly/ogexsekabet",
-        "desc": [
-          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
-        ],
-        "site": "sekabet",
-        "sort": null,
-        "color": "#ecb50d",
-        "miktar": "₺500",
-        "promo_code": "OGEDAY500",
-        "slider_img": ""
-      },
+
       {
         "url": "https://bit.ly/ogexmrbahis",
         "desc": [
@@ -424,31 +424,31 @@
             "site": "galabet",
             "sort": "9"
           },
-
           {
-            "site": "casinodior",
+            "site": "sekabet",
             "sort": "10"
           },
           {
-            "site": "festwin",
+            "site": "casinodior",
             "sort": "11"
           },
           {
-            "site": "pradabet",
+            "site": "festwin",
             "sort": "12"
           },
           {
-            "site": "gonebet",
+            "site": "pradabet",
             "sort": "13"
           },
           {
-            "site": "padisahbet",
+            "site": "gonebet",
             "sort": "14"
           },
           {
-            "site": "sekabet",
+            "site": "padisahbet",
             "sort": "15"
           },
+
           {
             "site": "mrbahis",
             "sort": "16"
