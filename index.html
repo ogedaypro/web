@@ -844,14 +844,13 @@
         }
 
         // width ayarla CSS ile ayarlayamadım
-        is_element_load3 = setInterval(function(){
+        setTimeout(function(){
             let e = document.querySelector('.ana-sponsor .social');
             let e2= document.querySelector('.ana-sponsor #ana-sponsor-text');
             if (e && e2) {
                 e2.style.width = e.getBoundingClientRect().width+'px';
-                clearInterval(is_element_load3);
             }
-        },50);
+        },250);
 
     });
 
