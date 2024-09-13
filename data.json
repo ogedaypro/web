@@ -190,19 +190,7 @@
         "slider_img": ""
       },
 
-      {
-        "url": "https://bit.ly/ogexmrbahis",
-        "desc": [
-          "100 FREE SPIN - 100 FREE BET"
-        ],
-        "site": "mrbahis",
-        "sort": null,
-        "color": "#08d168",
-        "miktar": "₺100",
-        "promo_code": null,
-        "promo_code_yok": "SMS ONAYI YAP, BONUS TALEP ET",
-        "slider_img": ""
-      },
+      
       {
         "url": "https://bit.ly/ogexpipo",
         "desc": [
@@ -473,10 +461,7 @@
             "sort": "15"
           },
 
-          {
-            "site": "mrbahis",
-            "sort": "16"
-          },
+
           {
             "site": "betpipo",
             "sort": "17"
