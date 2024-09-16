@@ -6,12 +6,12 @@
       {
         "url": "https://bit.ly/ogexbankobet",
         "desc": [
-          "777TL Nakit - 500TL Freespin"
+          "1.111 TL NAKİT - 111 TL FREE SPIN"
         ],
         "site": "bankobet",
         "sort": null,
         "color": "#ff1376",
-        "miktar": "₺777",
+        "miktar": "₺1.111",
         "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
         "slider_img": ""
       },
@@ -23,7 +23,7 @@
         "site": "tarafbet",
         "sort": null,
         "color": "#178b42",
-        "miktar": "₺750",
+        "miktar": "$100",
         "promo_code": "OGEDAY750",
         "elmas": "editorun-secimi.webp",
         "slider_img": ""
@@ -36,8 +36,8 @@
         "site": "betkom",
         "sort": null,
         "color": "#1fe0ff",
-        "miktar": "₺750",
-        "promo_code": "OGEDAY750",
+        "miktar": "₺888",
+        "promo_code": "OGEDAY888",
         "elmas": "ayin-sitesi.webp",
         "slider_img": ""
       },
@@ -49,8 +49,9 @@
         "site": "bahiscom",
         "sort": null,
         "color": "#00c683",
-        "miktar": "₺750",
-        "promo_code": "OGEDAY750",
+        "miktar": "₺888",
+        "promo_code": "ogeday888",
+        "promo_code_lowercase": true,
         "elmas": "sinirsiz-cekim.webp",
         "slider_img": ""
       },
@@ -126,6 +127,18 @@
         "color": "#ecb50d",
         "miktar": "₺500",
         "promo_code": "OGEDAY500",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexporto",
+        "desc": [
+          "500 FREESPIN - %100 HOŞGELDİN BONUSU"
+        ],
+        "site": "portobet",
+        "sort": null,
+        "color": "#007e3b",
+        "miktar": "₺500",
+        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
         "slider_img": ""
       },
       {
@@ -212,8 +225,9 @@
         "site": "mariobet",
         "sort": null,
         "color": "#f16227",
-        "miktar": "₺750",
-        "promo_code": "OGEDAY750",
+        "miktar": "₺888",
+        "promo_code": "ogeday888",
+        "promo_code_lowercase": true,
         "slider_img": ""
       },
       {
@@ -441,66 +455,70 @@
             "sort": "10"
           },
           {
-            "site": "casinodior",
+            "site": "portobet",
             "sort": "11"
           },
           {
-            "site": "festwin",
+            "site": "casinodior",
             "sort": "12"
           },
           {
-            "site": "pradabet",
+            "site": "festwin",
             "sort": "13"
           },
           {
-            "site": "gonebet",
+            "site": "pradabet",
             "sort": "14"
           },
           {
-            "site": "padisahbet",
+            "site": "gonebet",
             "sort": "15"
+          },
+          {
+            "site": "padisahbet",
+            "sort": "16"
           },
 
 
           {
             "site": "betpipo",
-            "sort": "16"
-          },
-          {
-            "site": "mariobet",
             "sort": "17"
           },
           {
-            "site": "betoffice",
+            "site": "mariobet",
             "sort": "18"
           },
           {
-            "site": "masterbetting",
+            "site": "betoffice",
             "sort": "19"
           },
           {
-            "site": "piabet",
+            "site": "masterbetting",
             "sort": "20"
           },
           {
-            "site": "pusulabet",
+            "site": "piabet",
             "sort": "21"
           },
           {
-            "site": "restbet",
+            "site": "pusulabet",
             "sort": "22"
           },
           {
-            "site": "betebet",
+            "site": "restbet",
             "sort": "23"
           },
           {
-            "site": "betnis",
+            "site": "betebet",
             "sort": "24"
           },
           {
-            "site": "zbahis",
+            "site": "betnis",
             "sort": "25"
+          },
+          {
+            "site": "zbahis",
+            "sort": "26"
           }
         ]
       },

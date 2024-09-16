@@ -10,14 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
     <style>
         .notyf__toast {
@@ -248,6 +242,47 @@
         }
 
         100%{
+            transform: translateY(-100%);
+        }
+    }
+</style>
+<style>
+    .doviz-button {
+        position: relative;
+    }
+    .doviz-button span {
+        opacity: 0;
+        display: flex;
+        transform: translateY(100%);
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+    .doviz-button .text1 {
+        animation: slideUp 4s infinite;
+        position: absolute;
+    }
+    .doviz-button .text2 {
+        animation: slideUp 4s 2s infinite; /* 2 saniye gecikmeli başlat */
+        position: absolute;
+    }
+    @keyframes slideUp {
+        0% {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+        10% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        45% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        55% {
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+        100% {
+            opacity: 0;
             transform: translateY(-100%);
         }
     }
@@ -511,9 +546,13 @@
 
                         <div class="left">
                             <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
-                            <div class="text" style="font-family: 'Bebas Neue'; letter-spacing: 1.5px; ">
+                            <div class="text" style="font-family: &quot;Bebas Neue&quot;; letter-spacing: 1.5px;">
                                 <span class="font-size-x-small" v-if="_.find(client.sites, ['site', site.site]).promo_code">Promo Code:</span>
-                                <span>{{_.find(client.sites, ['site', site.site]).promo_code}}</span>
+                                <span v-bind:style="{
+                                    fontSize: _.find(client.sites, ['site', site.site]).promo_code_lowercase ? '19px' : '16px',
+                                    textTransform: _.find(client.sites, ['site', site.site]).promo_code_lowercase ? 'lowercase' : 'uppercase',
+                                    fontFamily: _.find(client.sites, ['site', site.site]).promo_code_lowercase ? 'Barlow' : 'Bebas Neue'
+                                }">{{_.find(client.sites, ['site', site.site]).promo_code}}</span>
                                 <span style="font-size:small" v-if="_.find(client.sites, ['site', site.site]).promo_code2">
                                     {{_.find(client.sites, ['site', site.site]).promo_code2}}
                                 </span>
@@ -637,7 +676,7 @@
         },
         created(){
             this.loading = true;
-            axios.get('https://ogedaypro.net/data.json')
+            axios.get('https://localhost/bet/ogedaypro/data.json')
                 .then((response) => {
                     this.client = response.data.html
                     this.king = _.find(this.client.categories, ['id', 1710467155101]);
@@ -854,6 +893,58 @@
                     e2.style.width = olcu+'px';
                     clearInterval(is_element_load3);
                 }
+            }
+        },50);
+
+        // tarafbet 100$ güncel kur
+        is_element_load3 = setInterval(function(){
+            let e = document.querySelector('.diamond.row a[site="tarafbet"] .button');
+            if (e) {
+                fetch("https://customers.garantibbva.com.tr/internet/digitalpublic/currency-convertor-public/v1/currency-convertor/calculate-price?&operation=0&price=1&currencySource=USD&currencyTarget=TL", {
+                    "credentials": "include",
+                    "headers": {
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0",
+                        "Accept": "application/json",
+                        "Accept-Language": "tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3",
+                        "Content-Type": "application/json",
+                        "channel": "Internet",
+                        "ip": "127.0.0.1",
+                        "dialect": "TR",
+                        "guid": "10b3fa24471f427484399c8fe58ac9ec",
+                        "tenant-company-id": "GAR",
+                        "x-client-trace-id": "10b3fa24471f427484399c8fe58ac9ec",
+                        "client-session-id": "5bd6-743c-c38c-4cc7-9306",
+                        "client-type": "ArkClient",
+                        "Authorization": "",
+                        "state": "",
+                        "client-id": "DslahJXaDW59ibNZppCm",
+                        "tenant-geolocation": "TUR",
+                        "tenant-app-id": "",
+                        "Sec-Fetch-Dest": "empty",
+                        "Sec-Fetch-Mode": "cors",
+                        "Sec-Fetch-Site": "same-site"
+                    },
+                    "referrer": "https://webforms.garantibbva.com.tr/",
+                    "method": "GET",
+                    "mode": "cors"
+                }).then(function(response){
+                    return response.json();
+                }).then(function(response){
+                    try {
+                        bonus = e.innerHTML.replace(/\D/g, '')*1; // buttonun içerisindeki stringten bonusu ayıkla ve int'e çevir
+                        kur = response.calculateResult; // kur'u jsondan ayıkla (eğer ayıklayamazsa try catch mekanizmasına takılacak)
+                        hesap = Math.round(kur*bonus); // kur ile bonusu çarp, round ile en yakın sayıya yuvarla
+                        hesap = hesap.toLocaleString('tr-TR'); // 1.337 ondalık noktalarını ekle
+                        e.innerHTML = '<span class="text1">$'+bonus+'</span><span class="text2">₺'+hesap+'</span>';
+                        e.classList.add('doviz-button'); // hareket animasyonu ekliyoruz
+                    } catch (err) {
+                        console.error('Kur hesaplanamadı.');
+                        console.warn('Kur hesaplanamadı.');
+                        console.log('fetch.response:');
+                        console.log(response);
+                    }
+                });
+                clearInterval(is_element_load3);
             }
         },50);
 
