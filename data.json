@@ -327,6 +327,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexmerit",
+        "desc": [
+          "100 FS DENEME BONUSU - %30 KAYIP BONUSU"
+        ],
+        "site": "meritbet",
+        "sort": null,
+        "color": "#b09061",
+        "miktar": "₺100",
+        "promo_code_yok": "GÜNLÜK 1.999.999 TL ÇEKİM",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogedayzbahis",
         "desc": [
           "ÜYE OL DENEME BONUSUNU AL!"
@@ -533,8 +545,12 @@
             "sort": "25"
           },
           {
-            "site": "zbahis",
+            "site": "meritbet",
             "sort": "26"
+          },
+          {
+            "site": "zbahis",
+            "sort": "27"
           }
         ]
       },
