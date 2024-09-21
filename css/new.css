@@ -903,7 +903,7 @@ body{
     margin-top: 10px;
   }
   #app-v-page.mobile header{
-    /* height: 110px; */
+    /* height: 110px; // eger ana sponsor varsa */
     height: 62px;
     align-items: flex-start;
   }
