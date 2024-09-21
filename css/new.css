@@ -903,7 +903,8 @@ body{
     margin-top: 10px;
   }
   #app-v-page.mobile header{
-    height: 110px;
+    /* height: 110px; */
+    height: 62px;
     align-items: flex-start;
   }
   #app-v-page.mobile header .container{
