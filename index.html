@@ -865,7 +865,7 @@
             is_element_load = setInterval(function(){
                 //let e = document.querySelector(isMobile() ? '.ana-sponsor' : '.sosyal');
                 let e = document.querySelector('.sosyal');
-                if (e) {
+                if (e && !isMobile()) {
                     e.setAttribute('style','');
                     clearInterval(is_element_load);
                 }
