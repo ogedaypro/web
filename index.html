@@ -331,6 +331,7 @@
             </div>
             -->
 
+            <!--
             <div class="container">
                 <a href="https://bit.ly/ogedayzbahis" target="_blank" class="ana-sponsor" style="display:none;">
                     <div style="margin-top:-15px; font-weight:bolder; font-size:12px; text-align:left; color:gold; width:71px; transition: width 2s ease; -webkit-transition: width 2s ease;" id="ana-sponsor-text" class="text-shadow">
@@ -343,7 +344,6 @@
                         <kose></kose>
                         <img src="zbahis.png" style="width: 126px; padding-left: 3px; float: left">
                         <span class="tarayici-width-fs-ayarla" style="font-size: 10px; padding: 0px 5px; float: right">"OGEDAY777" kodunu ilet DENEME BONUSU AL!</span>
-                        <!--  /* background: #4c48fa; bu koduda düşündüm ama */ -->
                         <div style="font-size: 16px;
                                 background: #48effa;
                                 text-shadow: 1px 0px 2px #000;
@@ -359,9 +359,9 @@
                             ₺777
                         </div>
                     </div>
-
                 </a>
             </div>
+            -->
 
             <div class="social sosyal" style="display: none">
                 <a v-if="client.social.twitter" target="_blank" :href="client.social.twitter" class="social-button twitter" style="background: #000;">
@@ -872,38 +872,39 @@
             return false;
         }
         is_element_load = setInterval(function(){
-            let e = document.querySelector(isMobile() ? '.ana-sponsor' : '.sosyal');
+            //let e = document.querySelector(isMobile() ? '.ana-sponsor' : '.sosyal');
+            let e = document.querySelector('.sosyal');
             if (e) {
                 e.setAttribute('style','');
                 clearInterval(is_element_load);
             }
         },50);
 
+        /*
+            // sadece mobilde gizle
+            if (isMobile()) {
+                is_element_load2 = setInterval(function(){
+                    let e = document.querySelector('.diamond.row a[site="zbahis"]');
+                    if (e) {
+                        e.closest('.col').setAttribute('style','display:none !important');
+                        clearInterval(is_element_load2);
+                    }
+                },50);
+            }
 
-
-        // sadece mobilde gizle
-        if (isMobile()) {
-            is_element_load2 = setInterval(function(){
-                let e = document.querySelector('.diamond.row a[site="zbahis"]');
-                if (e) {
-                    e.closest('.col').setAttribute('style','display:none !important');
-                    clearInterval(is_element_load2);
+            // width ayarla CSS ile ayarlayamadım
+            is_element_load3 = setInterval(function(){
+                let e = document.querySelector('.ana-sponsor .social');
+                let e2= document.querySelector('.ana-sponsor #ana-sponsor-text');
+                if (e && e2) {
+                    olcu = e.getBoundingClientRect().width;
+                    if (olcu) {
+                        e2.style.width = olcu+'px';
+                        clearInterval(is_element_load3);
+                    }
                 }
             },50);
-        }
-
-        // width ayarla CSS ile ayarlayamadım
-        is_element_load3 = setInterval(function(){
-            let e = document.querySelector('.ana-sponsor .social');
-            let e2= document.querySelector('.ana-sponsor #ana-sponsor-text');
-            if (e && e2) {
-                olcu = e.getBoundingClientRect().width;
-                if (olcu) {
-                    e2.style.width = olcu+'px';
-                    clearInterval(is_element_load3);
-                }
-            }
-        },50);
+        */
 
         // tarafbet 100$ güncel kur
         is_element_load3 = setInterval(function(){
