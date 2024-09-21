@@ -850,6 +850,7 @@
             }
             return false;
         }
+        /*
         if (!isMobile()) {
             is_element_load = setInterval(function(){
                 let e = document.querySelector('.social-button.instagram');
@@ -859,15 +860,17 @@
                 }
             },50);
         }
-        /*
+        */
+
             is_element_load = setInterval(function(){
-                let e = document.querySelector(isMobile() ? '.ana-sponsor' : '.sosyal');
+                //let e = document.querySelector(isMobile() ? '.ana-sponsor' : '.sosyal');
+                let e = document.querySelector('.sosyal');
                 if (e) {
                     e.setAttribute('style','');
                     clearInterval(is_element_load);
                 }
             },50);
-
+        /*
             // sadece mobilde gizle
             if (isMobile()) {
                 is_element_load2 = setInterval(function(){
