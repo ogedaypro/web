@@ -775,7 +775,7 @@
     document.addEventListener('DOMContentLoaded', function () {
         // yarım saniye sonra header gizle
         function sayfayi_asagiya_kaydir() {
-            yukseklik = document.querySelector(isMobile() ? '.logo' : 'header').getBoundingClientRect().height - (isMobile()?14:0); // margin değerini çıkarıyoruz
+            yukseklik = document.querySelector(isMobile() ? '.logo' : 'header').getBoundingClientRect().height - (isMobile()?13:0); // margin değerini çıkarıyoruz
             yukseklik+= isMobile() ? 5 : 0;
             if (yukseklik >= window.scrollY) {
                 window.scrollTo({
