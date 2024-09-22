@@ -903,8 +903,8 @@ body{
     margin-top: 10px;
   }
   #app-v-page.mobile header{
-    /* height: 110px; // eger ana sponsor varsa */
-    height: 62px;
+    height: 110px;
+    /* height: 62px; // eger ana sponsor varsa */
     align-items: flex-start;
   }
   #app-v-page.mobile header .container{
@@ -913,7 +913,7 @@ body{
   #app-v-page.mobile header .social .social-button{
     font-size: 0px;
   }
-  #app-v-page.mobile header .social .social-button svg{ 
+  #app-v-page.mobile header .social .social-button svg{
     margin: 0px;
   }
   #app-v-page.mobile.is-fixed header{
@@ -922,9 +922,9 @@ body{
   #app-v-page.mobile.is-fixed header .container{
     flex-direction: row !important;
   }
-  
-  
-  
+
+
+
   @media(max-width:1400px){
     .vip .item .text{
       font-size: 11px !important;
@@ -945,8 +945,8 @@ body{
       display: none;
     }
   }
-  
-  
+
+
   #app-v-page .footer-c {
     margin-top: 20px;
     display: flex;
@@ -980,21 +980,21 @@ body{
     width: inherit !important;
     height: 15px;
   }
-  
+
   #app-v-page.mobile header .links{
     margin: 0px 0 10px 0!important;
   }
-  
-  
+
+
   @media (min-width:996px) and (max-width:1400px){
     .vip .item .left img{
         width: 90px;
     }
   }
-  
-  
-  
-  
+
+
+
+
   @-webkit-keyframes ticker {
     0% {
       transform: translate3d(0, 0, 0);
@@ -1036,7 +1036,7 @@ body{
     font-size: 15px;
     clip-path: polygon(0 0, 100% 0, 83% 100%, 0% 100%);
   }
-  
+
   .row.strip h1 svg {
     fill: #fff;
     margin-right: 5px;
