@@ -339,6 +339,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexwinbir",
+        "desc": [
+          "KAYIT OL 100 TL DENEME BONUSU AL"
+        ],
+        "site": "winbir",
+        "sort": null,
+        "color": "#ba2848",
+        "miktar": "₺100",
+        "promo_code_yok": "5000 TL'ye kadar %50 ANLIK KAYIP BONUSU",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogedayzbahis",
         "desc": [
           "ÜYE OL DENEME BONUSUNU AL!"
@@ -549,8 +561,12 @@
             "sort": "26"
           },
           {
-            "site": "zbahis",
+            "site": "winbir",
             "sort": "27"
+          },
+          {
+            "site": "zbahis",
+            "sort": "28"
           }
         ]
       },
