@@ -351,6 +351,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexbetra",
+        "desc": [
+          "KAYIT OL 100₺ DENEME BONUSU AL"
+        ],
+        "site": "betra",
+        "sort": null,
+        "color": "#ffbb28",
+        "miktar": "₺100",
+        "promo_code_yok": "1.000₺ YAP 100₺ YATIR 250₺ ÇEK",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogedayzbahis",
         "desc": [
           "ÜYE OL DENEME BONUSUNU AL!"
@@ -565,8 +577,12 @@
             "sort": "28"
           },
           {
-            "site": "zbahis",
+            "site": "betra",
             "sort": "29"
+          },
+          {
+            "site": "zbahis",
+            "sort": "30"
           }
         ]
       },
