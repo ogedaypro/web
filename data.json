@@ -363,6 +363,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/3Y5U9h5",
+        "desc": [
+          "HOŞ GELDİN BONUSUNU AL!"
+        ],
+        "site": "marsbahis",
+        "sort": null,
+        "color": "#e12629",
+        "miktar": "KAYIT OL",
+        "promo_code_yok": "",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogedayzbahis",
         "desc": [
           "ÜYE OL DENEME BONUSUNU AL!"
@@ -581,8 +593,12 @@
             "sort": "29"
           },
           {
-            "site": "zbahis",
+            "site": "marsbahis",
             "sort": "30"
+          },
+          {
+            "site": "zbahis",
+            "sort": "31"
           }
         ]
       },
