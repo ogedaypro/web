@@ -42,6 +42,20 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexbahiscom",
+        "desc": [
+          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
+        ],
+        "site": "bahiscom",
+        "sort": null,
+        "color": "#00c683",
+        "miktar": "₺888",
+        "promo_code": "ogeday888",
+        "promo_code_lowercase": true,
+        "elmas": "sinirsiz-cekim.webp",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexbetturkey",
         "desc": [
           "CANLI DESTEĞE BAĞLAN, BONUSUNU AL!"
@@ -88,20 +102,6 @@
         "miktar": "₺555",
         "promo_code": null,
         "promo_code_yok": "ÜYE OL BONUSUNU AL",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbahiscom",
-        "desc": [
-          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
-        ],
-        "site": "bahiscom",
-        "sort": null,
-        "color": "#00c683",
-        "miktar": "₺888",
-        "promo_code": "ogeday888",
-        "promo_code_lowercase": true,
-        "elmas": "sinirsiz-cekim.webp",
         "slider_img": ""
       },
       {
@@ -487,23 +487,23 @@
             "sort": "3"
           },
           {
-            "site": "betturkey",
+            "site": "bahiscom",
             "sort": "4"
           },
           {
-            "site": "betkanyon",
+            "site": "betturkey",
             "sort": "5"
           },
           {
-            "site": "matadorbet",
+            "site": "betkanyon",
             "sort": "6"
           },
           {
-            "site": "fixbet",
+            "site": "matadorbet",
             "sort": "7"
           },
           {
-            "site": "bahiscom",
+            "site": "fixbet",
             "sort": "8"
           },
           {
