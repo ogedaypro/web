@@ -897,6 +897,7 @@
 
         // tarafbet 100$ güncel kur
         is_element_load4 = setInterval(function(){
+            return; // ŞU AN İPTAL
             let e = document.querySelector('.diamond.row a[site="tarafbet"] .button');
             if (e) {
                 fetch("https://customers.garantibbva.com.tr/internet/digitalpublic/currency-convertor-public/v1/currency-convertor/calculate-price?&operation=0&price=1&currencySource=USD&currencyTarget=TL", {
