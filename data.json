@@ -375,6 +375,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexzlot",
+        "desc": [
+          "ÜYE OL 777₺ BONUS AL"
+        ],
+        "site": "zlot",
+        "sort": null,
+        "color": "#1b1f22",
+        "miktar": "₺777",
+        "promo_code_yok": "777₺ NAKİT VEYA 777₺ FREESPIN",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogedayzbahis",
         "desc": [
           "ÜYE OL DENEME BONUSUNU AL!"
@@ -597,8 +609,12 @@
             "sort": "30"
           },
           {
-            "site": "zbahis",
+            "site": "zlot",
             "sort": "31"
+          },
+          {
+            "site": "zbahis",
+            "sort": "32"
           }
         ]
       },
