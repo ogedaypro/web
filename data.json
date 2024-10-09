@@ -390,25 +390,14 @@
       {
         "url": "https://bit.ly/ogexroku",
         "desc": [
-          "KAYIT OL - KODU KULLAN - BONUSU AL"
+          "GATES OF OLYMPUS 1000 OYUNUNDA GEÇERLİ"
         ],
         "site": "rokubet",
         "sort": null,
         "color": "#e5a235",
         "miktar": "₺150",
         "promo_code": "ogeday150",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogedayzbahis",
-        "desc": [
-          "ÜYE OL DENEME BONUSUNU AL!"
-        ],
-        "site": "zbahis",
-        "sort": null,
-        "color": "#48effa",
-        "miktar": "₺777",
-        "promo_code": "OGEDAY777",
+        "promo_code_lowercase": true,
         "slider_img": ""
       }
     ],
