@@ -130,15 +130,16 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogexporto",
+        "url": "https://bit.ly/ogedayxvippark",
         "desc": [
-          "500 FREESPIN - %100 HOŞGELDİN BONUSU"
+          "100 FREE SPIN"
         ],
-        "site": "portobet",
+        "site": "vippark",
         "sort": null,
-        "color": "#007e3b",
-        "miktar": "₺500",
-        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
+        "color": "#ebc45e",
+        "miktar": "₺100",
+        "promo_code": null,
+        "promo_code_yok": "VEYA 100 FREE BET",
         "slider_img": ""
       },
       {
@@ -387,6 +388,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexroku",
+        "desc": [
+          "KAYIT OL - KODU KULLAN - BONUSU AL"
+        ],
+        "site": "rokubet",
+        "sort": null,
+        "color": "#e5a235",
+        "miktar": "₺150",
+        "promo_code": "ogeday150",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogedayzbahis",
         "desc": [
           "ÜYE OL DENEME BONUSUNU AL!"
@@ -527,7 +540,7 @@
             "sort": "10"
           },
           {
-            "site": "portobet",
+            "site": "vippark",
             "sort": "11"
           },
           {
@@ -550,8 +563,6 @@
             "site": "padisahbet",
             "sort": "16"
           },
-
-
           {
             "site": "betpipo",
             "sort": "17"
@@ -613,8 +624,12 @@
             "sort": "31"
           },
           {
-            "site": "zbahis",
+            "site": "rokubet",
             "sort": "32"
+          },
+          {
+            "site": "zbahis",
+            "sort": "33"
           }
         ]
       },

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ogedaypro | Oynadığım Güvenilir Siteler</title>
-    <link rel="stylesheet" href="https://ogedaybonuslari.com/css/new.css?v5.48">
+    <link rel="stylesheet" href="https://localhost/bet/ogedaypro/css/new.css?v5.48">
     <link rel="shortcut icon" href="https://ogedaybonuslari.com/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -331,7 +331,7 @@
             </div>
             -->
 
-            <div class="container">
+            <div class="container" style="display: none;">
                 <a href="https://bit.ly/ogedayzbahis" target="_blank" class="ana-sponsor" style="display:none;">
                     <div style="margin-top:-15px; font-weight:bolder; font-size:12px; text-align:left; color:gold; width:71px; transition: width 2s ease; -webkit-transition: width 2s ease;" id="ana-sponsor-text" class="text-shadow">
                         ANA SPONSOR
@@ -775,7 +775,8 @@
     document.addEventListener('DOMContentLoaded', function () {
         // yarım saniye sonra header gizle
         function sayfayi_asagiya_kaydir() {
-            yukseklik = document.querySelector(isMobile() ? '.logo' : 'header').getBoundingClientRect().height - (isMobile()?13:0); // margin değerini çıkarıyoruz
+                                                                                                                        //  13 (ilk değer eğer ana sponsor varsa)
+            yukseklik = document.querySelector(isMobile() ? '.logo' : 'header').getBoundingClientRect().height - (isMobile()?0:0); // margin değerini çıkarıyoruz
             yukseklik+= isMobile() ? 5 : 0;
             if (yukseklik >= window.scrollY) {
                 window.scrollTo({
