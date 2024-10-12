@@ -56,18 +56,6 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogexbetturkey",
-        "desc": [
-          "CANLI DESTEĞE BAĞLAN, BONUSUNU AL!"
-        ],
-        "site": "betturkey",
-        "sort": null,
-        "color": "#ffdd3a",
-        "miktar": "₺500",
-        "promo_code": "OGEDAY500",
-        "slider_img": ""
-      },
-      {
         "url": "https://bit.ly/ogexbetkanyon",
         "desc": [
           "KAYIT OL PROMOSYON KODUNU GİR"
@@ -493,7 +481,7 @@
             "sort": "4"
           },
           {
-            "site": "betturkey",
+            "site": "galabet",
             "sort": "5"
           },
           {
@@ -509,96 +497,92 @@
             "sort": "8"
           },
           {
-            "site": "galabet",
+            "site": "sekabet",
             "sort": "9"
           },
           {
-            "site": "sekabet",
+            "site": "vippark",
             "sort": "10"
           },
           {
-            "site": "vippark",
+            "site": "casinodior",
             "sort": "11"
           },
           {
-            "site": "casinodior",
+            "site": "festwin",
             "sort": "12"
           },
           {
-            "site": "festwin",
+            "site": "pradabet",
             "sort": "13"
           },
           {
-            "site": "pradabet",
+            "site": "gonebet",
             "sort": "14"
           },
           {
-            "site": "gonebet",
+            "site": "padisahbet",
             "sort": "15"
           },
           {
-            "site": "padisahbet",
+            "site": "betpipo",
             "sort": "16"
           },
           {
-            "site": "betpipo",
+            "site": "mariobet",
             "sort": "17"
           },
           {
-            "site": "mariobet",
+            "site": "betoffice",
             "sort": "18"
           },
           {
-            "site": "betoffice",
+            "site": "masterbetting",
             "sort": "19"
           },
           {
-            "site": "masterbetting",
+            "site": "piabet",
             "sort": "20"
           },
           {
-            "site": "piabet",
+            "site": "pusulabet",
             "sort": "21"
           },
           {
-            "site": "pusulabet",
+            "site": "restbet",
             "sort": "22"
           },
           {
-            "site": "restbet",
+            "site": "betnis",
             "sort": "23"
           },
           {
-            "site": "betnis",
+            "site": "meritbet",
             "sort": "24"
           },
           {
-            "site": "meritbet",
+            "site": "winbir",
             "sort": "25"
           },
           {
-            "site": "winbir",
+            "site": "betewin",
             "sort": "26"
           },
           {
-            "site": "betewin",
+            "site": "betra",
             "sort": "27"
           },
           {
-            "site": "betra",
+            "site": "marsbahis",
             "sort": "28"
           },
           {
-            "site": "marsbahis",
+            "site": "zlot",
             "sort": "29"
           },
           {
-            "site": "zlot",
-            "sort": "30"
-          },
-          {
             "site": "rokubet",
-            "sort": "31"
+            "sort": "30"
           }
         ]
       },
