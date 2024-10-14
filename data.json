@@ -193,21 +193,6 @@
         "promo_code_yok": "333 FREESPIN",
         "slider_img": ""
       },
-
-      {
-        "url": "https://bit.ly/ogexpadisah",
-        "desc": [
-          "500TL FREE BET YA DA 500₺ FREESPIN"
-        ],
-        "site": "padisahbet",
-        "sort": null,
-        "color": "#24a8e6",
-        "miktar": "₺500",
-        "promo_code_yok": "YATIRIM ŞARTI YOK - KATLA %10 ÇEK",
-        "slider_img": ""
-      },
-
-
       {
         "url": "https://bit.ly/ogexpipo",
         "desc": [
@@ -492,52 +477,48 @@
             "sort": "15"
           },
           {
-            "site": "padisahbet",
+            "site": "betpipo",
             "sort": "16"
           },
           {
-            "site": "betpipo",
+            "site": "betoffice",
             "sort": "17"
           },
           {
-            "site": "betoffice",
+            "site": "restbet",
             "sort": "18"
           },
           {
-            "site": "restbet",
+            "site": "betnis",
             "sort": "19"
           },
           {
-            "site": "betnis",
+            "site": "meritbet",
             "sort": "20"
           },
           {
-            "site": "meritbet",
+            "site": "winbir",
             "sort": "21"
           },
           {
-            "site": "winbir",
+            "site": "betewin",
             "sort": "22"
           },
           {
-            "site": "betewin",
+            "site": "betra",
             "sort": "23"
           },
           {
-            "site": "betra",
+            "site": "marsbahis",
             "sort": "24"
           },
           {
-            "site": "marsbahis",
+            "site": "zlot",
             "sort": "25"
           },
           {
-            "site": "zlot",
-            "sort": "26"
-          },
-          {
             "site": "rokubet",
-            "sort": "27"
+            "sort": "26"
           }
         ]
       },
