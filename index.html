@@ -135,6 +135,9 @@
         padding-top: 4px;
         padding-bottom: 8px;
     }
+    .notyf__toast--dismissible .notyf__wrapper {
+        padding-right: 18px;
+    }
     .ana-sponsor {
         display: flex;
         justify-content: center;
@@ -817,14 +820,14 @@
                         500₺ ÇEVRİMSİZ BONUS
                     </div>
                 </div>
-                <div class="middle" style="display:none; margin-left:8px; margin-right:6px; border: 1px dashed white;">
+                <div class="middle" style="margin-left:8px; margin-right:6px; border: 1px dashed white;">
 
                 </div>
-                <div class="right" style="display:none;">
-                    <img src="festwin.png" style="width:115px; margin-top:3px;">
+                <div class="right">
+                    <img src="fixbet.png" style="width:100px; margin: 6.5px 0px 6.5px 12px;">
                     <div style="font-size:14px; color:white;">
                         <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
-                        333 FREE SPIN
+                        5 DAKİKADA ÇEKİM
                     </div>
                 </div>
             `,
@@ -834,7 +837,7 @@
             if ((hedef && hedef.includes('left')) || (hedef2 && hedef2.includes('left'))) {
                 click_site = 'matadorbet';
             } else if ((hedef && hedef.includes('right')) || (hedef2 && hedef2.includes('right'))) {
-                click_site = 'festwin';
+                click_site = 'fixbet';
             }
             window.open(document.querySelector('[site="'+click_site+'"]').getAttribute('href'),'_blank');
         });

@@ -235,42 +235,6 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogexmasterbetting",
-        "desc": [
-          "100 FREE SPIN veya 100₺ FREE BET"
-        ],
-        "site": "masterbetting",
-        "sort": null,
-        "color": "#20df7b",
-        "miktar": "₺100",
-        "promo_code_yok": "1.000₺ YAP 50₺ YATIR 500₺ ÇEK",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexpia",
-        "desc": [
-          "100TL FREE BET VEYA 100 FREE SPIN"
-        ],
-        "site": "piabet",
-        "sort": null,
-        "color": "#00e9ff",
-        "miktar": "₺100",
-        "promo_code_yok": "Çekim Şartı Yoktur - MAX Çekim 2.000₺",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexpusula",
-        "desc": [
-          "Sweet Bonanza'da Geçerli"
-        ],
-        "site": "pusulabet",
-        "sort": null,
-        "color": "#ffac2c",
-        "miktar": "₺100",
-        "promo_code_yok": "",
-        "slider_img": ""
-      },
-      {
         "url": "https://bit.ly/ogexrest",
         "desc": [
           "İLK YATIRIMA ÖZEL %200 BONUS +500 FS"
@@ -540,52 +504,40 @@
             "sort": "18"
           },
           {
-            "site": "masterbetting",
+            "site": "restbet",
             "sort": "19"
           },
           {
-            "site": "piabet",
+            "site": "betnis",
             "sort": "20"
           },
           {
-            "site": "pusulabet",
+            "site": "meritbet",
             "sort": "21"
           },
           {
-            "site": "restbet",
+            "site": "winbir",
             "sort": "22"
           },
           {
-            "site": "betnis",
+            "site": "betewin",
             "sort": "23"
           },
           {
-            "site": "meritbet",
+            "site": "betra",
             "sort": "24"
           },
           {
-            "site": "winbir",
+            "site": "marsbahis",
             "sort": "25"
           },
           {
-            "site": "betewin",
+            "site": "zlot",
             "sort": "26"
           },
           {
-            "site": "betra",
-            "sort": "27"
-          },
-          {
-            "site": "marsbahis",
-            "sort": "28"
-          },
-          {
-            "site": "zlot",
-            "sort": "29"
-          },
-          {
             "site": "rokubet",
-            "sort": "30"
+            "sort": "27"
           }
         ]
       },
