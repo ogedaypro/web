@@ -146,6 +146,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexoto",
+        "desc": [
+          "800₺ KAYIT BONUSU"
+        ],
+        "site": "otobet",
+        "sort": null,
+        "color": "#fba200",
+        "miktar": "₺800",
+        "promo_code_yok": "HEMEN ÜYE OL 800₺ BONUSU AL",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexdior",
         "desc": [
           "ÜYE OL 299 FS DENEME BONUSU AL"
@@ -461,64 +473,68 @@
             "sort": "11"
           },
           {
-            "site": "casinodior",
+            "site": "otobet",
             "sort": "12"
           },
           {
-            "site": "festwin",
+            "site": "casinodior",
             "sort": "13"
           },
           {
-            "site": "pradabet",
+            "site": "festwin",
             "sort": "14"
           },
           {
-            "site": "gonebet",
+            "site": "pradabet",
             "sort": "15"
           },
           {
-            "site": "betpipo",
+            "site": "gonebet",
             "sort": "16"
           },
           {
-            "site": "betoffice",
+            "site": "betpipo",
             "sort": "17"
           },
           {
-            "site": "restbet",
+            "site": "betoffice",
             "sort": "18"
           },
           {
-            "site": "betnis",
+            "site": "restbet",
             "sort": "19"
           },
           {
-            "site": "meritbet",
+            "site": "betnis",
             "sort": "20"
           },
           {
-            "site": "winbir",
+            "site": "meritbet",
             "sort": "21"
           },
           {
-            "site": "betewin",
+            "site": "winbir",
             "sort": "22"
           },
           {
-            "site": "betra",
+            "site": "betewin",
             "sort": "23"
           },
           {
-            "site": "marsbahis",
+            "site": "betra",
             "sort": "24"
           },
           {
-            "site": "zlot",
+            "site": "marsbahis",
             "sort": "25"
           },
           {
-            "site": "rokubet",
+            "site": "zlot",
             "sort": "26"
+          },
+          {
+            "site": "rokubet",
+            "sort": "27"
           }
         ]
       },
