@@ -168,6 +168,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/ogexonwin",
+        "desc": [
+          "SMS DOĞRULA DENEME BONUSU AL"
+        ],
+        "site": "onwin",
+        "sort": null,
+        "color": "#ba10a1",
+        "miktar": "₺750",
+        "promo_code_yok": "%30 KAYIP BONUSU - SINIRSIZ ÇEKİM",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ogexmariobet",
         "desc": [
           "ÜYE OL DENEME BONUSUNU AL!"
@@ -503,8 +515,12 @@
             "sort": "13"
           },
           {
-            "site": "mariobet",
+            "site": "onwin",
             "sort": "14"
+          },
+          {
+            "site": "mariobet",
+            "sort": "15"
           },
 
 
