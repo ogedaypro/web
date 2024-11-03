@@ -337,18 +337,7 @@
         "promo_code_yok": "1.000₺ YAP 100₺ YATIR 250₺ ÇEK",
         "slider_img": ""
       },
-      {
-        "url": "https://bit.ly/3Y5U9h5",
-        "desc": [
-          "HOŞ GELDİN BONUSUNU AL!"
-        ],
-        "site": "marsbahis",
-        "sort": null,
-        "color": "#e12629",
-        "miktar": "KAYIT OL",
-        "promo_code_yok": "",
-        "slider_img": ""
-      },
+
       {
         "url": "https://bit.ly/ogexzlot",
         "desc": [
@@ -372,6 +361,30 @@
         "miktar": "₺150",
         "promo_code": "ogeday150",
         "promo_code_lowercase": true,
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexibiza",
+        "desc": [
+          "199 FREESPIN VEYA 199 FREEBET"
+        ],
+        "site": "ibizabet",
+        "sort": null,
+        "color": "#e5a235",
+        "miktar": "₺199",
+        "promo_code_yok": "ÜYE OL BONUSU AL",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/3Y5U9h5",
+        "desc": [
+          "HOŞ GELDİN BONUSUNU AL!"
+        ],
+        "site": "marsbahis",
+        "sort": null,
+        "color": "#e12629",
+        "miktar": "KAYIT OL",
+        "promo_code_yok": "",
         "slider_img": ""
       }
     ],
@@ -555,10 +568,7 @@
             "site": "betra",
             "sort": "26"
           },
-          {
-            "site": "marsbahis",
-            "sort": "27"
-          },
+
           {
             "site": "zlot",
             "sort": "28"
@@ -566,6 +576,14 @@
           {
             "site": "rokubet",
             "sort": "29"
+          },
+          {
+            "site": "ibizabet",
+            "sort": "30"
+          },
+          {
+            "site": "marsbahis",
+            "sort": "31"
           }
         ]
       },
