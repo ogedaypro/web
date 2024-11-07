@@ -559,31 +559,25 @@
             "site": "meritbet",
             "sort": "23"
           },
-
           {
             "site": "betewin",
+            "sort": "24"
+          },
+          {
+            "site": "zlot",
             "sort": "25"
           },
           {
-            "site": "betra",
-            "sort": "26"
-          },
-
-          {
-            "site": "zlot",
-            "sort": "28"
-          },
-          {
             "site": "rokubet",
-            "sort": "29"
+            "sort": "26"
           },
           {
             "site": "ibizabet",
-            "sort": "30"
+            "sort": "27"
           },
           {
             "site": "marsbahis",
-            "sort": "31"
+            "sort": "28"
           }
         ]
       },
