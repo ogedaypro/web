@@ -71,13 +71,13 @@
       {
         "url": "https://bit.ly/ogexbetkanyon",
         "desc": [
-          "KAYIT OL PROMOSYON KODUNU GİR"
+          "KAYIT OL 250 TL DENEME BONUSU AL"
         ],
         "site": "betkanyon",
         "sort": null,
         "color": "#ff4221",
-        "miktar": "₺500",
-        "promo_code": "OGEDAY500",
+        "miktar": "₺250",
+        "promo_code_yok": "HEMEN ÜYE OL 250₺ BONUSU AL",
         "slider_img": ""
       },
       {
@@ -559,7 +559,7 @@
             "site": "meritbet",
             "sort": "23"
           },
-          
+
           {
             "site": "betewin",
             "sort": "25"
