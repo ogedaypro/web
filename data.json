@@ -386,6 +386,18 @@
         "miktar": "KAYIT OL",
         "promo_code_yok": "",
         "slider_img": ""
+      },
+      {
+        "url": "https://stake1022.com/?c=stake14dolar",
+        "desc": [
+          "DÜNYANIN EN GÜVENİLİR SİTESİ"
+        ],
+        "site": "stake",
+        "sort": null,
+        "color": "#1475e1",
+        "miktar": "$14",
+        "promo_code": null,
+        "slider_img": ""
       }
     ],
     "social": {
@@ -578,6 +590,10 @@
           {
             "site": "marsbahis",
             "sort": "28"
+          },
+          {
+            "site": "stake",
+            "sort": "29"
           }
         ]
       },
