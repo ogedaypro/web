@@ -398,6 +398,30 @@
         "miktar": "$14",
         "promo_code": null,
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/twinogeday",
+        "desc": [
+          "Sweet Bonanza 1000 OYUNUNDA GEÇERLİ"
+        ],
+        "site": "twinplay",
+        "sort": null,
+        "color": "#e41e1e",
+        "miktar": "₺200",
+        "promo_code_yok": "3.000₺ YAP 500₺ ÇEK / 2.000₺ YAP 400₺ ÇEK",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/taxogeday",
+        "desc": [
+          "Sweet Bonanza 1000 OYUNUNDA GEÇERLİ"
+        ],
+        "site": "taksimbet",
+        "sort": null,
+        "color": "#e41e1e",
+        "miktar": "₺200",
+        "promo_code_yok": "3.000₺ YAP 500₺ ÇEK / 2.000₺ YAP 400₺ ÇEK",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -536,16 +560,24 @@
             "sort": "12"
           },
           {
-            "site": "trendbet",
+            "site": "onwin",
             "sort": "13"
           },
           {
-            "site": "onwin",
+            "site": "trendbet",
             "sort": "14"
           },
           {
-            "site": "mariobet",
+            "site": "twinplay",
             "sort": "15"
+          },
+          {
+            "site": "taksimbet",
+            "sort": "16"
+          },
+          {
+            "site": "mariobet",
+            "sort": "17"
           },
 
 
