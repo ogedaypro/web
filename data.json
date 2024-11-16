@@ -422,6 +422,18 @@
         "miktar": "₺200",
         "promo_code_yok": "3.000₺ YAP 500₺ ÇEK / 2.000₺ YAP 400₺ ÇEK",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexdark",
+        "desc": [
+          "BONUSU AL - 2.500₺ yap 500 ÇEK"
+        ],
+        "site": "darkbet",
+        "sort": null,
+        "color": "#ffc000",
+        "miktar": "₺250",
+        "promo_code": "DARKBET250",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -576,8 +588,12 @@
             "sort": "16"
           },
           {
-            "site": "mariobet",
+            "site": "darkbet",
             "sort": "17"
+          },
+          {
+            "site": "mariobet",
+            "sort": "18"
           },
 
 
