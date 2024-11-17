@@ -434,6 +434,18 @@
         "miktar": "₺250",
         "promo_code": "DARKBET250",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexforce",
+        "desc": [
+          "350₺ YENİ ÜYELİK BONUSU"
+        ],
+        "site": "betforce",
+        "sort": null,
+        "color": "#886cff",
+        "miktar": "₺350",
+        "promo_code_yok": "1500₺ YAP 350₺ ÇEK",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -592,52 +604,52 @@
             "sort": "17"
           },
           {
-            "site": "mariobet",
+            "site": "betforce",
             "sort": "18"
           },
-
-
-
-
           {
-            "site": "betpipo",
+            "site": "mariobet",
             "sort": "19"
           },
           {
-            "site": "betoffice",
+            "site": "betpipo",
             "sort": "20"
           },
           {
-            "site": "restbet",
+            "site": "betoffice",
             "sort": "21"
           },
           {
-            "site": "betnis",
+            "site": "restbet",
             "sort": "22"
           },
           {
-            "site": "meritbet",
+            "site": "betnis",
             "sort": "23"
           },
           {
-            "site": "betewin",
+            "site": "meritbet",
             "sort": "24"
           },
           {
-            "site": "zlot",
+            "site": "betewin",
             "sort": "25"
           },
           {
-            "site": "ibizabet",
+            "site": "zlot",
             "sort": "26"
           },
           {
-            "site": "marsbahis",
+            "site": "ibizabet",
             "sort": "27"
           },
           {
-            "site": "stake",
+            "site": "marsbahis",
             "sort": "28"
+          },
+          {
+            "site": "stake",
+            "sort": "29"
           }
         ]
       },
