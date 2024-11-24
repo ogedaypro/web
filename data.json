@@ -133,12 +133,12 @@
       {
         "url": "https://bit.ly/ogedayxvippark",
         "desc": [
-          "100 FREE SPIN VEYA 100 FREE BET"
+          "1111 FREE SPIN YATIRIM ŞARTSIZ DENEME BONUSU!"
         ],
         "site": "vippark",
         "sort": null,
         "color": "#ebc45e",
-        "miktar": "₺100",
+        "miktar": "₺1.111",
         "promo_code": null,
         "promo_code_yok": "KATLA ÇEK - KAZANÇ SINIRI YOK",
         "slider_img": ""
@@ -446,6 +446,66 @@
         "miktar": "$5",
         "promo_code_yok": "50$ YAP 10$ ÇEK",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbtist",
+        "desc": [
+          "KRİPTO İLE TEK SEFERDE"
+        ],
+        "site": "betist",
+        "sort": null,
+        "color": "#42b16f",
+        "miktar": "GİRİŞ YAP",
+        "promo_code_yok": "10.000.000₺'YE KADAR ÇEKİM İMKANI",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbtine",
+        "desc": [
+          "1.000TL DENEME BONUSU"
+        ],
+        "site": "betine",
+        "sort": null,
+        "color": "#f2b601",
+        "miktar": "₺1.000",
+        "promo_code_yok": "ÜYE OL DENEME BONUSUNU AL",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbaywn",
+        "desc": [
+          "999 TL DENEME BONUSU"
+        ],
+        "site": "baywin",
+        "sort": null,
+        "color": "#00fb87",
+        "miktar": "₺999",
+        "promo_code_yok": "ÜYE OL DENEME BONUSUNU AL",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbtorspin",
+        "desc": [
+          "888 TL DENEME BONUSU"
+        ],
+        "site": "betorspin",
+        "sort": null,
+        "color": "#ff7b31",
+        "miktar": "₺888",
+        "promo_code_yok": "ÜYE OL DENEME BONUSUNU AL",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbayspin",
+        "desc": [
+          "1.000TL DENEME BONUSU"
+        ],
+        "site": "bayspin",
+        "sort": null,
+        "color": "#35f02b",
+        "miktar": "₺1.000",
+        "promo_code_yok": "ÜYE OL DENEME BONUSUNU AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -650,6 +710,26 @@
           {
             "site": "stake",
             "sort": "29"
+          },
+          {
+            "site": "betist",
+            "sort": "30"
+          },
+          {
+            "site": "betine",
+            "sort": "31"
+          },
+          {
+            "site": "baywin",
+            "sort": "32"
+          },
+          {
+            "site": "betorspin",
+            "sort": "33"
+          },
+          {
+            "site": "bayspin",
+            "sort": "34"
           }
         ]
       },
