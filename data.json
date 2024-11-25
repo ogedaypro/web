@@ -1,112 +1,82 @@
 {
   "status": true,
   "html": {
-    "logo": "https://ogedaybonuslari.com/logo.png",
+    "logo": "",
     "sites": [
       {
-        "url": "https://bit.ly/ogexbankobet",
+        "url": "https://bit.ly/sefaletxtaraf",
         "desc": [
-          "1.111 TL NAKİT - 111 FREE SPIN"
-        ],
-        "site": "bankobet",
-        "sort": null,
-        "color": "#ff1376",
-        "miktar": "₺1.111",
-        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
-        "elmas": "en-yuksek.webp",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogextarafbet",
-        "desc": [
-          "KAYIT OL PROMOSYON KODUNU GİR"
+          "PROMOKODU GİR 1.001₺ DENEME BONUSU AL"
         ],
         "site": "tarafbet",
         "sort": null,
         "color": "#178b42",
         "miktar": "₺1.001",
-        "promo_code": "OGEDAY1001TL",
-        "elmas": "sinirsiz-cekim.webp",
+        "promo_code": "SEFALET1001TL",
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogexbetkom",
+        "url": "https://bit.ly/sefaletxbetkom",
         "desc": [
-          "CANLI DESTEĞE BAĞLAN, BONUSUNU AL!"
+          "CANLI DESTEĞE KODU İLET 999₺ BONUS AL"
         ],
         "site": "betkom",
         "sort": null,
         "color": "#1fe0ff",
-        "miktar": "₺888",
-        "promo_code": "OGEDAY888",
-        "elmas": "sinirsiz-cekim.webp",
+        "miktar": "₺999",
+        "promo_code": "SEFALET999",
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogexbahiscom",
+        "url": "https://bit.ly/sefaletxmario",
         "desc": [
-          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
+          "PROMOKODU GİR 999₺ DENEME BONUSU AL"
+        ],
+        "site": "mariobet",
+        "sort": null,
+        "color": "#f16227",
+        "miktar": "₺999",
+        "promo_code": "SEFALET999",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/sefaletxbahiscom",
+        "desc": [
+          "CANLI DESTEĞE KODU İLET 999₺ BONUS AL"
         ],
         "site": "bahiscom",
         "sort": null,
         "color": "#00c683",
-        "miktar": "₺888",
-        "promo_code": "ogeday888",
-        "promo_code_lowercase": true,
-        "elmas": "ayin-sitesi.webp",
+        "miktar": "₺999",
+        "promo_code": "SEFALET999",
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogedayzbahis",
+        "url": "https://bit.ly/sefaletxbanko",
         "desc": [
-          "1.000₺ + 111 FREE SPIN"
+          "111 FREE SPIN - 1.111₺ FREE BET"
         ],
-        "site": "zbahis",
+        "site": "bankobet",
         "sort": null,
-        "color": "#48effa",
-        "miktar": "₺1.000",
-        "promo_code_yok": "TIKLA, KAYIT OL BONUSU AL",
+        "color": "#ff1376",
+        "miktar": "₺1.111",
+        "promo_code_yok": "KAYIT OL 1.111₺ KAYIT BONUSU AL",
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogexbetkanyon",
+        "url": "https://bit.ly/sefaletxbetewin",
         "desc": [
-          "KAYIT OL 250 TL DENEME BONUSU AL"
+          "999TL KAYIT BONUSU"
         ],
-        "site": "betkanyon",
+        "site": "betewin",
         "sort": null,
-        "color": "#ff4221",
-        "miktar": "₺250",
-        "promo_code_yok": "HEMEN ÜYE OL 250₺ BONUSU AL",
+        "color": "#ff8d14",
+        "miktar": "₺999",
+        "promo_code_yok": "KAYIT OL 999TL BONUS AL",
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogedayxmatador",
-        "desc": [
-          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
-        ],
-        "site": "matadorbet",
-        "sort": null,
-        "color": "#fb0009",
-        "miktar": "₺500",
-        "promo_code2": "%200 HOŞ GELDİN BONUSU",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexfixbet",
-        "desc": [
-          "5 DAKİKADA ÇEKİM LİMİTSİZ KAZANÇ"
-        ],
-        "site": "fixbet",
-        "sort": null,
-        "color": "#adf01f",
-        "miktar": "₺555",
-        "promo_code": null,
-        "promo_code_yok": "ÜYE OL BONUSUNU AL",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogedayxgala",
+        "url": "https://bit.ly/sefaletxgala",
         "desc": [
           "100 FREE SPIN VEYA 100 FREE BET"
         ],
@@ -119,52 +89,16 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogexsekabet",
+        "url": "https://bit.ly/sefaletxvippark",
         "desc": [
-          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
-        ],
-        "site": "sekabet",
-        "sort": null,
-        "color": "#ecb50d",
-        "miktar": "₺500",
-        "promo_code": "OGEDAY500",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogedayxvippark",
-        "desc": [
-          "1111 FREE SPIN YATIRIM ŞARTSIZ DENEME BONUSU!"
+          "100 FREE SPIN VEYA 100 FREE BET"
         ],
         "site": "vippark",
         "sort": null,
         "color": "#ebc45e",
-        "miktar": "₺1.111",
+        "miktar": "₺100",
         "promo_code": null,
         "promo_code_yok": "KATLA ÇEK - KAZANÇ SINIRI YOK",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexoto",
-        "desc": [
-          "800₺ KAYIT BONUSU"
-        ],
-        "site": "otobet",
-        "sort": null,
-        "color": "#fba200",
-        "miktar": "₺800",
-        "promo_code_yok": "HEMEN ÜYE OL 800₺ BONUSU AL",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogextrend",
-        "desc": [
-          "Sweet Bonanza 1000 OYUNUNDA GEÇERLİ"
-        ],
-        "site": "trendbet",
-        "sort": null,
-        "color": "#e41e1e",
-        "miktar": "₺200",
-        "promo_code_yok": "3.000₺ YAP 500₺ ÇEK / 2.000₺ YAP 400₺ ÇEK",
         "slider_img": ""
       },
       {
@@ -180,211 +114,15 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/ogexmariobet",
+        "url": "https://bit.ly/sefaletxhit",
         "desc": [
-          "ÜYE OL DENEME BONUSUNU AL!"
+          "ÜYE OL KODU GİR DENEME BONUNUSUNU AL"
         ],
-        "site": "mariobet",
+        "site": "hitbet",
         "sort": null,
-        "color": "#f16227",
-        "miktar": "₺888",
-        "promo_code": "ogeday888",
-        "promo_code_lowercase": true,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexgone",
-        "desc": [
-          "ÜYE OL DENEME BONUSUNU AL!"
-        ],
-        "site": "gonebet",
-        "sort": null,
-        "color": "#1ac292",
-        "miktar": "GİRİŞ YAP",
-        "promo_code_yok": "333 FREESPIN",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexdior",
-        "desc": [
-          "ÜYE OL 299 FS DENEME BONUSU AL"
-        ],
-        "site": "casinodior",
-        "sort": null,
-        "color": "#ffe600",
-        "miktar": "GİRİŞ YAP",
-        "promo_code_yok": "SINIRSIZ ÇEKİM VE DİOR SAVAŞLARI!",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexfestwin",
-        "desc": [
-          "ÜYE OL 333 FS DENEME BONUSU AL"
-        ],
-        "site": "festwin",
-        "sort": null,
-        "color": "#ffc103",
-        "miktar": "GİRİŞ YAP",
-        "promo_code_yok": "SINIRSIZ ÇEKİM VE LİMİTSİZ EĞLENCE",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexpradabet",
-        "desc": [
-          "ÜYE OL DENEME BONUSUNU AL!"
-        ],
-        "site": "pradabet",
-        "sort": null,
-        "color": "#f31352",
-        "miktar": "GİRİŞ YAP",
-        "promo_code_yok": "1000 FREESPIN",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexpipo",
-        "desc": [
-          "ÜYE OL DENEME BONUSUNU AL!"
-        ],
-        "site": "betpipo",
-        "sort": null,
-        "color": "#47d878",
-        "miktar": "₺200",
-        "promo_code": null,
-        "promo_code_yok": "500 FREE SPIN 500 FREE BET",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbetoffice",
-        "desc": [
-          "KAYIT OL 500₺ BONUS AL"
-        ],
-        "site": "betoffice",
-        "sort": null,
-        "color": "#0091ff",
-        "miktar": "₺500",
-        "promo_code_yok": "2.000.000₺ ÇEKİM LİMİTİ",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexrest",
-        "desc": [
-          "İLK YATIRIMA ÖZEL %200 BONUS +500 FS"
-        ],
-        "site": "restbet",
-        "sort": null,
-        "color": "#b62525",
-        "miktar": "GİRİŞ YAP",
-        "promo_code_yok": "10.000 TL'YE KADAR",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbetnis",
-        "desc": [
-          "200₺ DENEME FS, SINIRSIZ KAZANÇ!"
-        ],
-        "site": "betnis",
-        "sort": null,
-        "color": "#4dbedc",
-        "miktar": "KAYIT OL",
-        "promo_code_yok": "İLK 3 YATIRIMA 3.000₺ BONUS VE GÜNLÜK 1M ÇEKİM!",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexmerit",
-        "desc": [
-          "100 FS DENEME BONUSU - %30 KAYIP BONUSU"
-        ],
-        "site": "meritbet",
-        "sort": null,
-        "color": "#b09061",
+        "color": "#f7874e",
         "miktar": "₺100",
-        "promo_code_yok": "GÜNLÜK 1.999.999 TL ÇEKİM",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexwinbir",
-        "desc": [
-          "KAYIT OL 100 TL DENEME BONUSU AL"
-        ],
-        "site": "winbir",
-        "sort": null,
-        "color": "#ba2848",
-        "miktar": "₺100",
-        "promo_code_yok": "5000 TL'ye kadar %50 ANLIK KAYIP BONUSU",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbetewin",
-        "desc": [
-          "999TL KAYIT BONUSU"
-        ],
-        "site": "betewin",
-        "sort": null,
-        "color": "#ff8d14",
-        "miktar": "₺999",
-        "promo_code_yok": "KAYIT OL 999TL BONUS AL",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbetra",
-        "desc": [
-          "KAYIT OL 100₺ DENEME BONUSU AL"
-        ],
-        "site": "betra",
-        "sort": null,
-        "color": "#ffbb28",
-        "miktar": "₺100",
-        "promo_code_yok": "1.000₺ YAP 100₺ YATIR 250₺ ÇEK",
-        "slider_img": ""
-      },
-
-      {
-        "url": "https://bit.ly/ogexzlot",
-        "desc": [
-          "ÜYE OL 777₺ BONUS AL"
-        ],
-        "site": "zlot",
-        "sort": null,
-        "color": "#46db44",
-        "miktar": "₺777",
-        "promo_code_yok": "777₺ NAKİT VEYA 777₺ FREESPIN",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexroku",
-        "desc": [
-          "GATES OF OLYMPUS 1000 OYUNUNDA GEÇERLİ"
-        ],
-        "site": "rokubet",
-        "sort": null,
-        "color": "#e5a235",
-        "miktar": "₺150",
-        "promo_code": "ogeday150",
-        "promo_code_lowercase": true,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexibiza",
-        "desc": [
-          "199 FREESPIN VEYA 199 FREEBET"
-        ],
-        "site": "ibizabet",
-        "sort": null,
-        "color": "#2d8570",
-        "miktar": "₺199",
-        "promo_code_yok": "ÜYE OL BONUSU AL",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/3Y5U9h5",
-        "desc": [
-          "ANINDA %10 NAKİT İADE"
-        ],
-        "site": "marsbahis",
-        "sort": null,
-        "color": "#e12629",
-        "miktar": "KAYIT OL",
-        "promo_code_yok": "TOPLAM 1.000.000 TL GÜNLÜK ÇEKİM",
+        "promo_code": "HITDENEME",
         "slider_img": ""
       },
       {
@@ -397,30 +135,6 @@
         "color": "#1475e1",
         "miktar": "$14",
         "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/twinogeday",
-        "desc": [
-          "Sweet Bonanza 1000 OYUNUNDA GEÇERLİ"
-        ],
-        "site": "twinplay",
-        "sort": null,
-        "color": "#ff9101",
-        "miktar": "₺200",
-        "promo_code_yok": "3.000₺ YAP 500₺ ÇEK / 2.000₺ YAP 400₺ ÇEK",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/taxogeday",
-        "desc": [
-          "Sweet Bonanza 1000 OYUNUNDA GEÇERLİ"
-        ],
-        "site": "taksimbet",
-        "sort": null,
-        "color": "#ee2a2e",
-        "miktar": "₺200",
-        "promo_code_yok": "3.000₺ YAP 500₺ ÇEK / 2.000₺ YAP 400₺ ÇEK",
         "slider_img": ""
       },
       {
@@ -446,80 +160,20 @@
         "miktar": "$5",
         "promo_code_yok": "50$ YAP 10$ ÇEK",
         "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbtist",
-        "desc": [
-          "KRİPTO İLE TEK SEFERDE"
-        ],
-        "site": "betist",
-        "sort": null,
-        "color": "#42b16f",
-        "miktar": "GİRİŞ YAP",
-        "promo_code_yok": "10.000.000₺'YE KADAR ÇEKİM İMKANI",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbtine",
-        "desc": [
-          "1.000TL DENEME BONUSU"
-        ],
-        "site": "betine",
-        "sort": null,
-        "color": "#f2b601",
-        "miktar": "₺1.000",
-        "promo_code_yok": "ÜYE OL DENEME BONUSUNU AL",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbaywn",
-        "desc": [
-          "999 TL DENEME BONUSU"
-        ],
-        "site": "baywin",
-        "sort": null,
-        "color": "#00fb87",
-        "miktar": "₺999",
-        "promo_code_yok": "ÜYE OL DENEME BONUSUNU AL",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbtorspin",
-        "desc": [
-          "888 TL DENEME BONUSU"
-        ],
-        "site": "betorspin",
-        "sort": null,
-        "color": "#ff7b31",
-        "miktar": "₺888",
-        "promo_code_yok": "ÜYE OL DENEME BONUSUNU AL",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ogexbayspin",
-        "desc": [
-          "1.000TL DENEME BONUSU"
-        ],
-        "site": "bayspin",
-        "sort": null,
-        "color": "#35f02b",
-        "miktar": "₺1.000",
-        "promo_code_yok": "ÜYE OL DENEME BONUSUNU AL",
-        "slider_img": ""
       }
     ],
     "social": {
       "kick": null,
-      "skype": "https://join.skype.com/invite/xCduE54krnw3",
-      "twitch": "https://www.twitch.tv/ogedayprolive",
-      "discord": "https://discord.gg/7pqkyPw6",
-      "twitter": "https://twitter.com/ogedaypro",
-      "youtube": "https://www.youtube.com/channel/UC-prZNLeXA8zGIpeklcVvYQ",
+      "skype": null,
+      "twitch": null,
+      "discord": null,
+      "twitter": null,
+      "youtube": null,
       "facebook": null,
-      "telegram": "https://t.me/+tQZudfG3rV5hNTY8",
+      "telegram": null,
       "instagram": null
     },
-    "cdn_url": "https://ogedaybonuslari.com/",
+    "cdn_url": "https://sefaletsiteler.com/",
     "is_slider": true,
     "background": null,
     "categories": [
@@ -596,140 +250,53 @@
         "sort": "3",
         "sites": [
           {
-            "site": "bankobet",
+            "site": "galabet",
             "sort": "1"
           },
           {
-            "site": "tarafbet",
+            "site": "vippark",
             "sort": "2"
           },
           {
-            "site": "betkom",
+            "site": "onwin",
             "sort": "3"
           },
+
           {
-            "site": "bahiscom",
-            "sort": "4"
-          },
-          {
-            "site": "zbahis",
+            "site": "stake",
             "sort": "5"
           },
           {
-            "site": "betkanyon",
+            "site": "tarafbet",
             "sort": "6"
           },
           {
-            "site": "matadorbet",
+            "site": "betkom",
             "sort": "7"
           },
           {
-            "site": "fixbet",
+            "site": "mariobet",
             "sort": "8"
           },
           {
-            "site": "galabet",
+            "site": "bahiscom",
             "sort": "9"
           },
           {
-            "site": "sekabet",
+            "site": "bankobet",
             "sort": "10"
           },
           {
-            "site": "vippark",
+            "site": "betewin",
             "sort": "11"
           },
           {
-            "site": "otobet",
+            "site": "darkbet",
             "sort": "12"
           },
           {
-            "site": "onwin",
-            "sort": "13"
-          },
-          {
-            "site": "trendbet",
-            "sort": "14"
-          },
-          {
-            "site": "twinplay",
-            "sort": "15"
-          },
-          {
-            "site": "taksimbet",
-            "sort": "16"
-          },
-          {
-            "site": "darkbet",
-            "sort": "17"
-          },
-          {
             "site": "betforce",
-            "sort": "18"
-          },
-          {
-            "site": "mariobet",
-            "sort": "19"
-          },
-          {
-            "site": "betpipo",
-            "sort": "20"
-          },
-          {
-            "site": "betoffice",
-            "sort": "21"
-          },
-          {
-            "site": "restbet",
-            "sort": "22"
-          },
-          {
-            "site": "betnis",
-            "sort": "23"
-          },
-          {
-            "site": "meritbet",
-            "sort": "24"
-          },
-          {
-            "site": "betewin",
-            "sort": "25"
-          },
-          {
-            "site": "zlot",
-            "sort": "26"
-          },
-          {
-            "site": "ibizabet",
-            "sort": "27"
-          },
-          {
-            "site": "betist",
-            "sort": "28"
-          },
-          {
-            "site": "betine",
-            "sort": "29"
-          },
-          {
-            "site": "baywin",
-            "sort": "30"
-          },
-          {
-            "site": "betorspin",
-            "sort": "31"
-          },
-          {
-            "site": "bayspin",
-            "sort": "32"
-          },
-          {
-            "site": "marsbahis",
-            "sort": "33"
-          },
-          {
-            "site": "stake",
-            "sort": "34"
+            "sort": "13"
           }
         ]
       },
