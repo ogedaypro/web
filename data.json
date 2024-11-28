@@ -438,13 +438,13 @@
       {
         "url": "https://bit.ly/ogexforce",
         "desc": [
-          "5$ YENİ ÜYELİK BONUSU"
+          "%100 YATIRIM BONUSU - MIN 5$ MAX 100$"
         ],
         "site": "betforce",
         "sort": null,
         "color": "#886cff",
-        "miktar": "$5",
-        "promo_code_yok": "50$ YAP 10$ ÇEK",
+        "miktar": "GİRİŞ YAP",
+        "promo_code": "OP100",
         "slider_img": ""
       },
       {
