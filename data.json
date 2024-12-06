@@ -506,6 +506,19 @@
         "miktar": "₺1.000",
         "promo_code_yok": "ÜYE OL DENEME BONUSUNU AL",
         "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/mersogeday",
+        "desc": [
+          "2.000₺ DENEME BONUSU"
+        ],
+        "site": "mersobahis",
+        "sort": null,
+        "color": "#ffdf42",
+        "miktar": "₺2.000",
+        "promo_code": null,
+        "promo_code_yok": "KAYIT OL 2.000₺ BONUS AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -725,6 +738,10 @@
           {
             "site": "zbahis",
             "sort": "35"
+          },
+          {
+            "site": "mersobahis",
+            "sort": "36"
           }
         ]
       },
