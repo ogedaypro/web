@@ -624,17 +624,20 @@
             "site": "bahiscom",
             "sort": "4"
           },
-
           {
             "site": "betkanyon",
-            "sort": "6"
+            "sort": "5"
           },
           {
             "site": "matadorbet",
-            "sort": "7"
+            "sort": "6"
           },
           {
             "site": "fixbet",
+            "sort": "7"
+          },
+          {
+            "site": "mersobahis",
             "sort": "8"
           },
           {
@@ -738,10 +741,6 @@
           {
             "site": "zbahis",
             "sort": "35"
-          },
-          {
-            "site": "mersobahis",
-            "sort": "36"
           }
         ]
       },
