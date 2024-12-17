@@ -532,6 +532,19 @@
         "promo_code": null,
         "promo_code_yok": "KAYIT OL 999₺ DENEME BONUSUNU AL",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexhip",
+        "desc": [
+          "888₺ DENEME BONUSU"
+        ],
+        "site": "hipbet",
+        "sort": null,
+        "color": "#e1861b",
+        "miktar": "₺888",
+        "promo_code": null,
+        "promo_code_yok": "KAYIT OL 888₺ DENEME BONUSU AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -698,14 +711,17 @@
             "sort": "19"
           },
           {
-            "site": "betpipo",
+            "site": "hipbet",
             "sort": "20"
           },
           {
-            "site": "betoffice",
+            "site": "betpipo",
             "sort": "21"
           },
-
+          {
+            "site": "betoffice",
+            "sort": "22"
+          },
           {
             "site": "betnis",
             "sort": "23"
