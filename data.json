@@ -545,6 +545,19 @@
         "promo_code": null,
         "promo_code_yok": "KAYIT OL 888₺ DENEME BONUSU AL",
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/tutukuogel",
+        "desc": [
+          "77.777TL'YE KADAR YATIRIM BONUSU"
+        ],
+        "site": "tutkubet",
+        "sort": null,
+        "color": "#d5362d",
+        "miktar": "GİRİŞ YAP",
+        "promo_code": null,
+        "promo_code_yok": "%375 HOŞ GELDİN BONUSU",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -699,46 +712,49 @@
             "sort": "16"
           },
           {
-            "site": "darkbet",
+            "site": "tutkubet",
             "sort": "17"
           },
           {
-            "site": "betforce",
+            "site": "darkbet",
             "sort": "18"
           },
           {
-            "site": "mariobet",
+            "site": "betforce",
             "sort": "19"
           },
           {
-            "site": "hipbet",
+            "site": "mariobet",
             "sort": "20"
           },
           {
-            "site": "betpipo",
+            "site": "hipbet",
             "sort": "21"
           },
           {
-            "site": "betoffice",
+            "site": "betpipo",
             "sort": "22"
           },
           {
-            "site": "betnis",
+            "site": "betoffice",
             "sort": "23"
           },
           {
-            "site": "meritbet",
+            "site": "betnis",
             "sort": "24"
           },
           {
-            "site": "betewin",
+            "site": "meritbet",
             "sort": "25"
           },
           {
-            "site": "zlot",
+            "site": "betewin",
             "sort": "26"
           },
-
+          {
+            "site": "zlot",
+            "sort": "27"
+          },
           {
             "site": "betist",
             "sort": "28"
