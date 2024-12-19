@@ -536,14 +536,13 @@
       {
         "url": "https://bit.ly/ogexhip",
         "desc": [
-          "888₺ DENEME BONUSU"
+          "888₺ KAYIT BONUSU (GATES OF OLYMPUS)"
         ],
         "site": "hipbet",
         "sort": null,
         "color": "#e1861b",
         "miktar": "₺888",
-        "promo_code": null,
-        "promo_code_yok": "KAYIT OL 888₺ DENEME BONUSU AL",
+        "promo_code": "GATES888",
         "slider_img": ""
       },
       {
@@ -556,7 +555,7 @@
         "color": "#d5362d",
         "miktar": "GİRİŞ YAP",
         "promo_code": null,
-        "promo_code_yok": "%375 HOŞ GELDİN BONUSU",
+        "promo_code_yok": "%375 HOŞ GELDİN BONUSU - EVRAKSIZ LİMİTSİZ ÇEKİM",
         "slider_img": ""
       }
     ],
@@ -715,14 +714,7 @@
             "site": "tutkubet",
             "sort": "17"
           },
-          {
-            "site": "darkbet",
-            "sort": "18"
-          },
-          {
-            "site": "betforce",
-            "sort": "19"
-          },
+
           {
             "site": "mariobet",
             "sort": "20"
@@ -786,10 +778,6 @@
           {
             "site": "zbahis",
             "sort": "35"
-          },
-          {
-            "site": "hahobet",
-            "sort": "36"
           }
         ]
       },
