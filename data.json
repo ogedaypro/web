@@ -659,28 +659,24 @@
             "sort": "3"
           },
           {
-            "site": "matadorbet",
+            "site": "sekabet",
             "sort": "4"
           },
           {
-            "site": "fixbet",
+            "site": "matadorbet",
             "sort": "5"
           },
           {
-            "site": "mersobahis",
+            "site": "fixbet",
             "sort": "6"
           },
           {
-            "site": "galabet",
+            "site": "mersobahis",
             "sort": "7"
           },
           {
-            "site": "sekabet",
+            "site": "galabet",
             "sort": "8"
-          },
-          {
-            "site": "vippark",
-            "sort": "9"
           },
           {
             "site": "otobet",
@@ -773,10 +769,6 @@
           {
             "site": "stake",
             "sort": "32"
-          },
-          {
-            "site": "zbahis",
-            "sort": "33"
           }
         ]
       },
