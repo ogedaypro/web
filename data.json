@@ -651,133 +651,132 @@
             "sort": "1"
           },
           {
-            "site": "tarafbet",
+            "site": "betewin",
             "sort": "2"
           },
           {
-            "site": "betkom",
+            "site": "betkanyon",
             "sort": "3"
           },
           {
-            "site": "bahiscom",
+            "site": "matadorbet",
             "sort": "4"
           },
           {
-            "site": "betkanyon",
+            "site": "fixbet",
             "sort": "5"
           },
           {
-            "site": "matadorbet",
+            "site": "mersobahis",
             "sort": "6"
           },
           {
-            "site": "fixbet",
+            "site": "galabet",
             "sort": "7"
           },
           {
-            "site": "mersobahis",
+            "site": "sekabet",
             "sort": "8"
           },
           {
-            "site": "galabet",
+            "site": "vippark",
             "sort": "9"
           },
           {
-            "site": "sekabet",
+            "site": "otobet",
             "sort": "10"
           },
           {
-            "site": "vippark",
+            "site": "onwin",
             "sort": "11"
           },
           {
-            "site": "otobet",
+            "site": "trendbet",
             "sort": "12"
           },
           {
-            "site": "onwin",
+            "site": "twinplay",
             "sort": "13"
           },
           {
-            "site": "trendbet",
+            "site": "taksimbet",
             "sort": "14"
           },
           {
-            "site": "twinplay",
+            "site": "tutkubet",
             "sort": "15"
           },
           {
-            "site": "taksimbet",
+            "site": "hipbet",
             "sort": "16"
           },
           {
-            "site": "tutkubet",
-            "sort": "17"
-          },
-
-          {
-            "site": "mariobet",
-            "sort": "20"
-          },
-          {
-            "site": "hipbet",
-            "sort": "21"
-          },
-          {
             "site": "betpipo",
-            "sort": "22"
+            "sort": "17"
           },
           {
             "site": "betoffice",
-            "sort": "23"
+            "sort": "18"
           },
           {
             "site": "betnis",
-            "sort": "24"
+            "sort": "19"
           },
           {
             "site": "meritbet",
-            "sort": "25"
-          },
-          {
-            "site": "betewin",
-            "sort": "26"
+            "sort": "20"
           },
           {
             "site": "zlot",
-            "sort": "27"
+            "sort": "21"
           },
           {
             "site": "betist",
-            "sort": "28"
+            "sort": "22"
           },
           {
             "site": "betine",
-            "sort": "29"
+            "sort": "23"
           },
           {
             "site": "baywin",
-            "sort": "30"
+            "sort": "24"
           },
           {
             "site": "betorspin",
-            "sort": "31"
+            "sort": "25"
           },
           {
             "site": "bayspin",
-            "sort": "32"
+            "sort": "26"
+          },
+          {
+            "site": "tarafbet",
+            "sort": "27"
+          },
+          {
+            "site": "betkom",
+            "sort": "28"
+          },
+          {
+            "site": "bahiscom",
+            "sort": "29"
+          },
+          {
+            "site": "mariobet",
+            "sort": "30"
           },
           {
             "site": "marsbahis",
-            "sort": "33"
+            "sort": "31"
           },
           {
             "site": "stake",
-            "sort": "34"
+            "sort": "32"
           },
           {
             "site": "zbahis",
-            "sort": "35"
+            "sort": "33"
           }
         ]
       },
