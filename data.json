@@ -554,6 +554,19 @@
         "promo_code": null,
         "promo_code_yok": "%375 HOŞ GELDİN BONUSU - EVRAKSIZ LİMİTSİZ ÇEKİM",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexamk",
+        "desc": [
+          "KAYIT OL 100₺ DENEME BONUSU AL"
+        ],
+        "site": "amkbet",
+        "sort": null,
+        "color": "#ffd202",
+        "miktar": "₺100",
+        "promo_code": null,
+        "promo_code_yok": "%30 KAYIP BONUSU",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -720,52 +733,56 @@
             "sort": "20"
           },
           {
-            "site": "zlot",
+            "site": "amkbet",
             "sort": "21"
           },
           {
-            "site": "betist",
+            "site": "zlot",
             "sort": "22"
           },
           {
-            "site": "betine",
+            "site": "betist",
             "sort": "23"
           },
           {
-            "site": "baywin",
+            "site": "betine",
             "sort": "24"
           },
           {
-            "site": "betorspin",
+            "site": "baywin",
             "sort": "25"
           },
           {
-            "site": "bayspin",
+            "site": "betorspin",
             "sort": "26"
           },
           {
-            "site": "tarafbet",
+            "site": "bayspin",
             "sort": "27"
           },
           {
-            "site": "betkom",
+            "site": "tarafbet",
             "sort": "28"
           },
           {
-            "site": "bahiscom",
+            "site": "betkom",
             "sort": "29"
           },
           {
-            "site": "mariobet",
+            "site": "bahiscom",
             "sort": "30"
           },
           {
-            "site": "marsbahis",
+            "site": "mariobet",
             "sort": "31"
           },
           {
-            "site": "stake",
+            "site": "marsbahis",
             "sort": "32"
+          },
+          {
+            "site": "stake",
+            "sort": "33"
           }
         ]
       },
