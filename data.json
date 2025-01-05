@@ -567,6 +567,19 @@
         "promo_code": null,
         "promo_code_yok": "%30 KAYIP BONUSU",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexolips",
+        "desc": [
+          "2.500₺'YE KADAR %100 YATIRIM BONUSU"
+        ],
+        "site": "olipsbet",
+        "sort": null,
+        "color": "#ff7a22",
+        "miktar": "GİRİŞ YAP",
+        "promo_code": null,
+        "promo_code_yok": "SINIRSIZ ÇEKİM - %20 DISCOUNT",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -697,92 +710,96 @@
             "sort": "11"
           },
           {
-            "site": "trendbet",
+            "site": "olipsbet",
             "sort": "12"
           },
           {
-            "site": "twinplay",
+            "site": "trendbet",
             "sort": "13"
           },
           {
-            "site": "taksimbet",
+            "site": "twinplay",
             "sort": "14"
           },
           {
-            "site": "tutkubet",
+            "site": "taksimbet",
             "sort": "15"
           },
           {
-            "site": "hipbet",
+            "site": "tutkubet",
             "sort": "16"
           },
           {
-            "site": "betpipo",
+            "site": "hipbet",
             "sort": "17"
           },
           {
-            "site": "betoffice",
+            "site": "betpipo",
             "sort": "18"
           },
           {
-            "site": "betnis",
+            "site": "betoffice",
             "sort": "19"
           },
           {
-            "site": "meritbet",
+            "site": "betnis",
             "sort": "20"
           },
           {
-            "site": "amkbet",
+            "site": "meritbet",
             "sort": "21"
           },
           {
-            "site": "zlot",
+            "site": "amkbet",
             "sort": "22"
           },
           {
-            "site": "betist",
+            "site": "zlot",
             "sort": "23"
           },
           {
-            "site": "betine",
+            "site": "betist",
             "sort": "24"
           },
           {
-            "site": "baywin",
+            "site": "betine",
             "sort": "25"
           },
           {
-            "site": "betorspin",
+            "site": "baywin",
             "sort": "26"
           },
           {
-            "site": "bayspin",
+            "site": "betorspin",
             "sort": "27"
           },
           {
-            "site": "tarafbet",
+            "site": "bayspin",
             "sort": "28"
           },
           {
-            "site": "betkom",
+            "site": "tarafbet",
             "sort": "29"
           },
           {
-            "site": "bahiscom",
+            "site": "betkom",
             "sort": "30"
           },
           {
-            "site": "mariobet",
+            "site": "bahiscom",
             "sort": "31"
           },
           {
-            "site": "marsbahis",
+            "site": "mariobet",
             "sort": "32"
           },
           {
-            "site": "stake",
+            "site": "marsbahis",
             "sort": "33"
+          },
+          {
+            "site": "stake",
+            "sort": "34"
           }
         ]
       },
