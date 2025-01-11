@@ -730,76 +730,80 @@
             "sort": "16"
           },
           {
-            "site": "hipbet",
+            "site": "hahobet",
             "sort": "17"
           },
           {
-            "site": "betpipo",
+            "site": "hipbet",
             "sort": "18"
           },
           {
-            "site": "betoffice",
+            "site": "betpipo",
             "sort": "19"
           },
           {
-            "site": "betnis",
+            "site": "betoffice",
             "sort": "20"
           },
           {
-            "site": "meritbet",
+            "site": "betnis",
             "sort": "21"
           },
           {
-            "site": "amkbet",
+            "site": "meritbet",
             "sort": "22"
           },
           {
-            "site": "zlot",
+            "site": "amkbet",
             "sort": "23"
           },
           {
-            "site": "betist",
+            "site": "zlot",
             "sort": "24"
           },
           {
-            "site": "betine",
+            "site": "betist",
             "sort": "25"
           },
           {
-            "site": "baywin",
+            "site": "betine",
             "sort": "26"
           },
           {
-            "site": "betorspin",
+            "site": "baywin",
             "sort": "27"
           },
           {
-            "site": "bayspin",
+            "site": "betorspin",
             "sort": "28"
           },
           {
-            "site": "tarafbet",
+            "site": "bayspin",
             "sort": "29"
           },
           {
-            "site": "betkom",
+            "site": "tarafbet",
             "sort": "30"
           },
           {
-            "site": "bahiscom",
+            "site": "betkom",
             "sort": "31"
           },
           {
-            "site": "mariobet",
+            "site": "bahiscom",
             "sort": "32"
           },
           {
-            "site": "marsbahis",
+            "site": "mariobet",
             "sort": "33"
           },
           {
-            "site": "stake",
+            "site": "marsbahis",
             "sort": "34"
+          },
+          {
+            "site": "stake",
+            "sort": "35"
           }
         ]
       },
