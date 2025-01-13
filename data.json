@@ -580,6 +580,30 @@
         "promo_code": null,
         "promo_code_yok": "SINIRSIZ ÇEKİM - %20 DISCOUNT",
         "slider_img": ""
+      },
+      {
+        "url": "https://partner.bahisabiaffiliates.com/imp/bahisabi/1161",
+        "desc": [
+          "100.000₺ %30 CASİNO HOŞ GELDİN"
+        ],
+        "site": "bahisabi",
+        "sort": null,
+        "color": "#f34624",
+        "miktar": "200FS",
+        "promo_code": "200FSKOD",
+        "slider_img": ""
+      },
+      {
+        "url": "https://partner.babilaffiliates.com/imp/babilonbet/1152",
+        "desc": [
+          "%100 PRAGMATİC BONUSU"
+        ],
+        "site": "babilonbet",
+        "sort": null,
+        "color": "#00afe2",
+        "miktar": "200FS",
+        "promo_code": "200FSKOD",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -671,35 +695,43 @@
         "sites": [
           {
             "site": "bankobet",
-            "sort": "1"
+            "sort": "0"
           },
           {
             "site": "betewin",
-            "sort": "2"
+            "sort": "1"
           },
           {
             "site": "betkanyon",
-            "sort": "3"
+            "sort": "2"
           },
           {
             "site": "sekabet",
+            "sort": "3"
+          },
+          {
+            "site": "bahisabi",
             "sort": "4"
           },
           {
-            "site": "matadorbet",
+            "site": "babilonbet",
             "sort": "5"
           },
           {
-            "site": "fixbet",
+            "site": "matadorbet",
             "sort": "6"
           },
           {
-            "site": "mersobahis",
+            "site": "fixbet",
             "sort": "7"
           },
           {
-            "site": "galabet",
+            "site": "mersobahis",
             "sort": "8"
+          },
+          {
+            "site": "galabet",
+            "sort": "9"
           },
           {
             "site": "otobet",
