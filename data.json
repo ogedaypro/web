@@ -693,14 +693,7 @@
         "name": "Elmas Site",
         "sort": "3",
         "sites": [
-          {
-            "site": "bankobet",
-            "sort": "0"
-          },
-          {
-            "site": "betewin",
-            "sort": "1"
-          },
+
           {
             "site": "betkanyon",
             "sort": "2"
@@ -802,22 +795,7 @@
             "site": "bayspin",
             "sort": "29"
           },
-          {
-            "site": "tarafbet",
-            "sort": "30"
-          },
-          {
-            "site": "betkom",
-            "sort": "31"
-          },
-          {
-            "site": "bahiscom",
-            "sort": "32"
-          },
-          {
-            "site": "mariobet",
-            "sort": "33"
-          },
+
           {
             "site": "marsbahis",
             "sort": "34"
