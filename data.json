@@ -604,6 +604,18 @@
         "miktar": "200FS",
         "promo_code": "200FSKOD",
         "slider_img": ""
+      },
+      {
+        "url": "https://rstuv.click/ba/btag/546_15042",
+        "desc": [
+          "250 TL DENEME BONUSU"
+        ],
+        "site": "bahisal",
+        "sort": null,
+        "color": "#00aa41",
+        "miktar": "₺250",
+        "promo_code": "HER GÜN 10.000TL KAYIP BONUSU!",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -696,10 +708,14 @@
 
           {
             "site": "betkanyon",
-            "sort": "2"
+            "sort": "1"
           },
           {
             "site": "sekabet",
+            "sort": "2"
+          },
+          {
+            "site": "bahisal",
             "sort": "3"
           },
           {

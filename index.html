@@ -728,7 +728,7 @@
         },
         created(){
             this.loading = true;
-            axios.get('https://ogedaybonuslari.com/data.json?v=0.0.44')
+            axios.get('https://ogedaybonuslari.com/data.json?v=0.0.45')
                 .then((response) => {
                     this.client = response.data.html
                     this.king = _.find(this.client.categories, ['id', 1710467155101]);
@@ -871,16 +871,6 @@
                         555₺ KAYIT BONUSU
                     </div>
                 </div>
-                <div class="middle" style="margin-left:8px; margin-right:6px; border: 1px dashed white;">
-
-                </div>
-                <div class="yeni_sag">
-                    <img src="olipsbet.png" style="width:75px; margin: 0px 0px 0px 6.5px;">
-                    <div style="font-size:14px; color:white;">
-                        <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
-                        SINIRSIZ ÇEKİM
-                    </div>
-                </div>
             `,
         }).on('click', ({target, event}) => {
             hedef = event.target.getAttribute('class');
@@ -889,9 +879,12 @@
                 click_site = 'matadorbet';
             } else if ((hedef && hedef.includes('right')) || (hedef2 && hedef2.includes('right'))) {
                 click_site = 'fixbet';
-            } else if ((hedef && hedef.includes('yeni_sag')) || (hedef2 && hedef2.includes('yeni_sag'))) {
+            }
+            /*
+            else if ((hedef && hedef.includes('yeni_sag')) || (hedef2 && hedef2.includes('yeni_sag'))) {
                 click_site = 'olipsbet';
             }
+            */
             window.open(document.querySelector('[site="'+click_site+'"]').getAttribute('href'),'_blank');
         });
 
