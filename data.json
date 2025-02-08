@@ -705,17 +705,20 @@
         "name": "Elmas Site",
         "sort": "3",
         "sites": [
-
           {
             "site": "betkanyon",
-            "sort": "1"
+            "sort": "0"
           },
           {
             "site": "sekabet",
-            "sort": "2"
+            "sort": "1"
           },
           {
             "site": "bahisal",
+            "sort": "2"
+          },
+          {
+            "site": "galabet",
             "sort": "3"
           },
           {
