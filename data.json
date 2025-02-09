@@ -617,6 +617,18 @@
         "miktar": "₺250",
         "promo_code_yok": "HER GÜN 10.000TL KAYIP BONUSU!",
         "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/avrupapro",
+        "desc": [
+          "ÜYE OL BONUSU AL"
+        ],
+        "site": "avrupabet",
+        "sort": null,
+        "color": "#daa83e",
+        "miktar": "₺200",
+        "promo_code_yok": "200₺ NAKİT DENEME BONUSU",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -731,28 +743,29 @@
             "sort": "5"
           },
           {
-            "site": "babilonbet",
+            "site": "avrupabet",
             "sort": "6"
           },
           {
-            "site": "bahisabi",
+            "site": "babilonbet",
             "sort": "7"
           },
           {
-            "site": "mersobahis",
+            "site": "bahisabi",
             "sort": "8"
           },
           {
-            "site": "otobet",
+            "site": "mersobahis",
             "sort": "9"
           },
-
+          {
+            "site": "otobet",
+            "sort": "10"
+          },
           {
             "site": "onwin",
             "sort": "11"
           },
-
-
 
           {
             "site": "hahobet",
