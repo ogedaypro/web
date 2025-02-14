@@ -641,6 +641,18 @@
         "miktar": "₺150",
         "promo_code_yok": "HEMEN ÜYE OL BONUSU AL!",
         "slider_img": ""
+      },
+      {
+        "url": "https://kisalt.gg/ogedayx",
+        "desc": [
+          "HEMEN ÜYE OL 50 FS HEDİYENİ AL"
+        ],
+        "site": "xbahis",
+        "sort": null,
+        "color": "#ff6603",
+        "miktar": "50FS",
+        "promo_code_yok": "YENİ ÜYE OLAN HERKESE 50FS HEDİYE",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -775,12 +787,16 @@
             "sort": "10"
           },
           {
-            "site": "otobet",
+            "site": "xbahis",
             "sort": "11"
           },
           {
-            "site": "onwin",
+            "site": "otobet",
             "sort": "12"
+          },
+          {
+            "site": "onwin",
+            "sort": "13"
           },
 
           {
