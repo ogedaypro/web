@@ -653,6 +653,18 @@
         "miktar": "50FS",
         "promo_code_yok": "YENİ ÜYE OLAN HERKESE 50FS HEDİYE",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexbetrupi",
+        "desc": [
+          "1.000₺ KAYIT BONUSU"
+        ],
+        "site": "betrupi",
+        "sort": null,
+        "color": "#ffb500",
+        "miktar": "₺1.000",
+        "promo_code_yok": "HEMEN ÜYE OL BONUS AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -787,12 +799,16 @@
             "sort": "10"
           },
           {
-            "site": "xbahis",
+            "site": "mersobahis",
             "sort": "11"
           },
           {
-            "site": "otobet",
+            "site": "xbahis",
             "sort": "12"
+          },
+          {
+            "site": "otobet",
+            "sort": "13"
           },
 
           {
