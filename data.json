@@ -1093,7 +1093,10 @@
         "name": "Kral Site",
         "sort": "1",
         "sites": [
-
+          {
+            "site": "stake",
+            "sort": "1"
+          }
         ]
       },
       {

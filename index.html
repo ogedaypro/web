@@ -342,6 +342,54 @@
     }
     */
 </style>
+<style>
+    /* VİP CSS KİNG (DESKTOP) */
+    .vip .item {
+        padding: 0;
+        margin: 0;
+    }
+    #app-v-page:not(.mobile) .vip.king .item .vip {
+        top: 1px;
+    }
+    #app-v-page:not(.mobile) .vip.king .item .left img {
+        height: 31px;
+    }
+    .vip .item .button {
+        margin-top: 0;
+    }
+
+    /* VİP CSS KİNG (MOBILE) */
+    #app-v-page.mobile .vip.king .item {
+        height: 43px;
+    }
+    #app-v-page.mobile .vip.king .item .left {
+        display: flex;
+        align-items: center;
+        margin-top: 4px !important;
+    }
+    #app-v-page.mobile .vip.king .item .left img {
+        width: auto;
+        height: 30px;
+        margin-left: 65px;
+    }
+    #app-v-page.mobile .vip.king .item .vip {
+        height: 100px;
+        top: -47px;
+        left: 0;
+    }
+    #app-v-page.mobile .vip.king .item .button {
+        margin-top: 0px !important;
+    }
+    #app-v-page.mobile .vip .item svg {
+        margin-right: 35px;
+    }
+    #app-v-page.mobile .vip .item .text {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        text-align: center;
+    }
+</style>
 
 <body>
 <div id="preloader">
@@ -530,11 +578,14 @@
                     </div>
                     <div class="left">
                         <img v-if="is_mobile" :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
-                        <div class="text">
+                        <img v-if="!is_mobile" :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
+                        <div class="text" v-if="!is_mobile">
                             {{ _.find(client.sites, ['site', site.site]).desc[0] }}
                             <div> <small>SİZE ÖZEL PROMOSYONLAR</small></div>
                         </div>
-                        <img v-if="!is_mobile" :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
+                        <div class="text" v-if="is_mobile">
+                            VIP
+                        </div>
                         <div class="button">GİRİŞ YAP</div>
                     </div>
                     <div class="vip">
@@ -730,7 +781,7 @@
         },
         created(){
             this.loading = true;
-            axios.get('https://ogedaybonuslari.com/data.json?v=0.0.56')
+            axios.get('https://ogedaybonuslari.com/data.json?v=0.0.58')
                 .then((response) => {
                     this.client = response.data.html
                     this.king = _.find(this.client.categories, ['id', 1710467155101]);
@@ -947,10 +998,9 @@
             }
         },50);
 
-        // tarafbet 100$ güncel kur
+        // stake 14$ güncel kur
         is_element_load4 = setInterval(function(){
-            return; // ŞU AN İPTAL
-            let e = document.querySelector('.diamond.row a[site="tarafbet"] .button');
+            let e = document.querySelector('.diamond.row a[site="stake"] .button');
             if (e) {
                 fetch("https://customers.garantibbva.com.tr/internet/digitalpublic/currency-convertor-public/v1/currency-convertor/calculate-price?&operation=0&price=1&currencySource=USD&currencyTarget=TL", {
                     "credentials": "include",
