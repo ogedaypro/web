@@ -854,32 +854,6 @@
           {
             "site": "stake",
             "sort": "35"
-          },
-
-
-          {
-            "site": "bankobet",
-            "sort": "36"
-          },
-          {
-            "site": "betewin",
-            "sort": "37"
-          },
-          {
-            "site": "tarafbet",
-            "sort": "38"
-          },
-          {
-            "site": "betkom",
-            "sort": "39"
-          },
-          {
-            "site": "bahiscom",
-            "sort": "40"
-          },
-          {
-            "site": "mariobet",
-            "sort": "41"
           }
         ]
       },
