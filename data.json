@@ -385,7 +385,7 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/stake14dolar",
+        "url": "https://stake1035.com/?c=ogedaypro&offer=ogedaypro",
         "desc": [
           "DÜNYANIN EN GÜVENİLİR SİTESİ"
         ],
@@ -755,49 +755,43 @@
         "sort": "3",
         "sites": [
           {
-            "site": "betkanyon",
+            "site": "mersobahis",
             "sort": "0"
           },
           {
-            "site": "sekabet",
+            "site": "betkanyon",
             "sort": "1"
           },
           {
-            "site": "bahisal",
+            "site": "sekabet",
             "sort": "2"
           },
           {
-            "site": "galabet",
+            "site": "bahisal",
             "sort": "3"
           },
           {
-            "site": "matadorbet",
+            "site": "galabet",
             "sort": "4"
           },
           {
-            "site": "fixbet",
+            "site": "matadorbet",
             "sort": "5"
           },
           {
-            "site": "avrupabet",
+            "site": "fixbet",
             "sort": "6"
           },
           {
-            "site": "sterlinbet",
+            "site": "avrupabet",
             "sort": "7"
           },
           {
-            "site": "babilonbet",
+            "site": "sterlinbet",
             "sort": "8"
           },
-          {
-            "site": "bahisabi",
-            "sort": "9"
-          },
-          {
-            "site": "mersobahis",
-            "sort": "10"
-          },
+
+
           {
             "site": "betrupi",
             "sort": "11"
@@ -841,10 +835,6 @@
           {
             "site": "marsbahis",
             "sort": "34"
-          },
-          {
-            "site": "stake",
-            "sort": "35"
           }
         ]
       },
