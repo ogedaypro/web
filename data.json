@@ -675,8 +675,19 @@
         "sort": null,
         "color": "#1a98ff",
         "miktar": "444FS",
-        "promo_code": null,
         "promo_code_yok": "444 FREESPIN DENEME BONUSU",
+        "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/ogedayy",
+        "desc": [
+          "HEMEN KAYIT OL 333 FS KAZAN"
+        ],
+        "site": "reslot",
+        "sort": null,
+        "color": "#0074ff",
+        "miktar": "333 FS",
+        "promo_code_yok": "YENİ KAYIT OLAN HERKESE 333 FS",
         "slider_img": ""
       }
     ],
@@ -838,8 +849,12 @@
             "sort": "23"
           },
           {
-            "site": "zlot",
+            "site": "reslot",
             "sort": "24"
+          },
+          {
+            "site": "zlot",
+            "sort": "25"
           },
 
           {
