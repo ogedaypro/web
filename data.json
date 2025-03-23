@@ -689,6 +689,18 @@
         "miktar": "333 FS",
         "promo_code_yok": "YENİ KAYIT OLAN HERKESE 333 FS",
         "slider_img": ""
+      },
+      {
+        "url": "https://refpa694356.top/L?tag=d_4219184m_72759c_ogeday0325&site=4219184&ad=72759",
+        "desc": [
+          "HEMEN ÜYE OL"
+        ],
+        "site": "yohoho",
+        "sort": null,
+        "color": "#ff6b00",
+        "miktar": "150 FS",
+        "promo_code_yok": "1500€ + 150 FS'E KADAR HOŞ GELDİN PAKETİ",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -807,12 +819,16 @@
             "sort": "6"
           },
           {
-            "site": "avrupabet",
+            "site": "yohoho",
             "sort": "7"
           },
           {
-            "site": "sterlinbet",
+            "site": "avrupabet",
             "sort": "8"
+          },
+          {
+            "site": "sterlinbet",
+            "sort": "9"
           },
 
 
