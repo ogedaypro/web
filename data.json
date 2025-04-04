@@ -702,6 +702,18 @@
         "promo_code": "OGEDAY",
         "promo_code_ilavesi": true,
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/OgedaySP",
+        "desc": [
+          "200₺ KAYIT BONUSU"
+        ],
+        "site": "spinco",
+        "sort": null,
+        "color": "#1cb322",
+        "miktar": "₺200",
+        "promo_code_yok": "HEMEN ÜYE OL 200₺ BONUS AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -808,20 +820,24 @@
             "sort": "3"
           },
           {
-            "site": "yohoho",
+            "site": "spinco",
             "sort": "4"
           },
           {
-            "site": "galabet",
+            "site": "yohoho",
             "sort": "5"
           },
           {
-            "site": "matadorbet",
+            "site": "galabet",
             "sort": "6"
           },
           {
-            "site": "fixbet",
+            "site": "matadorbet",
             "sort": "7"
+          },
+          {
+            "site": "fixbet",
+            "sort": "8"
           },
           {
             "site": "sterlinbet",
