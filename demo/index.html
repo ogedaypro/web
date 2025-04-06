@@ -57,6 +57,124 @@
             text-decoration: none;
         }
     </style>
+    <style>
+        /* Snake Border */
+        .social2 kose:nth-child(1){
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(to right, #ffffff, #4beffa);
+            animation: animate1 2s linear infinite;
+        }
+        @keyframes animate1{
+            0%{
+                transform: translateX(-100%);
+            }
+
+            100%{
+                transform: translateX(100%);
+            }
+        }
+        .social2 kose:nth-child(2){
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(to bottom, #ffffff, #4beffa);
+            animation: animate2 2s linear infinite;
+            animation-delay: 1s;
+        }
+        @keyframes animate2{
+            0%{
+                transform: translateY(-100%);
+            }
+
+            100%{
+                transform: translateY(100%);
+            }
+        }
+        .social2 kose:nth-child(3){
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(to left, #ffffff, #4beffa);
+            animation: animate3 2s linear infinite;
+        }
+        @keyframes animate3{
+            0%{
+                transform: translateX(100%);
+            }
+
+            100%{
+                transform: translateX(-100%);
+            }
+        }
+        .social2 kose:nth-child(4){
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(to top, #ffffff, #4beffa);
+            animation: animate4 2s linear infinite;
+            animation-delay: 1s;
+        }
+        @keyframes animate4{
+            0%{
+                transform: translateY(100%);
+            }
+
+            100%{
+                transform: translateY(-100%);
+            }
+        }
+
+        .rectangle {
+            position: relative;
+            border: 2px solid transparent;
+            animation: glowingBorder 2s infinite;
+            border-radius: 45px;
+        }
+        @keyframes glowingBorder {
+            0% {
+                box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+                border-color: #00ffcc; /* Işıltılı renk */
+            }
+            50% {
+                box-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
+                border-color: #ff00ff; /* Renk değişimi */
+            }
+            100% {
+                box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+                border-color: #00ffcc; /* Başlangıç rengine geri dön */
+            }
+        }
+        .rectangle2 {
+            position: relative;
+            border: 2px solid transparent;
+            animation: glowingBorder2 2s infinite;
+            border-radius: 45px;
+        }
+        @keyframes glowingBorder2 {
+            0% {
+                box-shadow: 0 0 3px #00ffcc, 0 0 6px #00ffcc, 0 0 9px #00ffcc;
+                border-color: #00ffcc; /* Işıltılı renk */
+            }
+            50% {
+                box-shadow: 0 0 6px #ff00ff, 0 0 9px #ff00ff, 0 0 12px #ff00ff;
+                border-color: #ff00ff; /* Renk değişimi */
+            }
+            100% {
+                box-shadow: 0 0 3px #00ffcc, 0 0 6px #00ffcc, 0 0 9px #00ffcc;
+                border-color: #00ffcc; /* Başlangıç rengine geri dön */
+            }
+        }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -76,12 +194,19 @@
 
     <!-- Kartlar Alanı -->
     <div class="cards">
-        <div class="card">
-            <a href="https://t2m.io/mersoogeday" target="_blank">
-                <img src="merso.png">
-            </a>
+        <div class="social2" style="border: 0px solid rgb(72, 239, 250); border-radius: 45px; overflow: hidden; position: relative; width: auto; cursor: pointer;">
+            <kose></kose>
+            <kose></kose>
+            <kose></kose>
+            <kose></kose>
+            <div class="card">
+                <a href="https://t2m.io/mersoogeday" target="_blank">
+                    <img src="merso.png">
+                </a>
+            </div>
         </div>
-        <div class="card">
+
+        <div class="card rectangle">
             <a href="https://cutt.ly/1eME5M9j" target="_blank">
                 <img src="betkanyon.png">
             </a>
@@ -91,7 +216,7 @@
                 <img src="seka.png">
             </a>
         </div>
-        <div class="card">
+        <div class="card rectangle2">
             <a href="https://rstuv.click/ba/btag/546_15042" target="_blank">
                 <img src="bahisal.png">
             </a>
