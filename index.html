@@ -2,22 +2,10 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ogedaypro | Oynadığım Güvenilir Siteler</title>
-    <link rel="stylesheet" href="https://ogedaybonuslari.com/css/new.css?v5.48">
-    <link rel="shortcut icon" href="https://ogedaybonuslari.com/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
-    <style>
-        .notyf__toast {
-            max-width: 360px !important;
-        }
-    </style>
+    <link rel="shortcut icon" href="favicon.png">
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNY8GVCJJS"></script>
     <script>
@@ -35,1035 +23,201 @@
             window.location.href = document.URL.replace('http://','https://');
         }
     </script>
+    <style>
+        .d-none {
+            display: none !important;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Body'e ilave kod eklerken index.php'yi ayarlamayı unutma generate_html2() */
+        body { background: radial-gradient(circle, #6b6e3e 10%, transparent 11%);
+        background-size: 1em 1em;
+        background-color: #1c1c1c;
+        opacity: 1 }/**/
+        .container {
+            max-width: 874px;
+            margin: 10px auto;
+            display: grid;
+            gap: 10px;
+            position: absolute;
+            left: 10px;
+            right: 10px;
+        }
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .split-banner {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
 
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top: 10px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .rectangle2 {
+            position: relative;
+            border: 2px solid transparent;
+            animation: glowingBorder2 1.5s infinite; /* 2s yerine 1.5s */
+            border-radius: 45px;
+        }
+
+        /* Delays for sequential glowing and fading, adjusted for 1.5s duration */
+        .rectangle2:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .rectangle2:nth-child(2) {
+            animation-delay: 0.375s; /* 0.5s yerine 0.375s */
+        }
+
+        .rectangle2:nth-child(3) {
+            animation-delay: 0.75s; /* 1s yerine 0.75s */
+        }
+
+        .rectangle2:nth-child(4) {
+            animation-delay: 1.125s; /* 1.5s yerine 1.125s */
+        }
+
+        @keyframes glowingBorder2 {
+            0% {
+                box-shadow: none;
+                border-color: transparent;
+            }
+            12.5% {
+                box-shadow: 0 0 3px #00ffcc, 0 0 6px #00ffcc, 0 0 9px #00ffcc;
+                border-color: #00ffcc;
+            }
+            25% {
+                box-shadow: 0 0 6px #ff00ff, 0 0 9px #ff00ff, 0 0 12px #ff00ff;
+                border-color: #ff00ff;
+            }
+            37.5% {
+                box-shadow: 0 0 3px #00ffcc, 0 0 6px #00ffcc, 0 0 9px #00ffcc;
+                border-color: #00ffcc;
+            }
+            50% {
+                box-shadow: none;
+                border-color: transparent;
+            }
+            100% {
+                box-shadow: none;
+                border-color: transparent;
+            }
+        }
+    </style>
 </head>
-<style>
-    .row.strip h1 {
-        background: #391b5b !important;
-    }
-
-    div#app-v-page.is-fixed .strip {
-        background: #1d053d;
-    }
-    .fix-side .vip svg circle,
-    .vip .item .vip svg circle {
-        fill: #360851 !important;
-    }
-    .fix-side .vip,
-    .vip .item .vip {
-        background: none !important;
-        width: auto;
-    }
-    .fix-side .vip svg g,
-    .vip .item .vip svg g {
-        fill: var(--site-color) !important;
-    }
-    .fix-side .vip svg,
-    .vip .item .vip svg {
-        width: 50px !important;
-        height: 60px !important;
-    }
-    #app-v-page.mobile .vip .item svg{
-        top: 20px !important;
-    }
-
-    .vip-link{
-        font-weight: bold;
-        font-size: 20px;
-        height: 50px;
-        margin: 5px 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 12px 10px;
-        border-radius: 20px;
-        background: linear-gradient(71deg, #f7a517 0%, #48006c 50%, #f7a517 100%);
-        border: 1px solid #f09d20;
-    }
-    .vip-link svg{
-        fill: #ffb300;
-        margin-right: 5px;
-        width: 20px;
-        height: 20px;
-    }
-    .fix-side,
-    .item{
-        border: 2px solid var(--site-color);
-    }
-    body #app-v-page.mobile .container{
-        /*
-        width: auto !important;
-        */
-    }
-    .mobile .row.vip .col {
-        width: 50% !important;
-    }
-    body{
-        font-family: "Oswald", sans-serif;
-    }
-    header{
-        background: linear-gradient(71deg, #140933 0%,#2d008b 30%, #210f43 100%);
-    }
-    #app-v-page.mobile .bottom-fixed .center h1 {margin:0 15px !important; font-size: 14px;margin: 0px;}
-    #app-v-page.mobile .bottom-fixed .center p {display:none}
-    #app-v-page.mobile .bottom-fixed {
-        background:#2d0f25;
-        padding:0 20px !important;
-    }
-
-    div.container {
-        padding-top: 2px !important;
-    }
-
-    .notyf__ripple {
-        /*
-        background: linear-gradient(45deg, rgb(239, 253, 33), rgb(255, 0, 0)) !important;
-        */
-        background: linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0)) !important;
-        border-radius: 0;
-        width: 420px;
-    }
-    .notyf__message {
-        margin: auto;
-        text-align: center;
-        color: black;
-        display: flex;
-        cursor: pointer;
-    }
-    .notyf__toast {
-        opacity: 0.8 !important;
-    }
-    .notyf__wrapper {
-        padding-top: 6px;
-        padding-bottom: 8px;
-    }
-    .notyf__toast--dismissible .notyf__wrapper {
-        padding-right: 13px;
-    }
-    @media only screen and (max-width: 480px) {
-        .notyf__dismiss {
-            width: 20px;
-        }
-    }
-    .ana-sponsor {
-        display: flex;
-        justify-content: center;
-    }
-</style>
-<style>
-    @media (min-width: 375px) {
-        .tarayici-width-fs-ayarla {
-            font-size: 10px !important;
-        }
-    }
-    @media (min-width: 390px) {
-        .tarayici-width-fs-ayarla {
-            font-size: 10.7px !important;
-        }
-    }
-    @media (min-width: 412px) {
-        .tarayici-width-fs-ayarla {
-            font-size: 12px !important;
-        }
-    }
-    @media (min-width: 414px) {
-        .tarayici-width-fs-ayarla {
-            font-size: 12px !important;
-        }
-    }
-    @media (min-width: 430px) {
-        .tarayici-width-fs-ayarla {
-            font-size: 13px !important;
-        }
-    }
-    @media (min-width: 540px) {
-        .tarayici-width-fs-ayarla {
-            font-size: 14px !important;
-        }
-    }
-    @media (min-width: 768px) {
-        .tarayici-width-fs-ayarla {
-            font-size: 15px !important;
-        }
-    }
-</style>
-<style>
-    /* Ana Sponsor Snake Border */
-    .social kose:nth-child(1){
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        background: linear-gradient(to right, #ffffff, #4beffa);
-        animation: animate1 2s linear infinite;
-    }
-    @keyframes animate1{
-        0%{
-            transform: translateX(-100%);
-        }
-
-        100%{
-            transform: translateX(100%);
-        }
-    }
-    .social kose:nth-child(2){
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(to bottom, #ffffff, #4beffa);
-        animation: animate2 2s linear infinite;
-        animation-delay: 1s;
-    }
-    @keyframes animate2{
-        0%{
-            transform: translateY(-100%);
-        }
-
-        100%{
-            transform: translateY(100%);
-        }
-    }
-    .social kose:nth-child(3){
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        background: linear-gradient(to left, #ffffff, #4beffa);
-        animation: animate3 2s linear infinite;
-    }
-    @keyframes animate3{
-        0%{
-            transform: translateX(100%);
-        }
-
-        100%{
-            transform: translateX(-100%);
-        }
-    }
-    .social kose:nth-child(4){
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(to top, #ffffff, #4beffa);
-        animation: animate4 2s linear infinite;
-        animation-delay: 1s;
-    }
-    @keyframes animate4{
-        0%{
-            transform: translateY(100%);
-        }
-
-        100%{
-            transform: translateY(-100%);
-        }
-    }
-</style>
-<style>
-    .doviz-button {
-        position: relative;
-    }
-    .doviz-button span {
-        opacity: 0;
-        display: flex;
-        transform: translateY(100%);
-        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-        -webkit-transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    }
-    .doviz-button .text1 {
-        animation: slideUp 4s infinite;
-        position: absolute;
-    }
-    .doviz-button .text2 {
-        animation: slideUp 4s 2s infinite; /* 2 saniye gecikmeli başlat */
-        position: absolute;
-    }
-    @keyframes slideUp {
-        0% {
-            opacity: 0;
-            transform: translateY(100%);
-        }
-        10% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        45% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        55% {
-            opacity: 0;
-            transform: translateY(-100%);
-        }
-        100% {
-            opacity: 0;
-            transform: translateY(-100%);
-        }
-    }
-</style>
-<style>
-    @property --angle {
-        syntax: '<angle>';
-        initial-value: 90deg;
-        inherits: true;
-    }
-    @property --gradX {
-        syntax: '<percentage>';
-        initial-value: 50%;
-        inherits: true;
-    }
-    @property --gradY {
-        syntax: '<percentage>';
-        initial-value: 0%;
-        inherits: true;
-    }
-    :root {
-        --d: 2500ms;
-        --angle: 90deg;
-        --gradX: 100%;
-        --gradY: 50%;
-        --c1: rgba(168, 239, 255, 1);
-        --c2: rgba(168, 239, 255, 0.1);
-    }
-    @keyframes borderRotate {
-        100% {
-            --angle: 420deg;
-        }
-    }
-    /*
-    a[site="bankobet"], a[site="betewin"] {
-        border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
-        animation: borderRotate var(--d) linear infinite forwards;
-    }
-    */
-</style>
-<style>
-    /* VİP CSS KİNG (DESKTOP) */
-    .vip .item {
-        padding: 0;
-        margin: 0;
-    }
-    #app-v-page:not(.mobile) .vip.king .item .vip {
-        top: 1px;
-    }
-    #app-v-page:not(.mobile) .vip.king .item .left img {
-        height: 31px;
-    }
-    .vip .item .button {
-        margin-top: 0;
-    }
-
-    /* VİP CSS KİNG (MOBILE) */
-    #app-v-page.mobile .vip.king .item {
-        height: 43px;
-    }
-    #app-v-page.mobile .vip.king .item .left {
-        display: flex;
-        align-items: center;
-        margin-top: 4px !important;
-    }
-    #app-v-page.mobile .vip.king .item .left img {
-        width: auto;
-        height: 30px;
-        margin-left: 65px;
-    }
-    #app-v-page.mobile .vip.king .item .vip {
-        height: 100px;
-        top: -47px;
-        left: 0;
-    }
-    #app-v-page.mobile .vip.king .item .button {
-        margin-top: 0px !important;
-    }
-    #app-v-page.mobile .vip .item svg {
-        margin-right: 35px;
-    }
-    #app-v-page.mobile .vip .item .text {
-        width: 100%;
-        height: auto;
-        position: absolute;
-        text-align: center;
-    }
-</style>
-
 <body>
-<div id="preloader">
-    <svg height="300" width="300">
-
-        <circle class="outer" cx="150" cy="150" r="50" />
-
-        <circle class="inner" cx="150" cy="150" r="50">
-
-            <animateTransform attributeType="xml"
-                              attributeName="transform"
-                              type="rotate"
-                              from="0 150 150"
-                              to="360 150 150"
-                              dur="2s"
-                              repeatCount="indefinite"/>
-        </circle>
-
-    </svg>
-</div>
-<div id="app-v-page" :class="{ 'mobile' : is_mobile}" style="display: none;">
-    <header>
-        <div class="container" v-if="!loading">
-            <div class="logo" style="margin: auto;">
-                <img :src="client.logo" alt="" style="margin: 5px">
-            </div>
-            <!--
-            <div class="links">
-                <a href="#">
-                    <svg viewBox="0 0 24 24" fill="none"><path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"></path></svg>
-                    ÖZEL ÖNERİLEN SİTELER GİRİŞ
-                </a>
-            </div>
-            -->
-
-            <div class="container" style="display: none;">
-                <a href="https://bit.ly/ogedayzbahis" target="_blank" class="ana-sponsor" style="display:none;">
-                    <div style="margin-top:-15px; font-weight:bolder; font-size:12px; text-align:left; color:gold; width:71px; transition: width 2s ease; -webkit-transition: width 2s ease;" id="ana-sponsor-text" class="text-shadow">
-                        ANA SPONSOR
-                    </div>
-                    <div class="social" style="border: 0px solid #48effa; border-radius: 4px; padding: 6px 0px; overflow: hidden; position: absolute;">
-                        <kose></kose>
-                        <kose></kose>
-                        <kose></kose>
-                        <kose></kose>
-                        <img src="zbahis.png" style="width: 126px; padding-left: 3px; float: left">
-                        <span class="tarayici-width-fs-ayarla" style="font-size: 10px; padding: 0px 5px; float: right">"OGEDAY777" kodunu ilet DENEME BONUSU AL!</span>
-                        <!--  /* background: #4c48fa; bu koduda düşündüm ama */ -->
-                        <div style="font-size: 16px;
-                                background: #48effa;
-                                text-shadow: 1px 0px 2px #000;
-                                text-align: center;
-                                border-radius: 5px;
-                                height: 25px;
-                                font-weight: bold;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                padding: 0px 3px;
-                                margin: 0px 5px;">
-                            ₺777
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="social sosyal" style="display: none">
-                <a v-if="client.social.twitter" target="_blank" :href="client.social.twitter" class="social-button twitter" style="background: #000;">
-                    <svg viewBox="0 -4 48 48" version="1.1"> <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Color-" transform="translate(-300.000000, -164.000000)" > <path d="M348,168.735283 C346.236309,169.538462 344.337383,170.081618 342.345483,170.324305 C344.379644,169.076201 345.940482,167.097147 346.675823,164.739617 C344.771263,165.895269 342.666667,166.736006 340.418384,167.18671 C338.626519,165.224991 336.065504,164 333.231203,164 C327.796443,164 323.387216,168.521488 323.387216,174.097508 C323.387216,174.88913 323.471738,175.657638 323.640782,176.397255 C315.456242,175.975442 308.201444,171.959552 303.341433,165.843265 C302.493397,167.339834 302.008804,169.076201 302.008804,170.925244 C302.008804,174.426869 303.747139,177.518238 306.389857,179.329722 C304.778306,179.280607 303.256911,178.821235 301.9271,178.070061 L301.9271,178.194294 C301.9271,183.08848 305.322064,187.17082 309.8299,188.095341 C309.004402,188.33225 308.133826,188.450704 307.235077,188.450704 C306.601162,188.450704 305.981335,188.390033 305.381229,188.271578 C306.634971,192.28169 310.269414,195.2026 314.580032,195.280607 C311.210424,197.99061 306.961789,199.605634 302.349709,199.605634 C301.555203,199.605634 300.769149,199.559408 300,199.466956 C304.358514,202.327194 309.53689,204 315.095615,204 C333.211481,204 343.114633,188.615385 343.114633,175.270495 C343.114633,174.831347 343.106181,174.392199 343.089276,173.961719 C345.013559,172.537378 346.684275,170.760563 348,168.735283" id="Twitter"> </path> </g> </g> </svg>
-                    Twitter(X)
-                </a>
-                <a v-if="client.social.discord" target="_blank" :href="client.social.discord" class="social-button discord">
-                    <svg viewBox="0 0 32 32" version="1.1"> <path d="M20.992 20.163c-1.511-0.099-2.699-1.349-2.699-2.877 0-0.051 0.001-0.102 0.004-0.153l-0 0.007c-0.003-0.048-0.005-0.104-0.005-0.161 0-1.525 1.19-2.771 2.692-2.862l0.008-0c1.509 0.082 2.701 1.325 2.701 2.847 0 0.062-0.002 0.123-0.006 0.184l0-0.008c0.003 0.050 0.005 0.109 0.005 0.168 0 1.523-1.191 2.768-2.693 2.854l-0.008 0zM11.026 20.163c-1.511-0.099-2.699-1.349-2.699-2.877 0-0.051 0.001-0.102 0.004-0.153l-0 0.007c-0.003-0.048-0.005-0.104-0.005-0.161 0-1.525 1.19-2.771 2.692-2.862l0.008-0c1.509 0.082 2.701 1.325 2.701 2.847 0 0.062-0.002 0.123-0.006 0.184l0-0.008c0.003 0.048 0.005 0.104 0.005 0.161 0 1.525-1.19 2.771-2.692 2.862l-0.008 0zM26.393 6.465c-1.763-0.832-3.811-1.49-5.955-1.871l-0.149-0.022c-0.005-0.001-0.011-0.002-0.017-0.002-0.035 0-0.065 0.019-0.081 0.047l-0 0c-0.234 0.411-0.488 0.924-0.717 1.45l-0.043 0.111c-1.030-0.165-2.218-0.259-3.428-0.259s-2.398 0.094-3.557 0.275l0.129-0.017c-0.27-0.63-0.528-1.142-0.813-1.638l0.041 0.077c-0.017-0.029-0.048-0.047-0.083-0.047-0.005 0-0.011 0-0.016 0.001l0.001-0c-2.293 0.403-4.342 1.060-6.256 1.957l0.151-0.064c-0.017 0.007-0.031 0.019-0.040 0.034l-0 0c-2.854 4.041-4.562 9.069-4.562 14.496 0 0.907 0.048 1.802 0.141 2.684l-0.009-0.11c0.003 0.029 0.018 0.053 0.039 0.070l0 0c2.14 1.601 4.628 2.891 7.313 3.738l0.176 0.048c0.008 0.003 0.018 0.004 0.028 0.004 0.032 0 0.060-0.015 0.077-0.038l0-0c0.535-0.72 1.044-1.536 1.485-2.392l0.047-0.1c0.006-0.012 0.010-0.027 0.010-0.043 0-0.041-0.026-0.075-0.062-0.089l-0.001-0c-0.912-0.352-1.683-0.727-2.417-1.157l0.077 0.042c-0.029-0.017-0.048-0.048-0.048-0.083 0-0.031 0.015-0.059 0.038-0.076l0-0c0.157-0.118 0.315-0.24 0.465-0.364 0.016-0.013 0.037-0.021 0.059-0.021 0.014 0 0.027 0.003 0.038 0.008l-0.001-0c2.208 1.061 4.8 1.681 7.536 1.681s5.329-0.62 7.643-1.727l-0.107 0.046c0.012-0.006 0.025-0.009 0.040-0.009 0.022 0 0.043 0.008 0.059 0.021l-0-0c0.15 0.124 0.307 0.248 0.466 0.365 0.023 0.018 0.038 0.046 0.038 0.077 0 0.035-0.019 0.065-0.046 0.082l-0 0c-0.661 0.395-1.432 0.769-2.235 1.078l-0.105 0.036c-0.036 0.014-0.062 0.049-0.062 0.089 0 0.016 0.004 0.031 0.011 0.044l-0-0.001c0.501 0.96 1.009 1.775 1.571 2.548l-0.040-0.057c0.017 0.024 0.046 0.040 0.077 0.040 0.010 0 0.020-0.002 0.029-0.004l-0.001 0c2.865-0.892 5.358-2.182 7.566-3.832l-0.065 0.047c0.022-0.016 0.036-0.041 0.039-0.069l0-0c0.087-0.784 0.136-1.694 0.136-2.615 0-5.415-1.712-10.43-4.623-14.534l0.052 0.078c-0.008-0.016-0.022-0.029-0.038-0.036l-0-0z"/> </svg>
-                    Dıscord
-                </a>
-                <a v-if="client.social.telegram" target="_blank" :href="client.social.telegram" class="social-button telegram">
-                    <svg viewBox="0 0 48 48" fill="none"> <path d="M41.4193 7.30899C41.4193 7.30899 45.3046 5.79399 44.9808 9.47328C44.8729 10.9883 43.9016 16.2908 43.1461 22.0262L40.5559 39.0159C40.5559 39.0159 40.3401 41.5048 38.3974 41.9377C36.4547 42.3705 33.5408 40.4227 33.0011 39.9898C32.5694 39.6652 24.9068 34.7955 22.2086 32.4148C21.4531 31.7655 20.5897 30.4669 22.3165 28.9519L33.6487 18.1305C34.9438 16.8319 36.2389 13.8019 30.8426 17.4812L15.7331 27.7616C15.7331 27.7616 14.0063 28.8437 10.7686 27.8698L3.75342 25.7055C3.75342 25.7055 1.16321 24.0823 5.58815 22.459C16.3807 17.3729 29.6555 12.1786 41.4193 7.30899Z" /> </svg>
-                    Telegram
-                </a>
-                <a v-if="client.social.twitch" target="_blank" :href="client.social.twitch" class="social-button twitch">
-                    <svg viewBox="-0.5 0 20 20" version="1.1"> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-141.000000, -7399.000000)" > <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M97,7249 L99,7249 L99,7244 L97,7244 L97,7249 Z M92,7249 L94,7249 L94,7244 L92,7244 L92,7249 Z M102,7250.307 L102,7241 L88,7241 L88,7253 L92,7253 L92,7255.953 L94.56,7253 L99.34,7253 L102,7250.307 Z M98.907,7256 L94.993,7256 L92.387,7259 L90,7259 L90,7256 L85,7256 L85,7242.48 L86.3,7239 L104,7239 L104,7251.173 L98.907,7256 Z" id="twitch-[#182]"> </path> </g> </g> </g> </svg>
-                    Twıtch
-                </a>
-                <a v-if="client.social.instagram" target="_blank" :href="client.social.instagram" class="social-button instagram">
-                    <svg viewBox="0 0 20 20" version="1.1"> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)" > <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path> </g> </g> </g> </svg>
-                    Instagram
-                </a>
-                <a v-if="client.social.youtube" target="_blank" :href="client.social.youtube" class="social-button youtube">
-                    <svg version="1.1" id="Layer_1" viewBox="-271 311.2 256 179.8" xml:space="preserve"> <path d="M-59.1,311.2h-167.8c0,0-44.1,0-44.1,44.1v91.5c0,0,0,44.1,44.1,44.1h167.8c0,0,44.1,0,44.1-44.1v-91.5  C-15,355.3-15,311.2-59.1,311.2z M-177.1,450.3v-98.5l83.8,49.3L-177.1,450.3z"/> </svg>
-                    Youtube
-                </a>
-                <a v-if="client.social.skype" target="_blank" :href="client.social.skype" class="social-button skype">
-                    <svg viewBox="0 0 512 512" xml:space="preserve"> <g id="7935ec95c421cee6d86eb22ecd12cc09"> <path style="display: inline;" d="M493.43,310.244c3.631-16.618,5.563-33.859,5.563-51.562   c0-132.728-107.588-240.317-240.316-240.317c-14.009,0-27.732,1.222-41.094,3.518C196.099,8.359,170.686,0.5,143.427,0.5   C66.465,0.5,4.075,62.903,4.075,139.865c0,25.725,6.999,49.803,19.163,70.487c-3.194,15.607-4.878,31.775-4.878,48.331   c0,132.728,107.589,240.316,240.316,240.316c15.047,0,29.742-1.396,44.014-4.042c19.613,10.555,42.043,16.543,65.871,16.543   c76.975,0,139.365-62.391,139.365-139.365C507.926,349.903,502.699,328.895,493.43,310.244z M381.922,373.52   c-11.104,15.745-27.533,28.208-48.816,37.053c-21.072,8.758-46.334,13.199-75.091,13.199c-34.52,0-63.463-6.063-86.043-18.039   c-16.144-8.733-29.467-20.535-39.573-35.119c-10.205-14.733-15.382-29.33-15.382-43.428c0-8.808,3.381-16.442,10.03-22.681   c6.587-6.2,15.021-9.331,25.076-9.331c8.259,0,15.382,2.47,21.171,7.36c5.527,4.69,10.28,11.627,14.085,20.585   c4.267,9.756,8.908,17.989,13.811,24.477c4.716,6.238,11.49,11.478,20.148,15.582c8.721,4.13,20.46,6.213,34.907,6.213   c19.874,0,36.167-4.242,48.418-12.613c11.963-8.158,17.775-17.965,17.775-29.979c0-9.494-3.043-16.941-9.281-22.793   c-6.549-6.113-15.156-10.879-25.649-14.147c-10.915-3.393-25.749-7.073-44.076-10.916c-24.938-5.339-46.135-11.677-62.989-18.851   c-17.229-7.323-31.126-17.49-41.282-30.216c-10.317-12.899-15.544-29.105-15.544-48.156c0-18.152,5.489-34.52,16.318-48.63   c10.741-14.022,26.436-24.914,46.646-32.386c19.948-7.373,43.665-11.116,70.5-11.116c21.469,0,40.332,2.482,56.09,7.385   c15.83,4.928,29.193,11.59,39.684,19.786c10.568,8.259,18.428,17.092,23.367,26.261c4.99,9.282,7.512,18.489,7.512,27.421   c0,8.583-3.307,16.393-9.855,23.18c-6.588,6.849-14.885,10.33-24.678,10.33c-8.896,0-15.869-2.183-20.697-6.462   c-4.504-3.967-9.17-10.18-14.348-19.087c-6-11.39-13.248-20.36-21.569-26.685c-8.072-6.151-21.571-9.27-40.122-9.27   c-17.229,0-31.226,3.468-41.631,10.28c-10.03,6.575-14.896,14.123-14.896,23.042c0,5.477,1.56,10.043,4.791,13.985   c3.418,4.167,8.234,7.834,14.322,10.878c6.313,3.181,12.825,5.701,19.337,7.498c6.687,1.859,17.902,4.603,33.259,8.159   c19.45,4.167,37.327,8.846,53.134,13.898c15.994,5.127,29.828,11.439,41.096,18.775c11.514,7.498,20.635,17.116,27.096,28.619   c6.488,11.527,9.768,25.774,9.768,42.317C398.738,339.687,393.088,357.738,381.922,373.52z"> </path> </g> </svg>
-                    Skype
-                </a>
-            </div>
-        </div>
-    </header>
-    <!--
-    <div class="row strip" v-if="!loading">
-        <h1>
-            <svg viewBox="-1 0 19 19" class="cf-icon-svg"><path d="M16.417 9.583A7.917 7.917 0 1 1 8.5 1.666a7.917 7.917 0 0 1 7.917 7.917zm-3.08-1.993-1.472-.174-1.485-.176-1.247-2.704c-.345-.747-.908-.747-1.253 0L6.633 7.24l-1.485.176-1.471.174c-.817.097-.991.633-.387 1.192l1.088 1.006 1.098 1.015-.292 1.467-.289 1.453c-.16.807.296 1.138 1.014.737l2.598-1.455 2.598 1.455c.717.401 1.173.07 1.013-.737l-.58-2.92 1.097-1.015 1.089-1.006c.604-.559.43-1.095-.387-1.192z"/></svg>
-            ÖZEL SİTELER</h1>
-        <div class="ticker-wrap">
-            <div class="ticker">
-                <div class="ticker__item">
-                    <a target="_blank" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(strip.sites, [item => parseInt(item.sort)], ['asc'])"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
-                        <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
-                        <div class="button">GİRİŞ YAP</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-    <div class="container" v-if="!loading">
-        <!--
-        <div id="swiper">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <a target="_blank" :href="_.find(client.sites, ['site', slider.site]).url" :class="['cat' + slider.id, 'banner' + slider.grid]" v-for="(slider,sliderKey) in _.orderBy(slider.sites, [item => parseInt(item.sort)], ['asc'])" target="_blank" class="swiper-slide"><img :src="_.find(client.sites, ['site', slider.site]).slider_img" width="100%"></a>
-                </div>
-            </div>
-        </div>
-        -->
-
-        <!--
-        <a target="_blank" v-if="leftFix.sites[0]" :style="'--site-color: ' + _.find(client.sites, ['site', leftFix.sites[0].site]).color" :href="_.find(client.sites, ['site', leftFix.sites[0].site]).url" class="fix-side left">
-            <div class="top"><img :src="client.cdn_url + _.find(client.sites, ['site', leftFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'"></div>
-            <div class="bottom"><img :src="client.cdn_url + _.find(client.sites, ['site', leftFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'"></div>
-            <div class="center">
-                <div class="vip">
-                    <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
-                    VIP
-                </div>
-                <div class="logo">
-                    <img :src="client.cdn_url + _.find(client.sites, ['site', leftFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'">
-                </div>
-                <div class="promo">
-                    <span>{{ _.find(client.sites, ['site', leftFix.sites[0].site]).desc[0] }}</span> <br> {{ _.find(client.sites, ['site', leftFix.sites[0].site]).desc[1] }}
-                </div>
-                <div class="button">Giriş Yap</div>
-            </div>
+<div class="container">
+    <div class="banner">
+        <a href="http://t.me/ogedaychat" target="_blank">
+            <img src="images/telegram.gif">
         </a>
-        -->
-
-        <!--
-        <a target="_blank" v-if="rightFix.sites[0]" :style="'--site-color: ' + _.find(client.sites, ['site', rightFix.sites[0].site]).color" :href="_.find(client.sites, ['site', rightFix.sites[0].site]).url" class="fix-side right">
-            <div class="top"><img :src="client.cdn_url + _.find(client.sites, ['site', rightFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'"></div>
-            <div class="bottom"><img :src="client.cdn_url + _.find(client.sites, ['site', rightFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'"></div>
-            <div class="center">
-                <div class="vip">
-                    <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
-                    VIP
-                </div>
-                <div class="logo">
-                    <img :src="client.cdn_url + _.find(client.sites, ['site', rightFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'">
-                </div>
-                <div class="promo">
-                    <span>{{ _.find(client.sites, ['site', rightFix.sites[0].site]).desc[0] }}</span> <br> {{ _.find(client.sites, ['site', rightFix.sites[0].site]).desc[1] }}
-                </div>
-                <div class="button">Giriş Yap</div>
-            </div>
-        </a>
-        -->
-
-        <h3 style="
-            margin: 0;
-            text-align: center;
-        " class="baslik">OYNADIĞIM GÜVENLİ SİTELER</h3>
-        <h6 style="
-            margin: 0;
-            font-size: 13px;
-            font-weight: 300;
-            font-family: 'Montserrat';
-            text-align: center;
-            margin-bottom: 3px;
-            display: none;
-        " class="alt-baslik">Kendi oynadığım ve herhangi bir probleminizde yardımcı olabileceğim güvenli siteler</h6>
-
-        <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]">
-            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(king.sites, [item => parseInt(item.sort)], ['asc'])">
-                <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
-                    <div class="vip l">
-                        <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
-                    </div>
-                    <div class="left">
-                        <img v-if="is_mobile" :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
-                        <img v-if="!is_mobile" :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
-                        <div class="text" v-if="!is_mobile">
-                            {{ _.find(client.sites, ['site', site.site]).desc[0] }}
-                            <div> <small>SİZE ÖZEL PROMOSYONLAR</small></div>
-                        </div>
-                        <div class="text" v-if="is_mobile">
-                            VIP
-                        </div>
-                        <div class="button">GİRİŞ YAP</div>
-                    </div>
-                    <div class="vip">
-                        <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="row diamond clover"  :class="['cat' + vip.id, 'banner' + clover.grid]" style="display: none;">
-            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(clover.sites, [item => parseInt(item.sort)], ['asc'])">
-                <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
-                    <svg class="icon" viewBox="0 0 32 32" version="1.1"> <path d="M27.673 22.512c-1.335-4.472-7.5-6.972-13.185-8.018 1.102 4.904-0.19 8.2 1.062 12.404 1.335 4.482 6.432 4.718 7.396 0.396 3.484 3.202 5.979-0.587 4.727-4.782v0zM3.211 18.719c2.608-3.377 7.070-5.365 12.123-3.545-2.401 5.629-0.687 9.648-3.117 12.749-2.591 3.305-7.047 1.245-6.484-2.943-4.026 1.236-4.924-3.149-2.522-6.261zM10.149 2.692c4.181 2.417 5.388 7.335 5.1 13.008-5.661-3.251-7.287-0.387-11.363-2.073-4.471-1.849-3.5-7.525 0.719-7.423-2.792-4.235 1.621-5.779 5.543-3.512zM21.565 3.127c-4.429 1.107-6.606 6.399-6.615 12.311 6.15-1.522 8.49 2.582 12.73 1.544 4.52-1.107 4.016-6.766-0.675-8.044 2.856-3.427-1.213-6.867-5.44-5.81v0z"/> </svg>
-                    <div class="content">
-                        <div class="left">
-                            <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
-                            <div class="text">
-                                {{ _.find(client.sites, ['site', site.site]).desc[0] }}
-                                <div> <small>SİZE ÖZEL PROMOSYONLAR</small></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="button">GİRİŞ YAP</div>
-                </a>
-            </div>
-        </div>
-        <div class="row vip"  :class="['cat' + vip.id, 'banner' + vip.grid]"  style="display: none">
-            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(vip.sites, [item => parseInt(item.sort)], ['asc'])">
-                <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
-                    <div class="left">
-                        <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
-                        <div class="text">
-                            {{ _.find(client.sites, ['site', site.site]).desc[0] }}
-                            <div> <small>SİZE ÖZEL PROMOSYONLAR</small></div>
-                        </div>
-                        <div class="button">GİRİŞ YAP</div>
-                    </div>
-                    <div class="vip">
-                        <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
-                        VIP
-                    </div>
-                </a>
-            </div>
-        </div>
-        <script>
-            function click_say(e) {
-                gtag('event', 'click', {
-                    'event_category': 'button',
-                    'event_label': e.getAttribute('site')
-                });
-            }
-        </script>
-        <div class="row diamond"  :class="['cat' + vip.id, 'banner' + diamond.grid]">
-            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(diamond.sites, [item => parseInt(item.sort)], ['asc'])" >
-                <a target="_blank" onclick="click_say(this)" :site="_.find(client.sites, ['site', site.site]).site"  :href="_.find(client.sites, ['site', site.site]).url" class="item" v-bind:style="{
-    '--site-color': _.find(client.sites, ['site', site.site]).color,
-    alignItems: (_.find(client.sites, ['site', site.site]).button_yukari ? 'normal' : 'center')
-  }">
-                    <div class="content">
-                        <div class="icon" v-bind:style="{ marginLeft: _.find(client.sites, ['site', site.site]).elmas ? '-5px' : '0px', marginRight: _.find(client.sites, ['site', site.site]).elmas ? '0px' : '5px'  }">
-                            <svg v-if="!_.find(client.sites, ['site', site.site]).elmas" viewBox="0 0 512 512" xml:space="preserve"> <path d="M511.985,194.034c0.017-2.515-0.654-5.029-2.054-7.225L425.782,54.76  c-0.038-0.061-0.085-0.114-0.123-0.174c-0.032-0.048-0.054-0.1-0.086-0.146c-0.066-0.098-0.147-0.183-0.216-0.279  c-0.202-0.281-0.411-0.555-0.63-0.816c-0.107-0.127-0.216-0.252-0.329-0.376c-0.249-0.275-0.508-0.535-0.776-0.784  c-0.096-0.089-0.187-0.181-0.284-0.265c-0.76-0.668-1.585-1.24-2.458-1.708c-0.1-0.053-0.202-0.098-0.303-0.149  c-0.337-0.17-0.681-0.328-1.03-0.468c-0.147-0.06-0.296-0.114-0.445-0.169c-0.328-0.118-0.66-0.222-0.995-0.315  c-0.146-0.04-0.292-0.084-0.439-0.119c-0.472-0.113-0.948-0.206-1.429-0.267c-0.005,0-0.009-0.001-0.015-0.003  c-0.502-0.062-1.007-0.089-1.514-0.093c-0.04,0-0.078-0.007-0.118-0.007H255.999H97.409c-4.398,0-8.511,2.179-10.981,5.818  c-2.47,3.64-2.977,8.267-1.352,12.355l45.255,113.875H37.457l29.313-46.001c3.939-6.182,2.122-14.385-4.06-18.324  c-6.182-3.939-14.384-2.123-18.324,4.06L2.069,186.81c-1.403,2.2-2.074,4.717-2.054,7.236c-0.162,3.486,1.033,7.031,3.626,9.761  l242.738,255.441c0.072,0.076,0.151,0.139,0.224,0.212c0.077,0.077,0.145,0.161,0.223,0.236c0.098,0.093,0.203,0.173,0.303,0.263  c0.161,0.145,0.321,0.287,0.487,0.422c0.183,0.15,0.37,0.291,0.559,0.429c0.17,0.125,0.34,0.248,0.515,0.364  c0.199,0.131,0.402,0.252,0.605,0.372c0.173,0.101,0.344,0.204,0.52,0.297c0.218,0.115,0.441,0.218,0.664,0.32  c0.17,0.078,0.338,0.159,0.511,0.23c0.24,0.098,0.484,0.18,0.729,0.264c0.162,0.056,0.322,0.117,0.487,0.165  c0.265,0.08,0.535,0.141,0.804,0.203c0.147,0.035,0.293,0.076,0.443,0.105c0.301,0.058,0.604,0.098,0.908,0.135  c0.121,0.015,0.242,0.038,0.362,0.05c0.425,0.041,0.851,0.064,1.277,0.064h0.001h0.001c0.425,0,0.849-0.023,1.273-0.062  c0.119-0.012,0.239-0.036,0.358-0.05c0.303-0.037,0.605-0.076,0.905-0.134c0.15-0.029,0.297-0.07,0.446-0.105  c0.267-0.061,0.534-0.122,0.796-0.2c0.165-0.049,0.326-0.11,0.488-0.165c0.242-0.082,0.483-0.163,0.721-0.26  c0.174-0.07,0.344-0.153,0.515-0.23c0.22-0.101,0.439-0.2,0.656-0.315c0.178-0.093,0.35-0.196,0.524-0.297  c0.202-0.118,0.402-0.236,0.6-0.366c0.175-0.115,0.345-0.239,0.515-0.362c0.188-0.137,0.374-0.276,0.557-0.425  c0.165-0.134,0.324-0.273,0.483-0.415c0.1-0.089,0.206-0.169,0.304-0.261c0.08-0.076,0.149-0.159,0.226-0.238  c0.073-0.073,0.151-0.135,0.223-0.21l122.146-127.72c5.066-5.297,4.879-13.698-0.418-18.765c-5.298-5.067-13.699-4.877-18.765,0.418  l-73.842,77.211l79.323-183.21h94.601l-36.481,38.638c-5.033,5.33-4.791,13.73,0.539,18.761c2.564,2.422,5.84,3.622,9.108,3.622  c3.525,0,7.042-1.395,9.653-4.161l56.933-60.299C510.965,201.045,512.15,197.509,511.985,194.034z M255.999,83.044l78.675,97.626  h-157.35L255.999,83.044z M137.964,207.214l79.065,182.616L43.495,207.214H137.964z M417.34,90.907l57.203,89.764h-92.875  L417.34,90.907z M395.033,75.165l-36.581,92.048l-74.611-92.048H395.033z M228.158,75.165l-74.611,92.048l-36.581-92.048H228.158z   M255.999,413.03l-88.797-205.094h177.595L255.999,413.03z"/> </svg>
-                            <img v-if="_.find(client.sites, ['site', site.site]).elmas" class="slide-fwd-center" :src="client.cdn_url + _.find(client.sites, ['site', site.site]).elmas">
-                        </div>
-
-                        <div class="left">
-                            <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
-                            <div class="text" style="font-family: &quot;Bebas Neue&quot;; letter-spacing: 1.5px;">
-                                <span class="font-size-x-small" v-if="_.find(client.sites, ['site', site.site]).promo_code">Promo Code:</span>
-                                <span v-bind:style="{
-                                    fontSize: _.find(client.sites, ['site', site.site]).promo_code_lowercase ? '19px' : '16px',
-                                    textTransform: _.find(client.sites, ['site', site.site]).promo_code_lowercase ? 'lowercase' : 'uppercase',
-                                    fontFamily: _.find(client.sites, ['site', site.site]).promo_code_lowercase ? 'Barlow' : 'Bebas Neue'
-                                }">{{_.find(client.sites, ['site', site.site]).promo_code}}</span>
-                                <span style="font-size:small" v-if="_.find(client.sites, ['site', site.site]).promo_code2">
-                                    {{_.find(client.sites, ['site', site.site]).promo_code2}}
-                                </span>
-                                <!-- promo_code_ilavesi -->
-                                <small v-if="_.find(client.sites, ['site', site.site]).promo_code_ilavesi"
-                                style="
-                                font-weight: 100;
-                                font-family: arial;
-                                font-size: 9px;
-                                letter-spacing: normal;
-                                text-transform: lowercase;
-                                margin-left: -5px;">
-                                    kayıt olurken gir
-                                </small>
-                                <div>
-                                    <small v-if="_.find(client.sites, ['site', site.site]).promo_code && _.find(client.sites, ['site', site.site]).desc[0].includes('CANLI')" class="text-shadow">
-                                        {{ _.find(client.sites, ['site', site.site]).desc[0] }}
-                                    </small>
-                                    <small v-if="!_.find(client.sites, ['site', site.site]).promo_code || !_.find(client.sites, ['site', site.site]).desc[0].includes('CANLI')">
-                                        {{ _.find(client.sites, ['site', site.site]).desc[0] }}
-                                    </small>
-                                </div>
-                                <!-- PROMO KODU YOKSA -->
-                                <div v-if="!_.find(client.sites, ['site', site.site]).promo_code">
-                                    <small >
-                                        {{_.find(client.sites, ['site', site.site]).promo_code_yok}}
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="button" v-bind:style="{fontSize: (_.find(client.sites, ['site', site.site]).miktar.indexOf('₺') > -1) ? '16px' : '13px'}">
-                        {{_.find(client.sites, ['site', site.site]).miktar}}
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="row normal"  :class="['cat' + list.id, 'banner' + list.grid]" style="display: none;">
-            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(list.sites, [item => parseInt(item.sort)], ['asc'])">
-                <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
-                    <div class="top">
-                        <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
-                    </div>
-                    <div class="text">
-                        <span>{{ _.find(client.sites, ['site', site.site]).desc[0] }}</span>
-                    </div>
-                    <div class="button">GİRİŞ YAP</div>
-                </a>
-            </div>
-        </div>
-        <!--
-        <div v-if="bottomFix">
-            <div class="bottom-fixed" v-show="bottomShow" v-if="bottomActive == bottomKey" :style="'border-color: ' + _.find(client.sites, ['site', bottom.site]).color" v-for="(bottom, bottomKey) in _.orderBy(bottomFix.sites, [bottom => parseInt(bottom.sort)], ['asc'])" :key="bottomKey" >
-                <div class="button">
-                    <div class="close" @click="bottomShow = false">
-                        <svg viewBox="0 0 24 24" fill="none"> <g id="Edit / Close_Circle"> <path id="Vector" d="M9 9L11.9999 11.9999M11.9999 11.9999L14.9999 14.9999M11.9999 11.9999L9 14.9999M11.9999 11.9999L14.9999 9M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </svg>
-                    </div>
-                </div>
-                <div class="logo">
-                    <img :src="client.cdn_url + _.find(client.sites, ['site', bottom.site]).site + '.png'" width="150">
-                </div>
-                <div class="center" >
-                    <h1 :style="'color: ' + _.find(client.sites, ['site', bottom.site]).color">{{ _.find(client.sites, ['site', bottom.site]).desc[0] }}</h1>
-                    <p>{{ _.find(client.sites, ['site', bottom.site]).desc[1] }}</p>
-                </div>
-                <a target="_blank" :href="_.find(client.sites, ['site', bottom.site]).url" :style="'background: ' + _.find(client.sites, ['site', bottom.site]).color" target="_blank">
-                    ŞİMDİ GİRİŞ YAP
-                </a>
-            </div>
-        </div>
-        -->
-
-        <!-- ASAGIDAKI OVERLAY ILE BAGLANTILI
-        <div v-if="!_.isNull(notifyFix)">
-            <div class="notify-fixed" v-show="notifyShow" v-if="notifyActive == notifyKey" :style="'border-color: ' + _.find(client.sites, ['site', notify.site]).color" v-for="(notify, notifyKey) in _.orderBy(notifyFix.sites, [notify => parseInt(notify.sort)], ['asc'])" :key="notifyKey" >
-                <div class="button">
-                    <div class="close" @click="notifyShow = false">
-                        <svg viewBox="0 0 24 24" fill="none"> <g id="Edit / Close_Circle"> <path id="Vector" d="M9 9L11.9999 11.9999M11.9999 11.9999L14.9999 14.9999M11.9999 11.9999L9 14.9999M11.9999 11.9999L14.9999 9M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </svg>
-                    </div>
-                </div>
-                <div class="logo">
-                    <img :src="client.cdn_url + _.find(client.sites, ['site', notify.site]).site + '.png'" width="150">
-                </div>
-                <h3 style="font-size:12px;margin: 0px;margin-top: 10px;">SİZE BİR MESAJI VAR !</h3>
-                <div class="center" style="margin: 0px;" >
-                    <h1 style="margin: 0px;"  :style="'color: ' + _.find(client.sites, ['site', notify.site]).color">{{ _.find(client.sites, ['site', notify.site]).desc[0] }}</h1>
-                </div>
-                <small style="margin-bottom: 5px; opacity: 0.5;">Şimdi Yararlanın!</small>
-                <a target="_blank" :href="_.find(client.sites, ['site', notify.site]).url" :style="'background: ' + _.find(client.sites, ['site', notify.site]).color" target="_blank">
-                    ŞİMDİ GİRİŞ YAP
-                </a>
-            </div>
-        </div>
-        -->
-        <div class="footer-c">
-            <div class="licence">
-                OgedayPRO tüm hakları saklıdır.
-            </div>
-            <!-- <a target="_blank" href="#" class="cpyrght">ogedaypro <img src="#"></a>-->
-        </div>
     </div>
-    <!--
-    <div class="overlay" v-show="!_.isEmpty(notifyFix.sites)" v-if="notifyShow"></div>
-    -->
+    <div class="banner mt-2">
+        <a href="javascript:void(0)" >
+            <img src="images/banner/kralbet.gif">
+        </a>
+    </div>
+
+    <!-- Kartlar Alanı -->
+    <div class="cards"><div class="card rectangle2">
+        <a href="https://t2m.io/mersoogeday" target="_blank">
+            <img src="images/content/mersobahis.png?v=0.57455157701604" alt="mersobahis">
+        </a>
+    </div><div class="card rectangle2">
+        <a href="https://cutt.ly/1eME5M9j" target="_blank">
+            <img src="images/content/betkanyon.png?v=0.47045134029838" alt="betkanyon">
+        </a>
+    </div><div class="card rectangle2">
+        <a href="https://bit.ly/ogexsekabet" target="_blank">
+            <img src="images/content/sekabet.png" alt="sekabet">
+        </a>
+    </div><div class="card rectangle2">
+        <a href="https://rstuv.click/ba/btag/546_15042" target="_blank">
+            <img src="images/content/bahisal.png?v=0.3860729343193" alt="bahisal">
+        </a>
+    </div><div class="card">
+        <a href="https://cutt.ly/OgedaySP" target="_blank">
+            <img src="images/content/spinco.png" alt="spinco">
+        </a>
+    </div><div class="card">
+        <a href="https://refpa694356.top/L?tag=d_4219184m_72759c_ogeday0325&amp;site=4219184&amp;ad=72759" target="_blank">
+            <img src="images/content/yohoho.png" alt="yohoho">
+        </a>
+    </div><div class="card">
+        <a href="https://kisalt1.gg/ogedaypro" target="_blank">
+            <img src="images/content/galabet.png" alt="galabet">
+        </a>
+    </div><div class="card">
+        <a href="https://cutt.ly/veoT5cGq" target="_blank">
+            <img src="images/content/matadorbet.png" alt="matadorbet">
+        </a>
+    </div><div class="card">
+        <a href="https://cutt.ly/Feg1piJG" target="_blank">
+            <img src="images/content/fixbet.png" alt="fixbet">
+        </a>
+    </div><div class="card">
+        <a href="https://t2m.io/sterlinogeday" target="_blank">
+            <img src="images/content/sterlinbet.png" alt="sterlinbet">
+        </a>
+    </div><div class="card">
+        <a href="http://kisalt1.gg/ogedayx" target="_blank">
+            <img src="images/content/xbahis.png" alt="xbahis">
+        </a>
+    </div><div class="card">
+        <a href="https://cutt.ly/weShcqHl" target="_blank">
+            <img src="images/content/otobet.png" alt="otobet">
+        </a>
+    </div><div class="card">
+        <a href="https://t2m.io/Ogedaypro" target="_blank">
+            <img src="images/content/betpipo.png" alt="betpipo">
+        </a>
+    </div><div class="card">
+        <a href="https://bo.t2m.io/ogedaypro" target="_blank">
+            <img src="images/content/betoffice.png" alt="betoffice">
+        </a>
+    </div><div class="card">
+        <a href="https://t2m.io/ogedayy" target="_blank">
+            <img src="images/content/reslot.png" alt="reslot">
+        </a>
+    </div><div class="card">
+        <a href="https://cutt.ly/7eDXRJFJ" target="_blank">
+            <img src="images/content/zlot.png" alt="zlot">
+        </a>
+    </div><div class="card">
+        <a href="https://tracker.getrupiaffiliate.org/link?btag=83587105_424759" target="_blank">
+            <img src="images/content/betrupi.png" alt="betrupi">
+        </a>
+    </div><div class="card">
+        <a href="https://bit.ly/3Y5U9h5" target="_blank">
+            <img src="images/content/marsbahis.png" alt="marsbahis">
+        </a>
+    </div></div><hr class="d-none special-hidden">
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-<script>
-    var app = new Vue({
-        el: '#app-v-page',
-        mounted(){
-            window.onload = function() {
-                document.getElementById('preloader').style.display = 'none';
-                document.getElementById('app-v-page').style.display = 'block';
-
-                var nav = document.querySelector('#app-v-page');
-                var navTop = nav.offsetTop;
-
-                /*
-                function navFixed(e) {
-                    if(window.scrollY - 75 >= navTop) {
-                        document.querySelector('#app-v-page').classList.add('is-fixed');
-                    } else {
-                        document.querySelector('#app-v-page').classList.remove('is-fixed');
-                    }
-                }
-                window.addEventListener('scroll', navFixed);
-                */
-            };
-        },
-        created(){
-            this.loading = true;
-            axios.get('https://ogedaybonuslari.com/data.json?v=0.0.82')
-                .then((response) => {
-                    this.client = response.data.html
-                    this.king = _.find(this.client.categories, ['id', 1710467155101]);
-                    this.clover = _.find(this.client.categories, ['id', 1710467161452]);
-                    this.strip = _.find(this.client.categories, ['id', 1710467148324]);
-                    this.leftFix = _.find(this.client.categories, ['id', 1705945072794]);
-                    this.rightFix = _.find(this.client.categories, ['id', 1705945082063]);
-                    this.slider = _.find(this.client.categories, ['id', 1706090032063]);
-                    this.vip = _.find(this.client.categories, ['id', 1705945154693]);
-                    this.diamond = _.find(this.client.categories, ['id', 1705945112098]);
-                    this.bottomFix = _.find(this.client.categories, ['id', 1705945105481]);
-                    this.notifyFix = _.find(this.client.categories, ['id', 1708437128106]);
-                    this.list = _.find(this.client.categories, ['id', 1705945167988]);
-                    this.loading = false;
-                    setTimeout(() => {
-                        const swiper = new Swiper('.swiper-container', {
-                            slidesPerView: 1,
-                            autoplay: true,
-                            pagination: {
-                                el: '.swiper-pagination',
-                                type: 'fraction',
-                            },
-                            navigation: {
-                                nextEl: '.swiper-button-next',
-                                prevEl: '.swiper-button-prev',
-                            },
-                        });
-                    }, 50);
-                    setTimeout(() => {
-                        this.notifyShow = true;
-                        if(this.notifyFix != null && this.notifyFix.sites != null){
-                            setInterval(() => {
-                                _.forEach(this.notifyFix.sites,((site,siteKey) => {
-                                    if(parseInt(_.size(this.notifyFix.sites) - 1) == parseInt(this.notifyActive)){
-                                        this.notifyActive = 0;
-                                        return false
-                                    }else if(this.notifyActive < siteKey){
-                                        this.notifyActive = parseInt(siteKey);
-                                        return false;
-                                    }
-                                    console.log(this.notifyFix)
-                                }));
-                            }, 5000);
-                        }
-                    }, 2500);
-                    if(this.bottomFix != null){
-                        setInterval(() => {
-                            _.forEach(this.bottomFix.sites,((site,siteKey) => {
-                                if(parseInt(_.size(this.bottomFix.sites) - 1) == parseInt(this.bottomActive)){
-                                    this.bottomActive = 0;
-                                    return false
-                                }else if(this.bottomActive < siteKey){
-                                    this.bottomActive = parseInt(siteKey);
-                                    return false;
-                                }
-                            }));
-                        }, 3000);
-                    }
-                    if(!_.isNull(this.client.background)){
-                        document.body.style.backgroundImage = 'url(' + this.client.background + ')'
-                    }
-
-                })
-        },
-        data() {
-            return {
-                king:null,
-                clover:null,
-                strip:null,
-                leftFix:null,
-                rightFix:null,
-                bottomFix:null,
-                notifyFix:null,
-                slider:null,
-                loading:false,
-                bottomActive:0,
-                bottomShow:true,
-                notifyShow:false,
-                notifyActive:0,
-                list:null,
-                is_mobile: Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1,
-                client:{},
-            };
-        },
-    })
-</script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // yarım saniye sonra header gizle
-        function sayfayi_asagiya_kaydir() {
-                                                                                                                        //  13 (ilk değer eğer ana sponsor varsa)
-            yukseklik = document.querySelector(isMobile() ? '.logo' : 'header').getBoundingClientRect().height - (isMobile()?0:0); // margin değerini çıkarıyoruz
-            yukseklik+= isMobile() ? 5 : 0;
-            if (yukseklik >= window.scrollY) {
-                window.scrollTo({
-                    top: yukseklik,
-                    behavior: 'smooth' // Animasyonlu kaydırma
-                });
-            }
-        }
-        //setTimeout(sayfayi_asagiya_kaydir,500);
-        loading_interval = setInterval(function () {
-            if (0 == window.scrollY) {
-                sayfayi_asagiya_kaydir();
-            } else {
-                clearInterval(loading_interval);
-            }
-        },250);
-
-        // matadorbet notify
-        const notyf = new Notyf({
-            duration: 9999999999999,
-            position: {
-                x: 'center',
-                y: 'bottom',
-            },
-            types: [{
-                type: 'error',
-                dismissible: true,
-                icon: false,
-            }]
-        });
-        notyf.open({
-            type: 'error',
-            message: `
-                <div class="left">
-                    <img src="matadorbet.png" style="width:100px;">
-                    <div style="font-size:14px; color:white;">
-                        <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
-                        500₺ ÇEVRİMSİZ BONUS
-                    </div>
-                </div>
-                <div class="middle" style="margin-left:8px; margin-right:6px; border: 1px dashed white;">
-
-                </div>
-                <div class="right">
-                    <img src="fixbet.png" style="width:75px; margin: 6.5px 9px 6px 11px;">
-                    <div style="font-size:14px; color:white;">
-                        <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
-                        555₺ KAYIT BONUSU
-                    </div>
-                </div>
-            `,
-        }).on('click', ({target, event}) => {
-            hedef = event.target.getAttribute('class');
-            hedef2 = event.target.closest('div.left,div.right,div.yeni_sag').getAttribute('class');
-            if ((hedef && hedef.includes('left')) || (hedef2 && hedef2.includes('left'))) {
-                click_site = 'matadorbet';
-            } else if ((hedef && hedef.includes('right')) || (hedef2 && hedef2.includes('right'))) {
-                click_site = 'fixbet';
-            }
-            /*
-            else if ((hedef && hedef.includes('yeni_sag')) || (hedef2 && hedef2.includes('yeni_sag'))) {
-                click_site = 'olipsbet';
-            }
-            */
-            window.open(document.querySelector('[site="'+click_site+'"]').getAttribute('href'),'_blank');
-        });
-
-        // instagram linki mobilde app açar yada webte direk gider şeklinde duruma göre ayarla
-        function isMobile() {
-            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-            if (/android/i.test(userAgent)) {
-                return true;
-            }
-            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                return true;
-            }
-            return false;
-        }
-        /*
-        // BU KULLANILMAYACAK AMA DURSUN (ARTIK INSTRAGRAM YONLENDIRMESI YAPMIYORUZ SITEDEN)
-        if (!isMobile()) {
-            is_element_load = setInterval(function(){
-                let e = document.querySelector('.social-button.instagram');
-                if (e) {
-                    e.setAttribute('href','');
-                    clearInterval(is_element_load);
-                }
-            },50);
-        }
-        */
-
-        is_element_load = setInterval(function(){
-            let e = document.querySelector(isMobile() ? '.ana-sponsor' : '.sosyal');
-            //let e = document.querySelector('.sosyal');
-            if (e) { // && !isMobile()
-                e.setAttribute('style','');
-                clearInterval(is_element_load);
-            }
-        },50);
-
-        // sadece mobilde gizle
-        if (false && isMobile()) {
-            is_element_load2 = setInterval(function(){
-                let e = document.querySelector('.diamond.row a[site="zbahis"]');
-                if (e) {
-                    e.closest('.col').setAttribute('style','display:none !important');
-                    clearInterval(is_element_load2);
-                }
-            },50);
-        }
-
-        // width ayarla CSS ile ayarlayamadım
-        is_element_load3 = setInterval(function(){
-            let e = document.querySelector('.ana-sponsor .social');
-            let e2= document.querySelector('.ana-sponsor #ana-sponsor-text');
-            if (e && e2) {
-                olcu = e.getBoundingClientRect().width;
-                if (olcu) {
-                    e2.style.width = olcu+'px';
-                    clearInterval(is_element_load3);
-                }
-            }
-        },50);
-
-        // stake 14$ güncel kur
-        is_element_load4 = setInterval(function(){
-            let e = document.querySelector('.diamond.row a[site="stake"] .button');
-            if (e) {
-                fetch("https://customers.garantibbva.com.tr/internet/digitalpublic/currency-convertor-public/v1/currency-convertor/calculate-price?&operation=0&price=1&currencySource=USD&currencyTarget=TL", {
-                    "credentials": "include",
-                    "headers": {
-                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0",
-                        "Accept": "application/json",
-                        "Accept-Language": "tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3",
-                        "Content-Type": "application/json",
-                        "channel": "Internet",
-                        "ip": "127.0.0.1",
-                        "dialect": "TR",
-                        "guid": "10b3fa24471f427484399c8fe58ac9ec",
-                        "tenant-company-id": "GAR",
-                        "x-client-trace-id": "10b3fa24471f427484399c8fe58ac9ec",
-                        "client-session-id": "5bd6-743c-c38c-4cc7-9306",
-                        "client-type": "ArkClient",
-                        "Authorization": "",
-                        "state": "",
-                        "client-id": "DslahJXaDW59ibNZppCm",
-                        "tenant-geolocation": "TUR",
-                        "tenant-app-id": "",
-                        "Sec-Fetch-Dest": "empty",
-                        "Sec-Fetch-Mode": "cors",
-                        "Sec-Fetch-Site": "same-site"
-                    },
-                    "referrer": "https://webforms.garantibbva.com.tr/",
-                    "method": "GET",
-                    "mode": "cors"
-                }).then(function(response){
-                    return response.json();
-                }).then(function(response){
-                    try {
-                        bonus = e.innerHTML.replace(/\D/g, '')*1; // buttonun içerisindeki stringten bonusu ayıkla ve int'e çevir
-                        kur = response.calculateResult; // kur'u jsondan ayıkla (eğer ayıklayamazsa try catch mekanizmasına takılacak)
-                        hesap = Math.round(kur*bonus); // kur ile bonusu çarp, round ile en yakın sayıya yuvarla
-                        hesap = hesap.toLocaleString('tr-TR'); // 1.337 ondalık noktalarını ekle
-                        e.innerHTML = '<span class="text1">$'+bonus+'</span><span class="text2">₺'+hesap+'</span>';
-                        e.classList.add('doviz-button'); // hareket animasyonu ekliyoruz
-                    } catch (err) {
-                        console.error('Kur hesaplanamadı.');
-                        console.warn('Kur hesaplanamadı.');
-                        console.log('fetch.response:');
-                        console.log(response);
-                    }
-                });
-                clearInterval(is_element_load4);
-            }
-        },50);
-
-    });
-
-</script>
-<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
 </body>
 </html>
