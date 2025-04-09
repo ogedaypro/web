@@ -16,7 +16,6 @@
         gtag('config', 'G-CNY8GVCJJS');
     </script>
     <meta name="yandex-verification" content="44feed403ddb0c5d" />
-
     <script>
         // HTTPS Sorunu Fix
         if (document.URL.startsWith('http://')) {
@@ -36,7 +35,7 @@
         body { background: radial-gradient(circle, #6b6e3e 10%, transparent 11%);
         background-size: 1em 1em;
         background-color: #1c1c1c;
-        opacity: 1 }/**/
+        opacity: 1; }/**/
         .container {
             max-width: 874px;
             margin: 10px auto;
@@ -45,6 +44,7 @@
             position: absolute;
             left: 10px;
             right: 10px;
+            align-content: start;
         }
         .banner img {
             width: 100%;
@@ -130,6 +130,52 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+    <style>
+        .notyf__toast {
+            max-width: 360px !important;
+        }
+        .notyf__ripple {
+            /*
+            background: linear-gradient(45deg, rgb(239, 253, 33), rgb(255, 0, 0)) !important;
+            */
+            background: linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0)) !important;
+            border-radius: 0;
+            width: 420px;
+        }
+        .notyf__message {
+            margin: auto;
+            text-align: center;
+            color: black;
+            display: flex;
+            cursor: pointer;
+        }
+        .notyf__toast {
+            opacity: 0.8 !important;
+        }
+        .notyf__wrapper {
+            padding-top: 6px;
+            padding-bottom: 8px;
+        }
+        .notyf__toast--dismissible .notyf__wrapper {
+            padding-right: 13px;
+        }
+        @media only screen and (max-width: 480px) {
+            .notyf__dismiss {
+                width: 20px;
+            }
+        }
+        .ana-sponsor {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&amp;display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Oswald", sans-serif;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -147,7 +193,7 @@
     <!-- Kartlar Alanı -->
     <div class="cards"><div class="card rectangle2">
         <a href="https://cutt.ly/orsPX9O1" target="_blank">
-            <img src="images/content/kralbet.gif?v=0.57455157701604" alt="kralbet">
+            <img src="images/content/kralbet.gif?v=0.66721508589909" alt="kralbet">
         </a>
     </div><div class="card rectangle2">
         <a href="https://cutt.ly/1eME5M9j" target="_blank">
@@ -223,5 +269,62 @@
         </a>
     </div></div><hr class="d-none special-hidden">
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // matadorbet notify
+        const notyf = new Notyf({
+            duration: 9999999999999,
+            position: {
+                x: 'center',
+                y: 'bottom',
+            },
+            types: [{
+                type: 'error',
+                dismissible: true,
+                icon: false,
+            }]
+        });
+        notyf.open({
+            type: 'error',
+            message: `
+                <div class="left">
+                    <img src="images/logo/matadorbet.png" style="width:100px;">
+                    <div style="font-size:14px; color:white;">
+                        <img src="images/click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
+                        500₺ ÇEVRİMSİZ BONUS
+                    </div>
+                </div>
+                <div class="middle" style="margin-left:8px; margin-right:6px; border: 1px dashed white;">
+
+                </div>
+                <div class="right">
+                    <img src="images/logo/fixbet.png" style="width:75px; margin: 6.5px 9px 6px 11px;">
+                    <div style="font-size:14px; color:white; margin-top:-1px;">
+                        <img src="images/click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
+                        555₺ KAYIT BONUSU
+                    </div>
+                </div>
+            `,
+        }).on('click', ({target, event}) => {
+            hedef = event.target.getAttribute('class');
+            hedef2 = event.target.closest('div.left,div.right,div.yeni_sag').getAttribute('class');
+            if ((hedef && hedef.includes('left')) || (hedef2 && hedef2.includes('left'))) {
+                click_site = 'matadorbet';
+            } else if ((hedef && hedef.includes('right')) || (hedef2 && hedef2.includes('right'))) {
+                click_site = 'fixbet';
+            }
+            /*
+            else if ((hedef && hedef.includes('yeni_sag')) || (hedef2 && hedef2.includes('yeni_sag'))) {
+                click_site = 'olipsbet';
+            }
+            */
+            window.open(document.querySelector('img[alt="'+click_site+'"]').parentElement.getAttribute('href'),'_blank');
+        });
+
+        // 107px notify 67 + 20 + 20 paddinglerin toplamından olusuyor
+        document.querySelector(".container").style.height = (document.querySelector(".container").scrollHeight + 107) + "px";
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
 </body>
 </html>
