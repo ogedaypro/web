@@ -68,9 +68,11 @@
             height: auto;
             display: block;
         }
-
         a {
             text-decoration: none;
+        }
+        .mt-10px {
+            margin-top: 10px !important;
         }
     </style>
     <style>
@@ -179,16 +181,20 @@
 </head>
 <body>
 <div class="container">
-    <div class="banner">
+    <!-- Bannerlar Alanı -->
+    <div class="banners"><div class="banner">
         <a href="http://t.me/ogedaychat" target="_blank">
-            <img src="images/banner/telegram.gif">
+            <img src="images/banner/telegram.gif" alt="telegram">
         </a>
-    </div>
-    <div class="banner mt-2">
+    </div><div class="banner mt-10px">
         <a href="https://cutt.ly/orsPX9O1" target="_blank">
-            <img src="images/banner/kralbet.gif">
+            <img src="images/banner/kralbet.gif" alt="kralbet">
         </a>
-    </div>
+    </div><div class="banner mt-10px">
+        <a href="https://t2m.io/mersoogeday" target="_blank">
+            <img src="https://drive.google.com/u/0/drive-viewer/AKGpihbYY0l14GH7kCXF8-7FHzD2LClr46ybdg-OX-bjrudB0_7RQDUw2rLBWfb4r68jdCyO2Fw6TR76hm_byCMVfdZ3pHlCeFc6RW8=s1600-rw-v1" alt="mersobahis">
+        </a>
+    </div></div><hr class="d-none special-hidden1">
 
     <!-- Kartlar Alanı -->
     <div class="cards"><div class="card rectangle2">
@@ -221,7 +227,7 @@
         </a>
     </div><div class="card">
         <a href="https://kisalt1.gg/ogedaypro" target="_blank">
-            <img src="images/content/galabet.png" alt="galabet">
+            <img src="images/content/galabet.png?v=0.76992064284623" alt="galabet">
         </a>
     </div><div class="card">
         <a href="https://cutt.ly/veoT5cGq" target="_blank">
@@ -237,7 +243,7 @@
         </a>
     </div><div class="card">
         <a href="https://t2m.io/mersoogeday" target="_blank">
-            <img src="images/content/mersobahis.png?v=0.57455157701604" alt="mersobahis">
+            <img src="images/content/mersobahis.png?v=0.73673645068739" alt="mersobahis">
         </a>
     </div><div class="card">
         <a href="http://kisalt1.gg/ogedayx" target="_blank">
@@ -261,7 +267,7 @@
         </a>
     </div><div class="card">
         <a href="https://cutt.ly/7eDXRJFJ" target="_blank">
-            <img src="images/content/zlot.png" alt="zlot">
+            <img src="images/content/zlot.png?v=0.62854396581116" alt="zlot">
         </a>
     </div><div class="card">
         <a href="https://bit.ly/3Y5U9h5" target="_blank">
@@ -269,9 +275,9 @@
         </a>
     </div><div class="card">
         <a href="https://tracker.getrupiaffiliate.org/link?btag=83587105_424759" target="_blank">
-            <img src="images/content/betrupi.png" alt="betrupi">
+            <img src="images/content/betrupi.png?v=0.72637875272258" alt="betrupi">
         </a>
-    </div></div><hr class="d-none special-hidden">
+    </div></div><hr class="d-none special-hidden2">
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -325,9 +331,11 @@
             window.open(document.querySelector('img[alt="'+click_site+'"]').parentElement.getAttribute('href'),'_blank');
         });
 
-        // 107px notify 67 + 20 + 20 paddinglerin toplamından olusuyor
-        document.querySelector(".container").style.height = (document.querySelector(".container").scrollHeight + 107) + "px";
     });
+    window.onload = function () {
+        // 107px = notify 67 + 20 + 20 paddinglerin toplamından olusuyor
+        document.querySelector(".container").style.height = (document.querySelector(".container").scrollHeight + 107) + "px";
+    }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
 </body>
